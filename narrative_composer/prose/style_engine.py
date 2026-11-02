@@ -26,37 +26,6 @@ class StyleProfile(BaseModel):
 # Built-in Standard Profiles
 # ============================================================================
 
-HOT_SCOOMP_TV14 = StyleProfile(
-    profile_id="hot_scoomp_tv14",
-    name="American Dad - Hot Scoomp TV-14",
-    description="High-energy animated sitcom prose with sharp comedic dialogue, physical prop absurdity, and vivid sensory contrasts.",
-    target_cadence_burstiness=5.0,
-    target_psychic_distance=2,
-    voice_principles=[
-        "Rapid dialogue punches with immediate physiological reactions.",
-        "Physical prop comedy: props are volatile, fragile, or exaggerated (e.g. Gloria the flamingo lamp).",
-        "Sensory contrast: mix glamorous aesthetics with absurd industrial details (e.g. Sephora powder vs motor oil).",
-        "Zero observer filter words: show character realization through posture, glances, and immediate action.",
-        "Strict TV-14 boundaries: comedic absurdity, cartoonish physics, sharp satire without gratuitous explicit content.",
-    ],
-    banned_cliches=[
-        "she noticed that",
-        "he felt a wave of",
-        "said angrily",
-        "suddenly without warning",
-        "smiled a wicked smile",
-    ],
-    sensory_preferences=[
-        "ozone", "lavender", "coconut oil", "pennzoil", "flax", "chia", "neon tie-dye",
-        "velvet", "glossy blowout", "white sparks", "shattering ceramic",
-    ],
-    formatting_rules=[
-        "Preserve canonical dialogue inside standard quotation marks.",
-        "Use short, percussive action beats to punctuate dialogue.",
-        "Keep blocking concrete: note exact positions of props and room boundaries.",
-    ],
-)
-
 NOIR_DETECTIVE = StyleProfile(
     profile_id="noir_detective",
     name="Hard-Boiled Noir Detective",
@@ -110,7 +79,6 @@ class StyleProfileRepository(StyleProfileRepositoryPort):
     def __init__(self):
         self._profiles: Dict[str, StyleProfile] = {}
         # Pre-populate with built-in profiles
-        self.register_profile(HOT_SCOOMP_TV14)
         self.register_profile(NOIR_DETECTIVE)
         self.register_profile(STANDARD_DRAMATIC)
 

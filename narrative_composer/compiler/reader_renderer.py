@@ -243,7 +243,7 @@ def render_reader(document: Document, theme: ReaderTheme = HOT_SCOOMP_THEME) -> 
         '      <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6 border-b border-slate-800 pb-8">',
         "        <div>",
         '          <div class="inline-flex items-center gap-2 px-3 py-1 bg-amber-500/10 border border-amber-500/30 text-amber-400 rounded-full text-xs font-bold tracking-wider uppercase mb-3">',
-        "            <span>TV-14 Animated Comedy</span>",
+        f"            <span>{'Animated Comedy' if theme is HOT_SCOOMP_THEME else 'Authored draft'}</span>",
         "            <span>•</span>",
         "            <span>Primary Volume Focus</span>",
         "          </div>",
@@ -347,7 +347,7 @@ def render_reader(document: Document, theme: ReaderTheme = HOT_SCOOMP_THEME) -> 
 
     rendered = '\n'.join(out)
     if theme is not HOT_SCOOMP_THEME:
-        rendered = rendered.replace('TV-14 Animated Comedy', 'Authored draft').replace('Primary Volume Focus', 'Review before publishing')
+        rendered = rendered.replace('Primary Volume Focus', 'Review before publishing')
     if not theme.graph_href:
         import re
         rendered = re.sub(r'<a href=""[^>]*>📊 Story Graph</a>', '', rendered)

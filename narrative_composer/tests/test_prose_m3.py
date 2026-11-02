@@ -24,7 +24,7 @@ from narrative_composer.prose.models import (
 from narrative_composer.prose.prompt_assembler import PromptAssembler
 from narrative_composer.prose.semantic_drive import ReferencePassage, SemanticDrive
 from narrative_composer.prose.style_engine import (
-    HOT_SCOOMP_TV14,
+    STANDARD_DRAMATIC,
     NOIR_DETECTIVE,
     StyleProfile,
     StyleProfileRepository,
@@ -45,15 +45,15 @@ class TestProseMilestone3(unittest.TestCase):
         """Repository registers, retrieves, and lists built-in show profiles."""
         repo = StyleProfileRepository()
         profiles = repo.list_profiles()
-        self.assertIn("hot_scoomp_tv14", profiles)
+        self.assertNotIn("hot_scoomp_tv14", profiles)
         self.assertIn("noir_detective", profiles)
         self.assertIn("standard_dramatic", profiles)
 
-        hot_scoomp = repo.get_style_profile("hot_scoomp_tv14")
-        self.assertIsNotNone(hot_scoomp)
-        self.assertEqual(hot_scoomp.target_psychic_distance, 2)
-        self.assertGreaterEqual(hot_scoomp.target_cadence_burstiness, 4.5)
-        self.assertTrue(any("ozone" in s for s in hot_scoomp.sensory_preferences))
+        self.assertIsNone(repo.get_style_profile("hot_scoomp_tv14"))
+        standard = repo.get_style_profile("standard_dramatic")
+        self.assertIsNotNone(standard)
+        self.assertEqual(standard.target_psychic_distance, 2)
+        self.assertGreaterEqual(standard.target_cadence_burstiness, 4.0)
 
         # Register custom profile
         custom = StyleProfile(
@@ -206,7 +206,7 @@ class TestProseMilestone3(unittest.TestCase):
             character_epistemic_scope={"Hayley": ["itching_powder_source_unknown", "butt_is_huge"]},
             permitted_facts=["Gloria is currently undamaged on side table."],
             target_psychic_distance=2,
-            style_profile_id="hot_scoomp_tv14",
+            style_profile_id="standard_dramatic",
         )
 
         diag = ProseDiagnosticReport(
@@ -223,7 +223,7 @@ class TestProseMilestone3(unittest.TestCase):
         edits = [
             ApprovedEditPair(
                 edit_id="ex-1",
-                profile_id="hot_scoomp_tv14",
+                profile_id="standard_dramatic",
                 original_text="She felt bad.",
                 approved_text="She clenched her jaw, fists shaking against her thighs.",
                 defect_type="filter_words",
@@ -233,7 +233,7 @@ class TestProseMilestone3(unittest.TestCase):
         prompt = PromptAssembler.assemble(
             request=req,
             diagnostics=diag,
-            style_profile=HOT_SCOOMP_TV14,
+            style_profile=STANDARD_DRAMATIC,
             approved_edits=edits,
             reference_passages=[],
         )
@@ -253,7 +253,7 @@ class TestProseMilestone3(unittest.TestCase):
         self.assertIn("said angrily", prompt)
 
         # Show voice and few-shot checks
-        self.assertIn("American Dad - Hot Scoomp TV-14", prompt)
+        self.assertIn("Standard Balanced Dramatic Prose", prompt)
         self.assertIn("FEW-SHOT APPROVED AUTHOR EXAMPLES", prompt)
         self.assertIn("She clenched her jaw", prompt)
 

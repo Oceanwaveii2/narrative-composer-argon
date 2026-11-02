@@ -29,7 +29,6 @@ from narrative_composer.prose.models import (
     SpanCategory,
 )
 from narrative_composer.prose.providers import MockProseProvider
-from narrative_composer.prose.style_engine import HOT_SCOOMP_TV14
 
 
 class TestProseMilestone5EndToEnd(unittest.TestCase):
@@ -185,7 +184,7 @@ class TestProseMilestone5EndToEnd(unittest.TestCase):
             original_text=chunk1_draft,
             protected_spans=[prot_lamp],
             active_props={"gloria_lamp": "intact"},
-            style_profile_id="hot_scoomp_tv14",
+            style_profile_id="standard_dramatic",
         )
 
         # 1. Diagnostics Before: detects filter words and label syntax

@@ -26,7 +26,7 @@ from .linter.rules import LinterRuleEngine
 # Prose Engine imports
 from .prose.diagnostics import ProseDiagnosticsAnalyzer
 from .prose.models import DecisionType, ProseRewriteRequest, ProtectedSpan, SpanCategory
-from .prose.style_engine import StyleProfileRepository, HOT_SCOOMP_TV14
+from .prose.style_engine import StyleProfileRepository, STANDARD_DRAMATIC
 from .prose.approved_edits import ApprovedEditsStore
 from .prose.semantic_drive import SemanticDrive
 from .prose.prompt_assembler import PromptAssembler
@@ -173,17 +173,19 @@ def cmd_prose_diagnose(script_path: str):
 
 def cmd_prose_rewrite(
     target_text: str,
-    profile_id: str = "hot_scoomp_tv14",
+    profile_id: str = "standard_dramatic",
     mode: str = "mock",
     ledger_path: Optional[str] = None,
     manifest_path: Optional[str] = None,
 ):
     """Executes closed-loop prose conditioning on a target span."""
-    print(f"\n=== EXECUTING PROSE REWRITE (Profile: {profile_id}, Mode: {mode.upper()}) ===")
-
     # 1. Lookup style profile
     repo = StyleProfileRepository()
-    profile = repo.get_style_profile(profile_id) or HOT_SCOOMP_TV14
+    profile = repo.get_style_profile(profile_id)
+    if profile is None:
+        profile = STANDARD_DRAMATIC
+        print(f"Unknown style profile {profile_id!r}; using {profile.profile_id}.")
+    print(f"\n=== EXECUTING PROSE REWRITE (Profile: {profile.profile_id}, Mode: {mode.upper()}) ===")
 
     # 2. Extract props and epistemic state from manifest if available
     active_props = {}
@@ -226,7 +228,7 @@ def cmd_prose_rewrite(
         protected_spans=prot_spans,
         active_props=active_props,
         character_epistemic_scope=epistemic_scope,
-        style_profile_id=profile_id,
+        style_profile_id=profile.profile_id,
     )
 
     # 4. Diagnostics before
@@ -234,7 +236,7 @@ def cmd_prose_rewrite(
 
     # 5. Retrieve approved edits & assemble prompt
     edits_store = ApprovedEditsStore()
-    approved_edits = edits_store.retrieve_relevant_edits(profile_id, target_text)
+    approved_edits = edits_store.retrieve_relevant_edits(profile.profile_id, target_text)
     prompt = PromptAssembler.assemble(
         request=req,
         diagnostics=diag_before,
@@ -531,7 +533,7 @@ def main():
     parser.add_argument("--prose-diagnose", help="Path to script file to run prose diagnostics on")
     parser.add_argument("--prose-rewrite", action="store_true", help="Execute prose conditioning on text")
     parser.add_argument("--target-text", help="Text to rewrite")
-    parser.add_argument("--profile", default="hot_scoomp_tv14", help="Style profile ID (default: hot_scoomp_tv14)")
+    parser.add_argument("--profile", default="standard_dramatic", help="Style profile ID (default: standard_dramatic)")
     parser.add_argument("--mode", default="mock", choices=["mock", "codex", "session", "api", "deepseek", "venice"], help="Provider mode (standalone CLI defaults to offline mock)")
     parser.add_argument("--ledger", help="Path to ledger JSON file for persistence")
     parser.add_argument("--prose-review", action="store_true", help="Review a saved proposal")

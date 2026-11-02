@@ -99,7 +99,7 @@ class ComposerBridgeAdapter:
         spatial_graph: Optional[SpatialGraph] = None,
         epistemic_matrix: Optional[EpistemicMatrix] = None,
         surrounding_elements: Optional[List[ASTElement]] = None,
-        style_profile_id: str = "hot_scoomp_tv14",
+        style_profile_id: str = "standard_dramatic",
     ) -> ProseRewriteRequest:
         """
         Converts a screenplay action AST element into a complete ProseRewriteRequest.
@@ -153,7 +153,7 @@ class ComposerBridgeAdapter:
         active_room: str = "living_room",
         spatial_graph: Optional[SpatialGraph] = None,
         epistemic_matrix: Optional[EpistemicMatrix] = None,
-        style_profile_id: str = "hot_scoomp_tv14",
+        style_profile_id: str = "standard_dramatic",
     ) -> ProseRewriteRequest:
         """
         Converts an upstream Causal DAG StoryBeatNode into a ProseRewriteRequest.

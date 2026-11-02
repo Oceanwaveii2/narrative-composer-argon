@@ -139,7 +139,7 @@ class ProseRewriteRequest(BaseModel):
     character_epistemic_scope: Dict[str, List[str]] = Field(default_factory=dict)
     active_props: Dict[str, str] = Field(default_factory=dict)
     target_psychic_distance: int = 2
-    style_profile_id: str = "hot_scoomp_tv14"
+    style_profile_id: str = "standard_dramatic"
 
 
 class ProseRewriteProposal(BaseModel):

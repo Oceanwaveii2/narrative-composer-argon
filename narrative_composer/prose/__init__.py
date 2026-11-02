@@ -34,7 +34,6 @@ from narrative_composer.prose.ledger import RevisionLedger
 from narrative_composer.prose.style_engine import (
     StyleProfile,
     StyleProfileRepository,
-    HOT_SCOOMP_TV14,
     NOIR_DETECTIVE,
     STANDARD_DRAMATIC,
 )
@@ -88,7 +87,6 @@ __all__ = [
     # Style & Retrieval
     "StyleProfile",
     "StyleProfileRepository",
-    "HOT_SCOOMP_TV14",
     "NOIR_DETECTIVE",
     "STANDARD_DRAMATIC",
     "ApprovedEditPair",

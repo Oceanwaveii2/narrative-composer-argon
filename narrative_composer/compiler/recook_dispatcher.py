@@ -29,7 +29,7 @@ from ..prose.models import (
     ProtectedSpan,
     SpanCategory,
 )
-from ..prose.style_engine import StyleProfileRepository, HOT_SCOOMP_TV14
+from ..prose.style_engine import StyleProfileRepository, STANDARD_DRAMATIC
 from ..prose.providers import create_prose_provider
 from ..prose.invariant_gate import InvariantGate
 from ..prose.diagnostics import ProseDiagnosticsAnalyzer
@@ -161,7 +161,7 @@ class ProseRecooker:
     def __init__(self, provider_type: str = "mock", provider=None):
         self.provider = provider if provider is not None else create_prose_provider(provider_type)
         self.repo = StyleProfileRepository()
-        self.profile = self.repo.get_style_profile("hot_scoomp_tv14") or HOT_SCOOMP_TV14
+        self.profile = self.repo.get_style_profile("standard_dramatic") or STANDARD_DRAMATIC
 
     def recook_span(
         self,
@@ -169,7 +169,7 @@ class ProseRecooker:
         violation: LintViolation,
         active_props: Optional[Dict[str, str]] = None,
     ) -> Tuple[str, bool]:
-        """Runs prose conditioning on a target span, enforcing the TV-14 style profile and invariants."""
+        """Runs prose conditioning on a target span with the standard profile and invariants."""
         span_id = f"L{violation.line_number}"
         diagnostics = ProseDiagnosticsAnalyzer.analyze(span_text, span_id=span_id)
 
