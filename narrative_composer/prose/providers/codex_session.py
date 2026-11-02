@@ -14,6 +14,9 @@ from typing import Any
 
 from narrative_composer.prose.models import ProseRewriteRequest
 from narrative_composer.prose.providers.base import BaseProseProvider
+from narrative_composer.prose.providers.request_limits import (
+    DEFAULT_MAX_INPUT_BYTES, MAX_INPUT_BYTES, check_prompt_size, positive_limit,
+)
 from narrative_composer.prose.providers.gemini_flash import (
     ProviderConfigurationError, ProviderExecutionError, ProviderReceipt, TransportMode,
 )
@@ -27,13 +30,15 @@ class CodexSessionProseProvider(BaseProseProvider):
                          'computer_use', 'multi_agent', 'remote_plugin')
 
     def __init__(self, model_name: str = 'gpt-6.1-terra', reasoning_effort: str = 'max',
-                 timeout: float = 180, executable: str | None = None, runner: Any = None):
+                 timeout: float = 180, executable: str | None = None, runner: Any = None,
+                 max_input_bytes: int = DEFAULT_MAX_INPUT_BYTES):
         super().__init__(model_name=model_name)
         if reasoning_effort not in {'low', 'medium', 'high', 'xhigh', 'max', 'ultra'}:
             raise ValueError('Unsupported Codex reasoning effort')
         if not re.fullmatch(r'[A-Za-z0-9._-]+', model_name):
             raise ValueError('Invalid Codex model name')
         self.reasoning_effort = reasoning_effort
+        self.max_input_bytes = positive_limit(max_input_bytes, 'max_input_bytes', MAX_INPUT_BYTES)
         self.timeout = timeout
         self.executable = executable
         self.runner = runner or subprocess.run
@@ -68,6 +73,7 @@ class CodexSessionProseProvider(BaseProseProvider):
                     'Return only the requested candidate prose; do not explain your response.\n\n'
                     '=== APPLICATION TASK ===\n' + prompt + '\n=== END APPLICATION TASK ===\n'
                 )
+                check_prompt_size(instruction, self.max_input_bytes)
                 env = os.environ.copy()
                 for key in ('VENICE_API_KEY', 'GEMINI_API_KEY', 'GOOGLE_API_KEY', 'OPENAI_API_KEY'):
                     env.pop(key, None)
