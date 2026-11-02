@@ -1142,5 +1142,35 @@ class TestRecoveryIntegration(unittest.TestCase):
         with self.assertRaises(FileExistsError):run_story(incoming,output)
         self.assertEqual((output/'story.md').read_text(encoding='utf-8'),'An authored edit.')
 
+    def test_busy_proposal_does_not_consume_request_id(self):
+        from narrative_composer.editor import guard_identical_provider_request, provider_work_without_commit_lock
+        from narrative_composer.persistence import COMMIT_LOCK
+
+        initial = self.start_http()
+        pending = {"text": initial["text"], "revision": initial["revision"],
+                   "provider": "deepseek", "request_id": "b" * 32, "limit": 1}
+        active = {"text": initial["text"], "revision": initial["revision"], "provider": "codex"}
+        with COMMIT_LOCK:
+            with guard_identical_provider_request(
+                self.server, "/api/compose", self.source.resolve(), active,
+            ), provider_work_without_commit_lock():
+                with patch("narrative_composer.prose.providers.create_prose_provider",
+                           return_value=Provider()) as factory:
+                    status, busy = self.post("/api/condition", pending)
+                self.assertEqual(status, 409, busy)
+                self.assertIn("Another provider proposal", busy["error"])
+                factory.assert_not_called()
+
+        with patch("narrative_composer.prose.providers.create_prose_provider",
+                   return_value=Provider()) as factory:
+            status, planned = self.post("/api/condition", pending)
+        self.assertEqual(status, 200, planned)
+        factory.assert_called_once_with("deepseek")
+        with patch("narrative_composer.prose.providers.create_prose_provider",
+                   side_effect=AssertionError("Completed request regenerated")):
+            status, replay = self.post("/api/condition", pending)
+        self.assertEqual(status, 200, replay)
+        self.assertEqual(replay["patches"], planned["patches"])
+
 
 if __name__=='__main__':unittest.main()
