@@ -1,0 +1,87 @@
+name: Prose request regressions
+
+on:
+  push:
+    branches:
+      - "codex/prose-request-limits-20261102"
+    paths:
+      - "narrative_composer/**"
+      - "pyproject.toml"
+      - ".github/workflows/prose-request-regressions.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: prose-request-regressions
+  cancel-in-progress: true
+
+jobs:
+  offline-regressions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      DEEPSEEK_API_KEY: ""
+      VENICE_API_KEY: ""
+      OPENAI_API_KEY: ""
+      GEMINI_API_KEY: ""
+      GOOGLE_API_KEY: ""
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install declared dependencies
+        run: python -m pip install -e .
+      - name: Compile Python sources
+        run: python -m compileall -q narrative_composer
+      - name: Run regressions with external transports blocked
+        run: |
+          python - <<'PY'
+          import socket
+          import sys
+          import unittest
+          from unittest.mock import patch
+
+          real_connect = socket.socket.connect
+          real_connect_ex = socket.socket.connect_ex
+
+          def guarded_connect(sock, address):
+              if not isinstance(address, tuple) or address[0] not in ("127.0.0.1", "::1", "localhost"):
+                  raise AssertionError("External network access is forbidden in provider regressions")
+              return real_connect(sock, address)
+
+          def guarded_connect_ex(sock, address):
+              if not isinstance(address, tuple) or address[0] not in ("127.0.0.1", "::1", "localhost"):
+                  raise AssertionError("External network access is forbidden in provider regressions")
+              return real_connect_ex(sock, address)
+
+          def no_process(*args, **kwargs):
+              raise AssertionError("Unmocked subprocess execution is forbidden in provider regressions")
+
+          tests = [
+              "narrative_composer.tests.test_condition",
+              "narrative_composer.tests.test_condition_limits",
+              "narrative_composer.tests.test_provider_request_limits",
+              "narrative_composer.tests.test_editor_provider_isolation",
+              "narrative_composer.tests.test_provider_admission",
+              "narrative_composer.tests.test_deepseek_session",
+              "narrative_composer.tests.test_codex_provider",
+              "narrative_composer.tests.test_recovery_integration.TestRecoveryIntegration.test_busy_proposal_does_not_consume_request_id",
+              "narrative_composer.tests.test_recovery_integration.TestRecoveryIntegration.test_duplicate_inflight_request_is_rejected_without_extra_provider_call",
+              "narrative_composer.tests.test_recovery_integration.TestRecoveryIntegration.test_request_replay_after_restart_returns_same_proposals_without_provider_call",
+              "narrative_composer.tests.test_recovery_integration.TestRecoveryIntegration.test_slow_provider_does_not_block_save_and_result_remains_stale_in_history",
+              "narrative_composer.tests.test_recovery_integration.TestRecoveryIntegration.test_gemini_session_reaches_editor_conditioner_without_api_fallback",
+              "narrative_composer.tests.test_recovery_integration.TestRecoveryIntegration.test_conditioner_proposal_requires_explicit_review_through_http",
+              "narrative_composer.tests.test_recovery_integration.TestRecoveryIntegration.test_failed_request_history_recovers_batch_and_replays_after_restart",
+          ]
+          with patch("socket.socket.connect", guarded_connect), \
+               patch("socket.socket.connect_ex", guarded_connect_ex), \
+               patch("subprocess.run", no_process), \
+               patch("subprocess.Popen", no_process):
+              suite = unittest.defaultTestLoader.loadTestsFromNames(tests)
+              result = unittest.TextTestRunner(verbosity=2).run(suite)
+          sys.exit(0 if result.wasSuccessful() else 1)
+          PY
