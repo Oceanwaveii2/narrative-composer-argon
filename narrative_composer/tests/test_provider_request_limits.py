@@ -83,6 +83,20 @@ class ProviderRequestLimitTests(unittest.TestCase):
                         provider.generate_rewrite(self.request, "Repair one paragraph.")
                 self.assertEqual(send.call_count, 1)
 
+    def test_truncation_stops_batch_before_another_paragraph_is_submitted(self):
+        from narrative_composer.condition import plan_conditioning
+        text = ("INT. HALL - DAY\n\nThe plan was simple. It would work.\n\n"
+                "The next plan was simple. It would work.\n")
+        for cls in (DeepSeekProseProvider, VeniceProseProvider):
+            with self.subTest(provider=cls.__name__):
+                provider = cls(api_key="test-only")
+                with patch("httpx.post", return_value=response("length")) as send:
+                    proposals = plan_conditioning(text, provider, limit=2)
+                self.assertEqual(send.call_count, 1)
+                self.assertEqual(len(proposals), 1)
+                self.assertFalse(proposals[0].accepted)
+                self.assertIn("finish: length", proposals[0].reason)
+
     def test_codex_limit_includes_instructions_and_rejects_before_runner(self):
         runner = Mock(side_effect=AssertionError("Codex must not run"))
         provider = CodexSessionProseProvider(
