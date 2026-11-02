@@ -420,13 +420,19 @@ def provider_work_without_commit_lock():
 
 @contextmanager
 def guard_identical_provider_request(server, route, source, payload):
-    """Reject duplicate in-flight requests within this editor process."""
+    """Called under COMMIT_LOCK; admit at most one live proposal job."""
     key = hashlib.sha256(json.dumps([route, str(source), {k:v for k,v in payload.items() if k != 'request_id'}], sort_keys=True,
                                   ensure_ascii=False).encode('utf-8')).hexdigest()
     if not hasattr(server, 'inflight_provider_requests'):
         server.inflight_provider_requests = set()
     if key in server.inflight_provider_requests:
         raise WorkspaceConflict('This same proposal request is already running; check its result and history before retrying')
+    provider = payload.get('provider') or getattr(server, 'default_provider', 'deepseek')
+    if provider != 'mock' and server.inflight_provider_requests:
+        raise WorkspaceConflict(
+            'Another provider proposal is already running in this editor; '
+            'wait for its result before starting a new one'
+        )
     server.inflight_provider_requests.add(key)
     try:
         yield
@@ -477,12 +483,7 @@ class EditorHandler(BaseHTTPRequestHandler):
             return self.server.codex_session
 
     def _provider(self, name):
-        if name == 'codex':
-            from narrative_composer.codex_app_session import CodexAppProvider
-            return CodexAppProvider(self._codex_session())
-        if name == 'deepseek':
-            from narrative_composer.deepseek_session import DeepSeekAppProvider
-            return DeepSeekAppProvider(self._deepseek_session())
+        # Automated repairs must not accumulate in persistent chat histories.
         if name == 'gemini_session':
             from narrative_composer.gemini_session import GeminiSessionProvider
             return GeminiSessionProvider(self._gemini_session())
@@ -668,7 +669,11 @@ class EditorHandler(BaseHTTPRequestHandler):
                 fingerprint = hashlib.sha256(json.dumps([route, str(Path(self.server.screenplay_path).resolve()),
                     {k:v for k,v in payload.items() if k != 'request_id'}], sort_keys=True,
                     ensure_ascii=False).encode('utf-8')).hexdigest()
-                replay = ProposalStore(self.server.screenplay_path).claim_request(request_id, fingerprint)
+                # Admission precedes the durable claim, so a busy request is retryable.
+                with guard_identical_provider_request(
+                    self.server, route, Path(self.server.screenplay_path).resolve(), payload,
+                ):
+                    replay = ProposalStore(self.server.screenplay_path).claim_request(request_id, fingerprint)
                 if replay is not None:
                     self._json(replay)
                     return

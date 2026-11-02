@@ -36,6 +36,16 @@ from narrative_composer.prose.validation import (context_fields, validate_rewrit
     MIN_REWRITE_RATIO as MIN_RATIO, MAX_REWRITE_RATIO as MAX_RATIO)
 
 MAX_CONDITIONING_ATTEMPTS = 2
+DEFAULT_CONDITIONING_LIMIT = 2
+MAX_CONDITIONING_LIMIT = 10
+
+
+def _validate_conditioning_limit(limit: int) -> None:
+    if type(limit) is not int or not 1 <= limit <= MAX_CONDITIONING_LIMIT:
+        raise ValueError(
+            f'Conditioning limit must be an integer from 1 to {MAX_CONDITIONING_LIMIT}; '
+            'split larger jobs into separate targeted batches'
+        )
 
 
 @dataclass
@@ -75,12 +85,13 @@ def plan_conditioning(
     text: str,
     provider: Any,
     profile_id: str = "standard_dramatic",
-    limit: Optional[int] = None,
+    limit: int = DEFAULT_CONDITIONING_LIMIT,
     manifest: Optional[dict] = None,
     document: Optional[Any] = None,
     target_block_ids: Optional[List[str]] = None,
 ) -> List[Proposal]:
-    """Asks the model to rewrite each flagged action block; never mutates the text."""
+    """Plan a bounded batch of action rewrites; stop the batch on provider failure."""
+    _validate_conditioning_limit(limit)
     document = document or parse_document(text)
     targets = None
     if target_block_ids is not None:
@@ -106,7 +117,7 @@ def plan_conditioning(
         # automatic diagnostic has not flagged that particular action block.
         if not report.warnings and targets is None:
             continue
-        if limit is not None and attempted >= limit:
+        if attempted >= limit:
             break
         attempted += 1
 
@@ -144,10 +155,12 @@ def plan_conditioning(
         )
         reasons = []
         candidate = ''
+        provider_failed = False
         for attempt in range(MAX_CONDITIONING_ATTEMPTS):
             try:
                 raw = provider.generate_rewrite(request, prompt)
-            except Exception as exc:  # provider/transport failure must not abort the pass
+            except Exception as exc:
+                provider_failed = True
                 reason = f'provider error: {exc}'[:180]
                 candidate = ''
                 reasons.append(reason)
@@ -188,6 +201,8 @@ def plan_conditioning(
                                   provider=getattr(provider, 'provider_id', type(provider).__name__),
                                   model_name=getattr(provider, 'model_name', ''),
                                   reasoning_effort=getattr(provider, 'reasoning_effort', '')))
+        if provider_failed:
+            break
 
     for proposal in proposals:
         proposal.base_hash = source_hash(text)
@@ -285,13 +300,14 @@ def run_conditioning(
     out_dir: Path,
     provider_type: str = "mock",
     apply: bool = False,
-    limit: Optional[int] = None,
+    limit: int = DEFAULT_CONDITIONING_LIMIT,
     title: Optional[str] = None,
     provider: Optional[Any] = None,
     approved_ids: Optional[List[str]] = None,
     manifest: Optional[dict] = None,
     reviewed_proposals: Optional[List[Proposal]] = None,
 ) -> Dict[str, Any]:
+    _validate_conditioning_limit(limit)
     source_path = Path(source_path)
     text = source_path.read_bytes().decode('utf-8')
     title = title or source_path.stem
@@ -390,7 +406,9 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser.add_argument("--file", required=True, help="Story text to condition")
     parser.add_argument("--out", required=True, help="Output directory")
     parser.add_argument("--provider", default="mock", help="mock | codex | api | deepseek | venice")
-    parser.add_argument("--limit", type=int, default=None, help="Max flagged spans to attempt")
+    parser.add_argument("--limit", type=int, default=DEFAULT_CONDITIONING_LIMIT,
+                        choices=range(1, MAX_CONDITIONING_LIMIT + 1),
+                        help="Max action spans per batch (default: %(default)s); split larger jobs")
     parser.add_argument("--apply", action="store_true", help="Write conditioned text and reader")
     parser.add_argument("--title", default=None, help="Title for the conditioned reader")
     parser.add_argument('--approve', action='append', default=[], help='Reviewed block ID to apply (repeat for each reviewed span)')

@@ -14,6 +14,10 @@ import httpx
 
 from narrative_composer.prose.models import ProseRewriteRequest
 from narrative_composer.prose.providers.base import BaseProseProvider
+from narrative_composer.prose.providers.request_limits import (
+    DEFAULT_MAX_INPUT_BYTES, DEFAULT_MAX_OUTPUT_TOKENS, MAX_INPUT_BYTES,
+    MAX_OUTPUT_TOKENS, check_messages_size, positive_limit,
+)
 from narrative_composer.prose.providers.gemini_flash import (
     ProviderConfigurationError,
     ProviderExecutionError,
@@ -89,11 +93,15 @@ class VeniceProseProvider(BaseProseProvider):
         model_name: str = DEFAULT_MODEL,
         temperature: float = 0.7,
         api_base_url: str = DEFAULT_API_URL,
+        max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
+        max_input_bytes: int = DEFAULT_MAX_INPUT_BYTES,
     ):
         super().__init__(model_name=model_name)
         # Explicit argument > environment variable > local secrets file. Never hardcoded.
         self.api_key = api_key or os.getenv("VENICE_API_KEY") or load_venice_api_key()
         self.temperature = temperature
+        self.max_output_tokens = positive_limit(max_output_tokens, 'max_output_tokens', MAX_OUTPUT_TOKENS)
+        self.max_input_bytes = positive_limit(max_input_bytes, 'max_input_bytes', MAX_INPUT_BYTES)
         self.api_base_url = api_base_url.rstrip("/")
         self.receipts: List[ProviderReceipt] = []
 
@@ -120,8 +128,10 @@ class VeniceProseProvider(BaseProseProvider):
                 {"role": "user", "content": prompt},
             ],
             "temperature": self.temperature,
+            "max_completion_tokens": self.max_output_tokens,
         }
 
+        check_messages_size(payload['messages'], self.max_input_bytes)
         response = httpx.post(url, headers=headers, json=payload, timeout=60.0)
         if response.status_code != 200:
             raise ProviderExecutionError(f"Venice API returned HTTP {response.status_code}")
@@ -153,9 +163,11 @@ class VeniceProseProvider(BaseProseProvider):
                 {"role": "user", "content": prompt},
             ],
             "temperature": self.temperature,
+            "max_completion_tokens": self.max_output_tokens,
         }
 
         try:
+            check_messages_size(payload['messages'], self.max_input_bytes)
             response = httpx.post(url, headers=headers, json=payload, timeout=45.0)
             latency_ms = round((time.perf_counter() - start_time) * 1000, 2)
 
