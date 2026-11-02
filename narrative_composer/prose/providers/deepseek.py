@@ -9,6 +9,10 @@ import httpx
 
 from narrative_composer.prose.providers.base import BaseProseProvider
 from narrative_composer.prose.providers.gemini_flash import ProviderConfigurationError, ProviderExecutionError
+from narrative_composer.prose.providers.request_limits import (
+    DEFAULT_MAX_INPUT_BYTES, DEFAULT_MAX_OUTPUT_TOKENS, MAX_INPUT_BYTES,
+    MAX_OUTPUT_TOKENS, check_messages_size, positive_limit,
+)
 
 
 def load_deepseek_api_key():
@@ -32,18 +36,24 @@ class DeepSeekProseProvider(BaseProseProvider):
     provider_id = 'deepseek'
     DEFAULT_MODEL = 'deepseek-flash'
 
-    def __init__(self, api_key=None, model_name=None, temperature=0.7):
+    def __init__(self, api_key=None, model_name=None, temperature=0.7,
+                 max_output_tokens=DEFAULT_MAX_OUTPUT_TOKENS,
+                 max_input_bytes=DEFAULT_MAX_INPUT_BYTES):
         super().__init__(model_name=model_name or os.getenv('DEEPSEEK_MODEL') or self.DEFAULT_MODEL)
         self.api_key = api_key or load_deepseek_api_key()
         self.temperature = temperature
+        self.max_output_tokens = positive_limit(max_output_tokens, 'max_output_tokens', MAX_OUTPUT_TOKENS)
+        self.max_input_bytes = positive_limit(max_input_bytes, 'max_input_bytes', MAX_INPUT_BYTES)
 
     def chat(self, messages):
         if not self.api_key:
             raise ProviderConfigurationError('DeepSeek API key is not configured; set DEEPSEEK_API_KEY and restart the editor')
+        check_messages_size(messages, self.max_input_bytes)
         try:
             response = httpx.post('https://api.deepseek.com/chat/completions',
                 headers={'Authorization': 'Bearer ' + self.api_key, 'Content-Type': 'application/json'},
-                json={'model': self.model_name, 'messages': messages, 'temperature': self.temperature, 'stream': False},
+                json={'model': self.model_name, 'messages': messages, 'temperature': self.temperature,
+                      'stream': False, 'max_tokens': self.max_output_tokens},
                 timeout=90.0)
         except httpx.RequestError as exc:
             raise ProviderExecutionError('DeepSeek API transport failed; check network access') from exc
