@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "narrative-composer"
+version = "0.2.0"
+description = "Revision-aware narrative analysis and authoring prototype"
+requires-python = ">=3.13"
+dependencies = ["pydantic>=2,<3", "typing-extensions>=4", "python-docx>=1.1,<2", "pypdf>=5,<7"]
+
+[tool.setuptools.packages.find]
+include = ["narrative_composer*"]
+
+[tool.setuptools.package-data]
+narrative_composer = ["config/**/*.json", "assets/*.js", "assets/*.md", "compiler/assets/*.js", "tests/fixtures/recovery_project/*.md", "tests/fixtures/recovery_project/*.json", "tests/fixtures/recovery_project/characters/*.json"]

@@ -1,0 +1,1315 @@
+{
+  "created_utc": "2026-11-02T09:38:21.034422+00:00",
+  "purpose": "focused app and available American Foxy Momma timeline snapshot",
+  "copied_file_count": 259,
+  "copied_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "67d145043780d3ba6bc93c96414956ba3ceb3dd3096d3acd93ba596dd7250a49",
+      "size": 302
+    },
+    {
+      "path": "CHARACTER_DATA_PORTS.md",
+      "sha256": "83989b54ef2f44eaea70b12c1aa398220ac1c68591daae89760d7fb96aab4c88",
+      "size": 8528
+    },
+    {
+      "path": "DOCUMENT_ENGINE_AND_GRAPHITE_PLAN.md",
+      "sha256": "7a3c7668e988b63aa025fd5b08fb34c50cc4bc4659ad8ec4785e17431fded011",
+      "size": 15697
+    },
+    {
+      "path": "DOCUMENT_ENGINE_STATUS.md",
+      "sha256": "e860d0ce577b60c975570efa0bfe6b541199a09859a1d21be7db761295ce518d",
+      "size": 8372
+    },
+    {
+      "path": "FUTURE_CHARACTER_DATA_BOUNDARY.md",
+      "sha256": "f7308c53c4dea1bbaf313bf6e69f622fe76f1f5f73ba0065c9d66a263ad4c752",
+      "size": 2011
+    },
+    {
+      "path": "HOT_SCOOMP_COMPLETE_CHRONOLOGY.md",
+      "sha256": "b907dd64a0f85a76199a9c79645a5f2694a48379aa8f5c572139582d7187d03f",
+      "size": 134352
+    },
+    {
+      "path": "hot_scoomp_manifest.json",
+      "sha256": "007727a15b0b9a09483ce32243befaaa4f537cd937ad3a0257f7e671fadf6ab6",
+      "size": 11809
+    },
+    {
+      "path": "hot_scoomp_reader.html",
+      "sha256": "8d55650900acaff65874b4be789b695a2f74b8a6e77dbf552adf73a3758bc3f6",
+      "size": 869839
+    },
+    {
+      "path": "IDENTITY_RECOVERY.md",
+      "sha256": "6f87e9af984876b81709cbdfca3d38e8bcbc3b58ed9d86fe48e6ece9a777d38b",
+      "size": 1704
+    },
+    {
+      "path": "PROGRAMMING_GUIDE.md",
+      "sha256": "75195c3abc826ad7810883e7eaf90ba591dcc7210a438d1651816bbd67ed9ca6",
+      "size": 35466
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "84782246e55ef7836c9cfcbe738afbd446cb878fa2d5e709ec6efd68e66f60c3",
+      "size": 669
+    },
+    {
+      "path": "README_DEEPSEEK.md",
+      "sha256": "012a82c23a3f74af739cce4f95c40d2fa5ea93ba8050e5d08cf53bbd2240aa9d",
+      "size": 17067
+    },
+    {
+      "path": "RECOVERY_STATUS.md",
+      "sha256": "80ea3ef7c45f6b175a925a76de280e493ba4d9e30b734dbce8c890d7bc496f2a",
+      "size": 43697
+    },
+    {
+      "path": "run_pipeline.py",
+      "sha256": "98ac51a3b6f82d01d2b8df3cebaef77ee10de4ad4fc8dea28d20759b17ffca36",
+      "size": 8612
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "640b83e8208ebb1fd36454ab53fb8f69570a2b035e701a73fabef72f11d1ab4c",
+      "size": 2827
+    },
+    {
+      "path": "SYSTEM_RECOVERY_PLAN.md",
+      "sha256": "2ad81a2a3a42d0a85a886fd8bc310ecd30ae695ce46d2d46776b5e72a91d5312",
+      "size": 39956
+    },
+    {
+      "path": "TAPPED_OUT_CORPUS_MAP.md",
+      "sha256": "2dbe874e06b5d0165ff3e329426777552e10f3dce8f218635b8b1e2c29bf3b9e",
+      "size": 16158
+    },
+    {
+      "path": "WORKFLOW.md",
+      "sha256": "ac57a6580bb0a0834718d5a9a9db88c56a24e72222307322a5922a1018d387a3",
+      "size": 2245
+    },
+    {
+      "path": "narrative_composer/cast_candidates.py",
+      "sha256": "23d073ddd596a5d64f4f6b0f4873445af5ec208b810a0de8cea04601a353bddd",
+      "size": 2015
+    },
+    {
+      "path": "narrative_composer/character_trace.py",
+      "sha256": "d034a85ff9a11ddcbde5d9478fc8dd27cffef440142417ee968b6da6d4051aaf",
+      "size": 4700
+    },
+    {
+      "path": "narrative_composer/cli.py",
+      "sha256": "1f774c7e3ee921260683d6aa349a1d3aa3612c5d31d5121e0cd46c3aceec52bf",
+      "size": 25700
+    },
+    {
+      "path": "narrative_composer/codex_app_session.py",
+      "sha256": "5bc08d03fb2878a3ddef0d3cf2e65f1aef0af3415e930ee8fffdfaccf819b0ea",
+      "size": 14931
+    },
+    {
+      "path": "narrative_composer/condition.py",
+      "sha256": "c59f1a2ef5d08fe73874a3de6ae17af59ec6dc4c9b043f7df362dfa0a50021e1",
+      "size": 20896
+    },
+    {
+      "path": "narrative_composer/corpus.py",
+      "sha256": "9938e1548516f1baec4a03a9ad640391b61d12ebdcd16e80a9cc6b6c791cd50b",
+      "size": 15811
+    },
+    {
+      "path": "narrative_composer/deepseek_session.py",
+      "sha256": "f2b96acf3c32b61c098ffe0dd163ea142f9665d9e9c70a03774df5dd096f0cf4",
+      "size": 9235
+    },
+    {
+      "path": "narrative_composer/editor.py",
+      "sha256": "1d7a915717508987f74a9b2fa5f93bec34789714055b51fddef7432273df9e7c",
+      "size": 87229
+    },
+    {
+      "path": "narrative_composer/editor_ui.py",
+      "sha256": "00edc2c628df01266bf9a473e708ef370bd947024063bf72d815a92d2ceb1564",
+      "size": 58880
+    },
+    {
+      "path": "narrative_composer/gemini_session.py",
+      "sha256": "ef10e2dc2f0050dba8fd2b061a251dd9aa6555e4bf007c9d91c81ff2aae2de2a",
+      "size": 12577
+    },
+    {
+      "path": "narrative_composer/persistence.py",
+      "sha256": "4289c522bcf6489b9db0c42d2da3cb03c1b7f5509cfe58b4254c900cf45a924b",
+      "size": 10212
+    },
+    {
+      "path": "narrative_composer/project.py",
+      "sha256": "b011cf10d96aa8a82093df2243bab85b7244b9e557382f141962aed16256547a",
+      "size": 2066
+    },
+    {
+      "path": "narrative_composer/proposal_store.py",
+      "sha256": "6a7976ac1305dc69fe195c57bcee73ce956c2880e258d28de746ba72b5dba1c2",
+      "size": 5597
+    },
+    {
+      "path": "narrative_composer/rich_document.py",
+      "sha256": "66ff9397db3ecd870c33c0ccd37c0e70ffdd2a50f378d864b2950e0655f98a08",
+      "size": 8180
+    },
+    {
+      "path": "narrative_composer/store.py",
+      "sha256": "9911f74e3fc6d5ad99271948b612648095b9324fa240d725be8ec7b61dd5b103",
+      "size": 28214
+    },
+    {
+      "path": "narrative_composer/story.py",
+      "sha256": "12fa97447b1a9bb06dc6a31ea53e758745e1bb55e6055e6c405e82ee59b450ce",
+      "size": 12574
+    },
+    {
+      "path": "narrative_composer/workspace.py",
+      "sha256": "4a81b0e8c619bb6affc7185f1d1de618cce12c25792b4b8a3e9d5187395da2c8",
+      "size": 20003
+    },
+    {
+      "path": "narrative_composer/__init__.py",
+      "sha256": "54efb842925491220c5b32f5f56f984fa0088ed265acfde44d9917cfa70d8ab3",
+      "size": 163
+    },
+    {
+      "path": "narrative_composer/assets/THIRD_PARTY_NOTICES.md",
+      "sha256": "0188a2e3f8052b5519e90466fc5913dbdbd337e5ac07ad7ae16e94392d4a63b8",
+      "size": 40273
+    },
+    {
+      "path": "narrative_composer/assets/tiptap-engine.js",
+      "sha256": "9c51b618ac67ef675bfe065d0a9017ac016cc8125a0e5d8d837cf387f483eef0",
+      "size": 400424
+    },
+    {
+      "path": "narrative_composer/compiler/composer_engine.py",
+      "sha256": "59f7100b45b8c2bf1ab2839ce1bbe6f47927548d9bbb612a2a237edc53d3475a",
+      "size": 18517
+    },
+    {
+      "path": "narrative_composer/compiler/context_projector.py",
+      "sha256": "71e22dc2c01e81565e496fee79c9a62a3ecb0585a83539ace3a1d0fae0a3509f",
+      "size": 7594
+    },
+    {
+      "path": "narrative_composer/compiler/convergence_harness.py",
+      "sha256": "306256f2b281e7aa077cc54c3c812fa20c3ca6cc395ee72010212ab0f949d761",
+      "size": 12213
+    },
+    {
+      "path": "narrative_composer/compiler/document.py",
+      "sha256": "289a3d84fe89a135f1c40c178250ee88205aa5cde0fb3e4ea6b1bd657b9670d5",
+      "size": 14953
+    },
+    {
+      "path": "narrative_composer/compiler/html_compiler.py",
+      "sha256": "6b57613f9a2d6f0cfeeca489e8443d644fab5bb2cdebc14dd3da3cd653ccea06",
+      "size": 20658
+    },
+    {
+      "path": "narrative_composer/compiler/identity.py",
+      "sha256": "c1d728a379a06d8be60ab999f42c155c242bf22f20020c01273c834c503467f9",
+      "size": 4951
+    },
+    {
+      "path": "narrative_composer/compiler/presentation.py",
+      "sha256": "56c4891236472034771a28bf9951cf9aa7d60bcdde88e3f706041dbaa7c1b4a1",
+      "size": 2340
+    },
+    {
+      "path": "narrative_composer/compiler/reader_renderer.py",
+      "sha256": "98a89526e26adf3643ea9e252af0544a4acef91b4c1a9b20c40d5b49189840ab",
+      "size": 18128
+    },
+    {
+      "path": "narrative_composer/compiler/recook_dispatcher.py",
+      "sha256": "0b2706a6022354a51f34fb3ea7eb5923ab96989f06088883a18ea12db61714b6",
+      "size": 12498
+    },
+    {
+      "path": "narrative_composer/compiler/selective_recook.py",
+      "sha256": "8a054ed5e504f09e37f845c6eda9b25f6b92faafeba6c69c530f3b9b0d23705c",
+      "size": 7727
+    },
+    {
+      "path": "narrative_composer/compiler/__init__.py",
+      "sha256": "a90effaeefb7dfd6677f72d3d0d5574e8aa7ab79eb57dcdb1d6c38a2e78f0f49",
+      "size": 815
+    },
+    {
+      "path": "narrative_composer/config/hot_scoomp_manifest.json",
+      "sha256": "007727a15b0b9a09483ce32243befaaa4f537cd937ad3a0257f7e671fadf6ab6",
+      "size": 11809
+    },
+    {
+      "path": "narrative_composer/designcraft/cli_runner.py",
+      "sha256": "e9cdde3deab1cfada528582d79534d6aa39376ee7f3c5d7c2efd5239d71eaadc",
+      "size": 8112
+    },
+    {
+      "path": "narrative_composer/designcraft/compiler.py",
+      "sha256": "b97d2be92783b441b36759a94b5cfb5bbf977d4d0fe44224aa32ed075ada624c",
+      "size": 26326
+    },
+    {
+      "path": "narrative_composer/designcraft/models.py",
+      "sha256": "d45b143cd999918b5d8759804e263794bf6fbdec545aca14616c875b167cd310",
+      "size": 5513
+    },
+    {
+      "path": "narrative_composer/designcraft/rpc_client.py",
+      "sha256": "9c364c0b25cbb284ccc32b50d15534e0493fa176b9cb13b8eeab2171ed5f836d",
+      "size": 6303
+    },
+    {
+      "path": "narrative_composer/designcraft/themes.py",
+      "sha256": "a71ace0d6d8428c358583997fbe3eb598b0ea78ae46f1388ac707b564ef63a18",
+      "size": 10401
+    },
+    {
+      "path": "narrative_composer/designcraft/__init__.py",
+      "sha256": "31ecf494ad5d0c37db7587090160024b77cc2ad786ece3eebb378c855b772caf",
+      "size": 762
+    },
+    {
+      "path": "narrative_composer/graph/BUILD_LOG.md",
+      "sha256": "bbc99199069a73ab5289f9a9ac17b33bc874f393c16ad70c4355d33e1312349c",
+      "size": 4780
+    },
+    {
+      "path": "narrative_composer/graph/checks.py",
+      "sha256": "35f1ca074c5e8c00829a752ee1e19a088d718e17339877aea773b3d6c3fccb7e",
+      "size": 12879
+    },
+    {
+      "path": "narrative_composer/graph/data_ports.py",
+      "sha256": "29ad8ac060b8edb3cd08cc5da7c990bd67df8b721d81b954bdb754e68a1dbf1f",
+      "size": 11574
+    },
+    {
+      "path": "narrative_composer/graph/diagnostics.py",
+      "sha256": "dcf60148a77d876787f14ec306805be904aa16581e3a724c5fbac807d0320bd2",
+      "size": 561
+    },
+    {
+      "path": "narrative_composer/graph/discover.py",
+      "sha256": "06f26a5373b7559ec08111af8045d7da7b7a9e9e473663af2e6ba27ff04d5ef0",
+      "size": 21052
+    },
+    {
+      "path": "narrative_composer/graph/enrich.py",
+      "sha256": "3e9ce271c85a6732c77eff7f925c79afd4af154193e587f13361c04c0819f17b",
+      "size": 6085
+    },
+    {
+      "path": "narrative_composer/graph/export.py",
+      "sha256": "271352ed5fb473759777ac10fc8e51931b238cc8d9c339efae4c350643e0c500",
+      "size": 6786
+    },
+    {
+      "path": "narrative_composer/graph/extract.py",
+      "sha256": "48696e02b9972fb778766605b4194ca3881e78d679e719a45429459b6ab0ff16",
+      "size": 9870
+    },
+    {
+      "path": "narrative_composer/graph/graph.py",
+      "sha256": "5ce888dd010a8121ed83d880abe090ad0574ba0986358b3c968bc668ab4fbf5d",
+      "size": 10280
+    },
+    {
+      "path": "narrative_composer/graph/ids.py",
+      "sha256": "0e3e8922aee1182727c0a181a8e42f77fa793e91ba220e4a1ce2d9bd01963045",
+      "size": 3040
+    },
+    {
+      "path": "narrative_composer/graph/kernel.py",
+      "sha256": "f7862ef4d37df1000491ddad9735ea8940a1df9c11515e0dd981ff6d28d8e462",
+      "size": 7323
+    },
+    {
+      "path": "narrative_composer/graph/migrations.py",
+      "sha256": "dee1d5945eadcf610ee67cd6cdb9cf64aff38930ac121cc74c6caafb324d5d2b",
+      "size": 1324
+    },
+    {
+      "path": "narrative_composer/graph/models.py",
+      "sha256": "8ca00a0c4bcbfe9fd15ffca010b1ac521907cb2416206f05e42a43faf50eaea6",
+      "size": 9295
+    },
+    {
+      "path": "narrative_composer/graph/nodes.py",
+      "sha256": "b86693c03ff49287e6b38b2d779b9c809ae8a30ad8a7f99945c8dcb463ee64ba",
+      "size": 7602
+    },
+    {
+      "path": "narrative_composer/graph/patch.py",
+      "sha256": "11350db820a7e5a817d7cc7bf7d7fd4901aba2e5aed72f7ae70a985fdc559bbf",
+      "size": 10038
+    },
+    {
+      "path": "narrative_composer/graph/pipeline.py",
+      "sha256": "be804b32709755102dc7f5f5d4e8cc83ff56eee1a456ccdb6fc931bb3a704515",
+      "size": 9922
+    },
+    {
+      "path": "narrative_composer/graph/registry.py",
+      "sha256": "45c143fb49ba04e2d6c6145d984dbc0fe5a5b72fc85e78c12894c415ea4d5c48",
+      "size": 2196
+    },
+    {
+      "path": "narrative_composer/graph/resolver.py",
+      "sha256": "77e8cbbd1483cf656cf9ab5a50557485251e440f3c0bc8f092fb062a9565fb65",
+      "size": 3474
+    },
+    {
+      "path": "narrative_composer/graph/runbuild.py",
+      "sha256": "afa99a103d1bb77081b7282dde3d9f86189e4fd8c79007154dc5251b6cabc6b0",
+      "size": 2118
+    },
+    {
+      "path": "narrative_composer/graph/suggest.py",
+      "sha256": "baaa263c2dc013bf98e800339bce78fed205cf46d113cdce79ddcf3010a91b99",
+      "size": 7986
+    },
+    {
+      "path": "narrative_composer/graph/viewer.py",
+      "sha256": "2446b9ebc62ad011e8597bf635e4898b048e7e43d9986a1f09fb0be7cde39bbb",
+      "size": 92854
+    },
+    {
+      "path": "narrative_composer/graph/world_port.py",
+      "sha256": "0996dcec857eff003971e7261e20eddbb76a9271f098a67769f6865f26fb19d8",
+      "size": 3994
+    },
+    {
+      "path": "narrative_composer/graph/__init__.py",
+      "sha256": "21fdca5fad28ef1adff6e9b6a9da5e943d97a039fe55879c72567566aad70965",
+      "size": 117
+    },
+    {
+      "path": "narrative_composer/ingest/aggregate.py",
+      "sha256": "57f10468f2a910f819a3501495f1dbeef60eb837fa98eed94354af8efbcacebe",
+      "size": 9760
+    },
+    {
+      "path": "narrative_composer/ingest/extract.py",
+      "sha256": "c827f719acd548fde59c66e7ebf6634a3822cbb86aa97a31dfd8eeb3cf5f5296",
+      "size": 5933
+    },
+    {
+      "path": "narrative_composer/ingest/media_prep.py",
+      "sha256": "3c0ada98055e4e2fbe69c69bdf667bc4a04c789464758a71ffdd57e1c2a2544a",
+      "size": 9690
+    },
+    {
+      "path": "narrative_composer/ingest/scenes.py",
+      "sha256": "07db3446b8c09a4b31ab01ce2df23f533f14e2a648a6e59bffd9297e567bc733",
+      "size": 3100
+    },
+    {
+      "path": "narrative_composer/ingest/schemas.py",
+      "sha256": "ec4c7079aedd5e0ab254aa1bfe39c615a103b0498fb9e737784f8d73c80bf3e2",
+      "size": 3724
+    },
+    {
+      "path": "narrative_composer/ingest/transcribe.py",
+      "sha256": "01181d76aa810fff432be8b0c083c19a27d7723b18ae622e3734f902a7c67cf4",
+      "size": 4166
+    },
+    {
+      "path": "narrative_composer/ingest/validator.py",
+      "sha256": "df96046a5597dd4ddc62409b6bb6d9aef01094e8218926bd5f27fd56add74153",
+      "size": 7213
+    },
+    {
+      "path": "narrative_composer/ingest/__init__.py",
+      "sha256": "3eb1f8e90fbbcba47114afddb4c03fbe3b165502b0bcbb5842f9bb7bf5090189",
+      "size": 589
+    },
+    {
+      "path": "narrative_composer/linter/html_feedback_loop.py",
+      "sha256": "300ee171fdcb51dd416003ac020ccbc98d9ba229ceb92b8faa7ad55bc5e66b89",
+      "size": 10048
+    },
+    {
+      "path": "narrative_composer/linter/rules.py",
+      "sha256": "ac50657a7fec5597b3aad565cdbd21ded32e343fba51691b48e901cd0b66a3c7",
+      "size": 27222
+    },
+    {
+      "path": "narrative_composer/linter/screenplay_linter.py",
+      "sha256": "260e5cfa98bbe22385a801a218cfd46e295eded4d20834c697224ea16f4f12d1",
+      "size": 14538
+    },
+    {
+      "path": "narrative_composer/linter/__init__.py",
+      "sha256": "f8959d18feffb6c117cf02e9bf034a6c0b6202d1738a91a697458945aa291996",
+      "size": 230
+    },
+    {
+      "path": "narrative_composer/models/ast_nodes.py",
+      "sha256": "519694bda49062bf56c2fe5c20b947f03262c03ed6b2c52d9cdfaef94bd55304",
+      "size": 1688
+    },
+    {
+      "path": "narrative_composer/models/causal_dag.py",
+      "sha256": "8009c384f207bb7bd12645f4af33d96102c2b5fbb861a189da6dbc8f7e421fd5",
+      "size": 4195
+    },
+    {
+      "path": "narrative_composer/models/character.py",
+      "sha256": "21265d8c331856b00cbfec2c5b70f9abc8d64d699751ffa4fe20a6f2221a5ad2",
+      "size": 7119
+    },
+    {
+      "path": "narrative_composer/models/epistemic.py",
+      "sha256": "b47d8075e3af978ab9aebc8bda3bcfda18f2e731294ea6b59b84edb701ebbb59",
+      "size": 6469
+    },
+    {
+      "path": "narrative_composer/models/spatial_fsm.py",
+      "sha256": "b75c40ac1cacb4c70bb87e18bfe5437c6bbb36b595711bd5cfe64580275e4134",
+      "size": 13030
+    },
+    {
+      "path": "narrative_composer/models/__init__.py",
+      "sha256": "a2e6403dee25f54068603dc980718ed70fc558f4f1e7d5a20490fe71cdc8644e",
+      "size": 757
+    },
+    {
+      "path": "narrative_composer/parser/fountain_lexer.py",
+      "sha256": "fde396c2eee81f278e7ceeb9544ba36f4510e17c91a785adf318a8a0b6f50a67",
+      "size": 11631
+    },
+    {
+      "path": "narrative_composer/parser/slugline_parser.py",
+      "sha256": "4e6f43fe073b9ac343c8f2bc5fdc57f3c4893c2f860301e888ebb15852621517",
+      "size": 6324
+    },
+    {
+      "path": "narrative_composer/parser/__init__.py",
+      "sha256": "a7952e54b74eb9e1d23e46851621086faab73a3ab59434b2da009f004a7a8d7b",
+      "size": 231
+    },
+    {
+      "path": "narrative_composer/prose/approved_edits.py",
+      "sha256": "80244b479b13882c25a15b4ef19484f5a2eca0b8ed0bc6e3bf62c9c6c55bfc09",
+      "size": 5201
+    },
+    {
+      "path": "narrative_composer/prose/composer_bridge.py",
+      "sha256": "a302db9d50951be9bff062fe6e9fe837258c7824cd37865fa6b9849181fc0eab",
+      "size": 7805
+    },
+    {
+      "path": "narrative_composer/prose/diagnostics.py",
+      "sha256": "94528c0f5998d208640732de5dc9739ef769604b80f3e6af4a33fdfe0b6fc977",
+      "size": 11229
+    },
+    {
+      "path": "narrative_composer/prose/invariant_gate.py",
+      "sha256": "3c120dd969f1a34b905eddee6fabe088353f6142bbf725eadfda138d5a927777",
+      "size": 7787
+    },
+    {
+      "path": "narrative_composer/prose/ledger.py",
+      "sha256": "866eff19cd401fe55fd4392addb9d27430e32c0291a66f1b5731d2aa2ce76063",
+      "size": 7974
+    },
+    {
+      "path": "narrative_composer/prose/models.py",
+      "sha256": "0f839b1235f0724be921764b941ec63e63501eee305edc556683937a9b1dbe1f",
+      "size": 7542
+    },
+    {
+      "path": "narrative_composer/prose/ports.py",
+      "sha256": "b5c45a1989aeffc0a9d0556357141eda373884560b70276e3a86086394233389",
+      "size": 2925
+    },
+    {
+      "path": "narrative_composer/prose/prompt_assembler.py",
+      "sha256": "97d449c011b9ddc56ffa9bc154a2b837f3f06b310d616134e4359788a9250c03",
+      "size": 6752
+    },
+    {
+      "path": "narrative_composer/prose/protected_spans.py",
+      "sha256": "4280417cfb6c3c672a014a7312847f305faa1d22784b9929d254bde82fb9be8a",
+      "size": 4112
+    },
+    {
+      "path": "narrative_composer/prose/semantic_drive.py",
+      "sha256": "6b83e82d351c826037df9cd526874f574928314f00174d9fc03b7ec77331c1fb",
+      "size": 2306
+    },
+    {
+      "path": "narrative_composer/prose/style_engine.py",
+      "sha256": "8b7671c9b5c5c30db00e33c45d4504113d61734b072d29e6db845b4d071a132b",
+      "size": 4973
+    },
+    {
+      "path": "narrative_composer/prose/validation.py",
+      "sha256": "df4c7fd2f0521d86ca3d04dcaaf43143d26439d5afb2bec49a18f1759d1f0dc5",
+      "size": 3444
+    },
+    {
+      "path": "narrative_composer/prose/__init__.py",
+      "sha256": "d6edd74cc266936346cdc1438f7de0c220a7496cc5bd61c6483f7e9ef664e6df",
+      "size": 3053
+    },
+    {
+      "path": "narrative_composer/tests/test_anti_exposition_rules.py",
+      "sha256": "5af29bb73efea3a7fb8ade4fff3937ef53a7de178c4804079b0a6144297354f9",
+      "size": 6569
+    },
+    {
+      "path": "narrative_composer/tests/test_body_transformation_debris.py",
+      "sha256": "2185cf082cb3089fcfa5095285d3b4f626cdf0f5094612ed8972d383407181e5",
+      "size": 8364
+    },
+    {
+      "path": "narrative_composer/tests/test_character_data_graph.py",
+      "sha256": "aa23087aff56a2020d8cc3cb6dcbe1d14d5d0e2528bb3a5c30b01692b5e0e02f",
+      "size": 18899
+    },
+    {
+      "path": "narrative_composer/tests/test_character_models.py",
+      "sha256": "9e84315c43de6b03060e2993fc79e6413a0e1e6591f49f55f6e63e6a3260d35d",
+      "size": 8074
+    },
+    {
+      "path": "narrative_composer/tests/test_character_projection.py",
+      "sha256": "d756ee55dd9895b0c081a0b22384caa8cbfa18ccac5f27d9bf72f9194c300b58",
+      "size": 13970
+    },
+    {
+      "path": "narrative_composer/tests/test_cli_runner.py",
+      "sha256": "38905fc8efcce9ca6096ff285571488960a202bf481bd2b9d45640887db4942d",
+      "size": 4378
+    },
+    {
+      "path": "narrative_composer/tests/test_codex_app_session.py",
+      "sha256": "b4c492fe1a20bc816b368932123d9c8fcf2191f0a372e49605ea0d4a93d06797",
+      "size": 2651
+    },
+    {
+      "path": "narrative_composer/tests/test_codex_provider.py",
+      "sha256": "6dd49b3f10a793b5e421c37b329d5ecc1c91da810f02d4e31da88bba2cbb706d",
+      "size": 3930
+    },
+    {
+      "path": "narrative_composer/tests/test_cognitive_amnesia_epistemic.py",
+      "sha256": "be2522040502389c0d8023c0f3401853234d4fc7e1f360b5fcbdf40dc698bdf6",
+      "size": 6211
+    },
+    {
+      "path": "narrative_composer/tests/test_condition.py",
+      "sha256": "d506386ba75774101cfe3b3a3177bb6ba698f3346fb45f039bed3cbc9d9bbc60",
+      "size": 12884
+    },
+    {
+      "path": "narrative_composer/tests/test_corpus_variant.py",
+      "sha256": "ab17d44331aa0a69459b1474f360155a788ae1b34b2664988d709b1dc54fd2cd",
+      "size": 3141
+    },
+    {
+      "path": "narrative_composer/tests/test_deepseek_session.py",
+      "sha256": "8176d3ff1341a541c04c741733b3bd18bb2815670578e4fd9b32f69352b488dd",
+      "size": 4618
+    },
+    {
+      "path": "narrative_composer/tests/test_designcraft_compiler.py",
+      "sha256": "f6379cc932cb71ca5598ec02987b27b26dc0ae672697e91135bc56f64405f695",
+      "size": 7717
+    },
+    {
+      "path": "narrative_composer/tests/test_document_model.py",
+      "sha256": "29cecb92dd8aefe5201e60526ad852ebff8a6cd3b3794796e4e6000a95854c0f",
+      "size": 6097
+    },
+    {
+      "path": "narrative_composer/tests/test_dynamic_slugline_spatial.py",
+      "sha256": "d47515719cb099c09ef9bae30ed96cf92f606c53ef617edd4e2f60bf06660c07",
+      "size": 8716
+    },
+    {
+      "path": "narrative_composer/tests/test_editor.py",
+      "sha256": "5aff3a02e6ac16ca944943a08d80df979abf20d40ccc489124ffae0b25ed9b7a",
+      "size": 13088
+    },
+    {
+      "path": "narrative_composer/tests/test_extract_schema.py",
+      "sha256": "b02bc38e61231e4b0ed9354150ad95ebaf450635fac379c90d0f8fef8ccf25fc",
+      "size": 7787
+    },
+    {
+      "path": "narrative_composer/tests/test_gemini_session.py",
+      "sha256": "26474ca3296bd122c2910e6c3d6dd4ad241458dd4509c2edbcc0497333aa1512",
+      "size": 7347
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_checks.py",
+      "sha256": "0fe41f0d4bcb13cad755232fdd53890e07dec7d323aaf61d311784cf884c28d8",
+      "size": 9597
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_core.py",
+      "sha256": "4591c78791d5714d6c04e3eb9dd7c324d55ece6d26bf58807af69ebd01b15d38",
+      "size": 6488
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_discover.py",
+      "sha256": "a27f81c3e35dcfb61d2f95d377d3bb59344b5c79c7ca26bca11bd9d0934126ce",
+      "size": 8855
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_enrich.py",
+      "sha256": "5c773d6f929563ae293dfb840d0aa6e2e1773eaaf00ecbc5ac4ee204f3633224",
+      "size": 6303
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_export.py",
+      "sha256": "04c029a2dab5a9496e2ab920fdfa44b46402b17fad5856588f19a707998a2eda",
+      "size": 4483
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_extract.py",
+      "sha256": "923d88163f41802ad7291d1429c53b390d16f5b71c527f20e271c2e8519e66ad",
+      "size": 7616
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_golden.py",
+      "sha256": "d2e9bc7d5b0d5c25088e987451af79ae63cdb10ac7fdbcf4d9e885608a522d75",
+      "size": 5823
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_ids_models.py",
+      "sha256": "a91204713e19a94263dcced9a981c255ca0efa932b6040d94ad6997bb555bcd5",
+      "size": 5363
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_integration.py",
+      "sha256": "c41669357b7f3b2ed3ddb6f576b774fed49b6c3cdfde40de3d6fd3bfefafc2ce",
+      "size": 4124
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_kernel.py",
+      "sha256": "0e673431bf71d559ad75e092191a67c02fa46993c787fecbc370ca7e624a8669",
+      "size": 3665
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_pipeline.py",
+      "sha256": "fe1b50324f777b4116fba0b3b385753e532113c0915134a29f7c0dea6a99ea0a",
+      "size": 4998
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_registry.py",
+      "sha256": "10280f1f71ada045759f76b4c223454dd5697908ec8a52f93274abc109287137",
+      "size": 2952
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_suggest.py",
+      "sha256": "d88ddbddb159bb5017b5fd69f05d921b80df49f2f66335852428bab4f29acb70",
+      "size": 5101
+    },
+    {
+      "path": "narrative_composer/tests/test_graph_viewer.py",
+      "sha256": "e81f1ae28c38a6b331591db2bf1ff5176bd47c400a646effbf606af5c471105a",
+      "size": 3351
+    },
+    {
+      "path": "narrative_composer/tests/test_identity.py",
+      "sha256": "241746d77fe3521620d67497c17a7ca9d50d8321573f1030db0af66b0c41b451",
+      "size": 3984
+    },
+    {
+      "path": "narrative_composer/tests/test_ingest_prep.py",
+      "sha256": "c1388495da6d2c4eafc73b425c0adf5197699b59075a396a1e910afb85e125ae",
+      "size": 4994
+    },
+    {
+      "path": "narrative_composer/tests/test_milestone1.py",
+      "sha256": "cffd9de72bed657b85d7a1fc7aa5f49d87dc814710bf5f69258dafef8ec7d48d",
+      "size": 8866
+    },
+    {
+      "path": "narrative_composer/tests/test_milestone2.py",
+      "sha256": "0e8e89e0933e7a93bcb4ee2c66647561aa483885b7b7926a3d57ba05704dbb2c",
+      "size": 8899
+    },
+    {
+      "path": "narrative_composer/tests/test_milestone3.py",
+      "sha256": "e546f57bc3b8a8d18d30f0a78cd0b63f4237b49a7f78f787350c2b218b6eeb7b",
+      "size": 9951
+    },
+    {
+      "path": "narrative_composer/tests/test_neurosymbolic_closed_loop.py",
+      "sha256": "407472af153aca94e5fc7de5cecae9b30c55fe821f89466ba68965196197b5ee",
+      "size": 7429
+    },
+    {
+      "path": "narrative_composer/tests/test_p0_regressions.py",
+      "sha256": "300b1bc3757e3ac4fb344f0a9d1c40ec61a4a7642c6ab3604ec25bd677141924",
+      "size": 2740
+    },
+    {
+      "path": "narrative_composer/tests/test_p1_regressions.py",
+      "sha256": "ae51b3a768f215c347f2b8df14b97d598f6138b81c4d3c739f806c8d438844ed",
+      "size": 4915
+    },
+    {
+      "path": "narrative_composer/tests/test_prose_m1.py",
+      "sha256": "7e89887d9d64e548bddd1db2cd4be3313683a5d62e0359cc48da0ffab2c54790",
+      "size": 14872
+    },
+    {
+      "path": "narrative_composer/tests/test_prose_m2.py",
+      "sha256": "5fbc1fcb9bc385d7ea8c62e5119574269e1fdae3e11d9a32f17611ba9b9dd12f",
+      "size": 6856
+    },
+    {
+      "path": "narrative_composer/tests/test_prose_m3.py",
+      "sha256": "378fe5e6679eefe4fb3bfdae9c3485365e14bbbc696686c9e6303a367cb34fa7",
+      "size": 11587
+    },
+    {
+      "path": "narrative_composer/tests/test_prose_m4.py",
+      "sha256": "f3211b60e54a480cc6219cf73ef44969c13475e7f9f4be7df153890720b06988",
+      "size": 8252
+    },
+    {
+      "path": "narrative_composer/tests/test_prose_m5_e2e.py",
+      "sha256": "a981a933334bf8b94737894b23c64ea154604f1f0ae53f44ee533c7264a1e44c",
+      "size": 10178
+    },
+    {
+      "path": "narrative_composer/tests/test_recook_dispatcher.py",
+      "sha256": "c42bd9a32830db62cf64a63d68cb0e101ced6c6072464114f262764d67f9b018",
+      "size": 10219
+    },
+    {
+      "path": "narrative_composer/tests/test_recovery_concurrency.py",
+      "sha256": "e27cec1ef55f36e59df604b0516b0aa0b05d4b4a52589ae9491abe7b5ae27331",
+      "size": 8666
+    },
+    {
+      "path": "narrative_composer/tests/test_recovery_integration.py",
+      "sha256": "aeaa1aa12fb7edef29cac8868b27c0c8c34c167e79dc0cb4fffd62d127701f55",
+      "size": 74830
+    },
+    {
+      "path": "narrative_composer/tests/test_rich_document.py",
+      "sha256": "4810ddb5116b65644e22b44d96244d16e71ce89a12b9bf76e7ea8f24461ce32e",
+      "size": 15791
+    },
+    {
+      "path": "narrative_composer/tests/test_rpc_client.py",
+      "sha256": "cb0e3ce9bd523ee17ae5a00b3200eb32ad0b429c6f30ce080139be06efcb3e34",
+      "size": 6162
+    },
+    {
+      "path": "narrative_composer/tests/test_selective_recook.py",
+      "sha256": "c972374fc23730d48c57ac25f26615dd4dc424a085988d18d8af69aeca2d4dc9",
+      "size": 3042
+    },
+    {
+      "path": "narrative_composer/tests/test_store.py",
+      "sha256": "977b873a95e71058aceedaa26a6831391896ee07ad1cb2ce9bb24840b5bf2fdd",
+      "size": 8486
+    },
+    {
+      "path": "narrative_composer/tests/test_story.py",
+      "sha256": "9b0b38595506b4f6ac47ea6c83e41786499d123fa53965708f1f4d79d1500238",
+      "size": 2905
+    },
+    {
+      "path": "narrative_composer/tests/__init__.py",
+      "sha256": "7ab0c2f043d4130c2f95d61df0b972c653b0270750e93b37ff2abf8c588aaccf",
+      "size": 60
+    },
+    {
+      "path": "narrative_composer/tests/fixtures/recovery_project/manifest.json",
+      "sha256": "0b22f55b482ff4bd3fbdfa7e173589beaca2dffc91b93d31dcdf42ed5b515736",
+      "size": 885
+    },
+    {
+      "path": "narrative_composer/tests/fixtures/recovery_project/story.md",
+      "sha256": "5814505132a27d5eee43bec23d61cff41902a14495084ba863a4dcc8f292ad69",
+      "size": 397
+    },
+    {
+      "path": "narrative_composer/tests/fixtures/recovery_project/characters/alex.json",
+      "sha256": "d1740cc8dbf39b2967b4adc25695bb4f736f5a219a0e160c228fb8b82bf00d4e",
+      "size": 372
+    },
+    {
+      "path": "narrative_composer/tests/fixtures/recovery_project/characters/dana.json",
+      "sha256": "8c6e9f0b9eb5bf87b81cfa6f13a151a531c7ab0e1d4e4ba01d7c61aeffaa54ff",
+      "size": 876
+    },
+    {
+      "path": "narrative_composer/prose/providers/base.py",
+      "sha256": "f88d8cd4644ef01599d8989c730d43a6a09fef478e20aac44b608cb621a5f199",
+      "size": 635
+    },
+    {
+      "path": "narrative_composer/prose/providers/codex_session.py",
+      "sha256": "3c536abe0fc5fc75006950175a295b809b9625a2674a9c9be5dee55bc24e69a5",
+      "size": 6758
+    },
+    {
+      "path": "narrative_composer/prose/providers/deepseek.py",
+      "sha256": "b3242996079a88afcf26c72cb942d0f3e7adfa16812c34db1c94123b476854c8",
+      "size": 3243
+    },
+    {
+      "path": "narrative_composer/prose/providers/gemini_flash.py",
+      "sha256": "b6b427bec10d07bb11700687b1eeb5eec935042f893812da1004d4e2e2525186",
+      "size": 7795
+    },
+    {
+      "path": "narrative_composer/prose/providers/mock_provider.py",
+      "sha256": "7756916f86b5f48fd02a7f42eba066055c4b39ede9c721b97ccd30522e62957c",
+      "size": 1992
+    },
+    {
+      "path": "narrative_composer/prose/providers/venice.py",
+      "sha256": "d860e5a26be2aef82efb8999fcc145e00647b6d165a92be50c807f55e48c1218",
+      "size": 7440
+    },
+    {
+      "path": "narrative_composer/prose/providers/__init__.py",
+      "sha256": "30ec62378caf720cb879e128491037238e55d58afa6cd65bcb9d9ca3b0f48cd9",
+      "size": 2497
+    },
+    {
+      "path": "narrative_composer/config/characters/hayley.json",
+      "sha256": "7cd7c8123829406802f26e8b5b527a7893650d604355ef2760249b2166e5adad",
+      "size": 13068
+    },
+    {
+      "path": "narrative_composer/config/characters/rainee.json",
+      "sha256": "9e25a875a21c267752778f15ed437d09db076b5ec4bb5f43ccd4e28a77187559",
+      "size": 2962
+    },
+    {
+      "path": "narrative_composer/config/characters/review.md",
+      "sha256": "baf74230d99dc8bba3251c4ad7d196ff003a9035060729762c1e490aa5cdab6d",
+      "size": 5901
+    },
+    {
+      "path": "narrative_composer/config/graph/world.json",
+      "sha256": "897f336e8ad82b439f36e9869884f77f06ce1c06e9aa6abc8aceba3fd590eb3d",
+      "size": 545
+    },
+    {
+      "path": "narrative_composer/config/graph/characters/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "narrative_composer/config/graph/characters/francine.json",
+      "sha256": "a8befa7bcb68d1bc8828a85efa8f5b3bbe07db53bbb6c0c720dde933a1ee4099",
+      "size": 3661
+    },
+    {
+      "path": "narrative_composer/config/graph/characters/haley.json",
+      "sha256": "786a664d76401eb2d8930789018555a52445437da7ed110ff237b461538b17c3",
+      "size": 2804
+    },
+    {
+      "path": "narrative_composer/config/graph/characters/holly.json",
+      "sha256": "958b7ea0aacb8eef162df5fa0744bc34502b295820e10f30e12a0a9b5a54a0e0",
+      "size": 468
+    },
+    {
+      "path": "narrative_composer/config/graph/characters/kelly.json",
+      "sha256": "fc8a4d62ca45c59942d90c11c820b7d877a956dad70f2cb3ea228fa746048cbc",
+      "size": 417
+    },
+    {
+      "path": "narrative_composer/config/graph/characters/ma_ma_ling.json",
+      "sha256": "91f1aa6298d78d3719878d1cfbf94dd380f84575a876c2435f71c5e48ea5ff64",
+      "size": 477
+    },
+    {
+      "path": "narrative_composer/config/graph/characters/rainee.json",
+      "sha256": "65f6080be090b5c815be287df27bdcc6283bd3f9287edbf3cc3f4cd512e050ba",
+      "size": 5663
+    },
+    {
+      "path": "narrative_composer/config/graph/characters/stella.json",
+      "sha256": "c8d95686fc4fa6b1b8912a447190d836bf746a0606432d7559c40d5fe5a2285d",
+      "size": 3892
+    },
+    {
+      "path": "narrative_composer/config/graph/triggers/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "narrative_composer/config/graph/triggers/discovery.json",
+      "sha256": "ae80fcf82d9a2de2fa2140a6f97ebe833df060ba11d52cd9e2a7b23dc53a74f1",
+      "size": 678
+    },
+    {
+      "path": "narrative_composer/config/graph/characters/auto/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "narrative_composer/compiler/assets/tailwind.js",
+      "sha256": "176e894661aa9cdc9a5cba6c720044cbbf7b8bd80d1c9a142a7c24b1b6c50d15",
+      "size": 407279
+    },
+    {
+      "path": "frontend/build-meta.json",
+      "sha256": "d30566f732c28f22a21e14ed38a815b06e118294db89d2ac3903f56ba277a209",
+      "size": 37731
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "sha256": "2a459427fc9c3fd8a6bdc290ee2efed4838cc9d30217b454b19da7feabb4e8fe",
+      "size": 38430
+    },
+    {
+      "path": "frontend/package.json",
+      "sha256": "4fbc929bde312053d5b3c35ed1fdaf95b3750dbf561243c066b33b98eb90a42a",
+      "size": 621
+    },
+    {
+      "path": "frontend/THIRD_PARTY_NOTICES.md",
+      "sha256": "0188a2e3f8052b5519e90466fc5913dbdbd337e5ac07ad7ae16e94392d4a63b8",
+      "size": 40273
+    },
+    {
+      "path": "frontend/src/editor.js",
+      "sha256": "d62e2d99016dec00b14f752bfdbdcb3e7a28597358a9480113b61c55a9c9554b",
+      "size": 7032
+    },
+    {
+      "path": "frontend/tests/editor.e2e.cjs",
+      "sha256": "ad9c2c5624a86c750018a155ad12ee1306a7f87d0c33ea4f4cc27c21c7c1ef21",
+      "size": 23340
+    },
+    {
+      "path": "reproductions/audit_timeline_pipeline.py",
+      "sha256": "5a9247c251af51238ae5717d41fa94fe961c138eb171745d7698c39984c85737",
+      "size": 21186
+    },
+    {
+      "path": "reproductions/audit_venice_restart.py",
+      "sha256": "3f34d0260c240df71759a2436be26d8ff0a0bd0f2e2fb1ab29a9936b9d92a6f3",
+      "size": 4752
+    },
+    {
+      "path": "reproductions/build_restart_review.py",
+      "sha256": "10f35bbc59a4d61f69575f583819f42d328ea4700cf869e6698cdc2d8e7bf377",
+      "size": 7719
+    },
+    {
+      "path": "reproductions/check_bugs.py",
+      "sha256": "2198653f8f35fd52d1a07d9f49d20c5e33cf8abe3b67a4a4c62aeed8580387fb",
+      "size": 3284
+    },
+    {
+      "path": "reproductions/exercise_rainee_optional_port.py",
+      "sha256": "0e99cee74867c6a4d7d051adc1b7b564ff42c64377538f6b0a954c0516bdfedc",
+      "size": 4844
+    },
+    {
+      "path": "reproductions/exercise_timeline.py",
+      "sha256": "ba50673d556e597bb42999b8691b7d88b4eb3d9f459702c702facde714df02d5",
+      "size": 11330
+    },
+    {
+      "path": "reproductions/exercise_word_variant.py",
+      "sha256": "e1fccd6ab1929ffcf969ce9ef98b01e59f8d90555f1de5885de4657024c208e8",
+      "size": 6646
+    },
+    {
+      "path": "reproductions/gemini_timeline_review.py",
+      "sha256": "31336dec9ecd8bce20501a3bcc70a3e6c16bbcb0b8156cca15be5d6d662aaed7",
+      "size": 13162
+    },
+    {
+      "path": "reproductions/live_neutral_provider_smoke.py",
+      "sha256": "5da34d73061c3a12239d20f7835330d992468481abbb575d6d862cb4f21215fc",
+      "size": 4142
+    },
+    {
+      "path": "reproductions/rebuild_character_data_graph.py",
+      "sha256": "20c49bb51edc38f9d2e0c2d30758b6ca3a41c6528920e45bbaddaa6af29c1d50",
+      "size": 10114
+    },
+    {
+      "path": "reproductions/run_full_workspace.py",
+      "sha256": "680a1b6fb549ab220abd777bfcb6ee45f4144cbbcefd7e7e92e24c8e6159dee1",
+      "size": 8110
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/act_1.manifest.json",
+      "sha256": "7355e1b7397e85e2b8a624cb2627c3834e35cbc24c7a558fe4e47f3f36344d2c",
+      "size": 522
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/act_1.md",
+      "sha256": "b38d1a824dae1a2e935eb2098ee9d82649d633789d89f0e5eb8d7cd1f9983cc6",
+      "size": 25398
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/act_2.manifest.json",
+      "sha256": "883a426faab4c3fe6f621a0e2dad3ec471e89975108b85bf0f20c527d6c05bcc",
+      "size": 522
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/act_2.md",
+      "sha256": "cf9194f953cbd07fbf6c8102c06822752575ba909aabf53845b6beb27731212a",
+      "size": 36294
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/climax_tag.manifest.json",
+      "sha256": "3edf21b51c2bfa550d00d0deb5b640ba55b89b1d7210bfb2b5461c9bb77dd2d1",
+      "size": 569
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/climax_tag.md",
+      "sha256": "1b41b5af9ab6af7f4c74a3f963e8eb42704dca5c64f963928bb3cd92995fa914",
+      "size": 6813
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/episode_0.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "size": 184
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/episode_0.md",
+      "sha256": "c17ce518da420dc8e48c03257774593003f103e24176ca28b044a4cfc264fc79",
+      "size": 23283
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/gemini_hot_scoomp_master.manifest.json",
+      "sha256": "007727a15b0b9a09483ce32243befaaa4f537cd937ad3a0257f7e671fadf6ab6",
+      "size": 11809
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/gemini_hot_scoomp_master.md",
+      "sha256": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693",
+      "size": 134354
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/INPUT_BASELINE.json",
+      "sha256": "9020d9a0a29ddcbe6c31334ef309dd557fc223d8f4597288bddf3617a1e1dad1",
+      "size": 21038
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/prequel.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "size": 184
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/prequel.md",
+      "sha256": "47fa5c089adb8860f6c2c56dc5a49354e98fccdf1d103bdbd68136ce56c8dd80",
+      "size": 29284
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/SOURCE_PROVENANCE.json",
+      "sha256": "52c917371b3500e4ea417670dabb09e1e0515eebb102a14cd66ba987b9c85769",
+      "size": 715
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/spring_break.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "size": 184
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/spring_break.md",
+      "sha256": "347bc61b3eceeb1d240d8b6acca8d56e12db101731dc1c79c264da61db2d8ebc",
+      "size": 13280
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_b.extraction.json",
+      "sha256": "1921e48903e410fb7fbe7a6b58b6a6479547600dcdb1877d29f720a6f1d7d375",
+      "size": 6065
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_b.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "size": 184
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_b.md",
+      "sha256": "1b70d6a2e02a92f7f55d9ad69999530aa497e5cf2ec91c41ffca0dc3426b4ba0",
+      "size": 5284
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_main.extraction.json",
+      "sha256": "f61fcc87ce2e5d7e348f61ecf61d762da267a0b2c7f98bdbba94dce4fc9983d5",
+      "size": 65242
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_main.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "size": 184
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_main.md",
+      "sha256": "636799147f295a86c0adcc2b3d75fd486ede388be0874f33eb3c0ddd83080694",
+      "size": 11359
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_main_pdf.extraction.json",
+      "sha256": "3eb521bc6e54450aa7590823a3e6b25b494e91468bdfe115faa6ed73edc948ef",
+      "size": 14444
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_quick_story.extraction.json",
+      "sha256": "1b96f481480e9746a7a7d7345be1e354b5824adbe63b3c77567cef4ff664038e",
+      "size": 292056
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_quick_story.manifest.json",
+      "sha256": "6ef7ce888af6ecaeee2a8d3c08afca1830ddb8bb9f172a668bbee745c95b943f",
+      "size": 174
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/tapped_out_quick_story.md",
+      "sha256": "6047b96e0e312f0e45f881c97bcdd011c92b3474f5add9921938b8119a96cc79",
+      "size": 47763
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/timeline.json",
+      "sha256": "4de2861ab5da47cb345a6e30ccefb9f65b0365e4f63deaf2c4db19e863c0d6b4",
+      "size": 5173
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/characters/francine.json",
+      "sha256": "3f8139a2a8e9189c6bcac1a576a73dc2af7b289ca47a233ac79c35a2b3301fd2",
+      "size": 5171
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/characters/haley.json",
+      "sha256": "150cac9e60a85b98b333635363519c39ea7e17ee3b6d9253ab5b11f0642674ce",
+      "size": 4225
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/characters/holly.json",
+      "sha256": "9bebca2e7f1f58ca1c9d33b7c98baba73adfd3b8c0ee3ade90c852b8c799ac86",
+      "size": 985
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/characters/kelly.json",
+      "sha256": "6afa13bed96fe354db8b71371b3618aed4eef578bc356920718a3510dc95a96c",
+      "size": 901
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/characters/ma_ma_ling.json",
+      "sha256": "a9ddf42bd8521272c47e0a44430c5c04b1713b00f29c8d141e5b14780a6d7b46",
+      "size": 995
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/characters/rainee.json",
+      "sha256": "da1edc15d8d1e9488bd7c6368ddb3c7e6e89061516d1362d9606bbf802bb5108",
+      "size": 8348
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/characters/stella.json",
+      "sha256": "4bb75f81aa4dd5c235327734cc63eddcec83c28f8d8d25261e586e328a1eec3f",
+      "size": 5302
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/character_data/francine_source_index.json",
+      "sha256": "de39fb299b68261422f3acdfcbc8a26612cf5bbab8435c27366bb45750932dfb",
+      "size": 224947
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/character_data/haley_legacy_dialectic.json",
+      "sha256": "6aa25984f25eaf0d1b7e7b3b62b76dff17f196d5ecacb9de71958b8e7d779a88",
+      "size": 13842
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/character_data/haley_source_index.json",
+      "sha256": "83e9bb18b78675181fd56ec8b89cb42c36ed644d4c63e6e699ef825f0fd9faab",
+      "size": 277199
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/character_data/holly_source_index.json",
+      "sha256": "9fde271ea325166c9a1c5d2a957b1a7e307940a4cc628bb535805c329a72ab7e",
+      "size": 57630
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/character_data/kelly_source_index.json",
+      "sha256": "973f410501a742bd29c9add6394859a9fcb636b818118f24fe14f6ae09e2084b",
+      "size": 26866
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/character_data/ma_ma_ling_source_index.json",
+      "sha256": "c2a65350a2b69ae97aa56530b292125aeb2575fe41d8bef576d165eb61f9ba09",
+      "size": 5762
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/character_data/rainee_legacy_dialectic.json",
+      "sha256": "13deb09f4da11f49e1ecf48039def09400a2f5e57b3a46edf8eec4b0cee3de8a",
+      "size": 3485
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/character_data/rainee_source_index.json",
+      "sha256": "392a2a988218af933440b0e07ad980be3599d66b7061a0ef877e0f7479dd41e5",
+      "size": 93770
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/character_data/stella_source_index.json",
+      "sha256": "cff458154811e61f6a2821b9c047fc744e7671897055251028170fde2945fb33",
+      "size": 262983
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/sources/b_pdf.pdf",
+      "sha256": "5073a22cd1a92338dd48a8642b8c4ef8aaad25d8cb6ed1dc52f3ad1dd681aebb",
+      "size": 263039
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/sources/chronology.md",
+      "sha256": "b907dd64a0f85a76199a9c79645a5f2694a48379aa8f5c572139582d7187d03f",
+      "size": 134352
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/sources/main_docx.docx",
+      "sha256": "9539958663e0dd49c51fa833f8620cb16d395d6d4f328818d9292babb23ca5be",
+      "size": 153363
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/sources/main_pdf.pdf",
+      "sha256": "f786045462a09c7602825c1ffcae40bacfef8e68ad1538caacffa3e4647f9d9b",
+      "size": 347000
+    },
+    {
+      "path": "out/story_graph_authoring_20261102/sources/tapped_out_quick_story_docx.docx",
+      "sha256": "599976b902ec8fc54fdeead2eccdb7e68f828d7f5130ced82e863c31b2fcda79",
+      "size": 41114
+    }
+  ],
+  "included_roots": [
+    "narrative_composer",
+    "frontend",
+    "reproductions",
+    "out/story_graph_authoring_20261102"
+  ],
+  "excluded": "local credentials, installed dependencies, unrelated sample story, and older generated runs",
+  "added_files": [
+    "ARGON_GITHUB_HANDOFF.md",
+    "GITHUB_SNAPSHOT_MANIFEST.json",
+    ".gitattributes"
+  ],
+  "note": "User source files were not edited. The Git attributes preserve exact file bytes on checkout."
+}

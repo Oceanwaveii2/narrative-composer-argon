@@ -1,0 +1,401 @@
+{
+  "created_utc": "2026-11-02T08:49:11.298790+00:00",
+  "saved_snapshot_source": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\story_graph_current_20261102",
+  "original_inputs": [
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\episode_0.md",
+      "sha256": "c17ce518da420dc8e48c03257774593003f103e24176ca28b044a4cfc264fc79",
+      "expected": "c17ce518da420dc8e48c03257774593003f103e24176ca28b044a4cfc264fc79",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\episode_0.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "expected": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\tapped_out_quick_story.manifest.json",
+      "sha256": "6ef7ce888af6ecaeee2a8d3c08afca1830ddb8bb9f172a668bbee745c95b943f",
+      "expected": "6ef7ce888af6ecaeee2a8d3c08afca1830ddb8bb9f172a668bbee745c95b943f",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\act_2.manifest.json",
+      "sha256": "883a426faab4c3fe6f621a0e2dad3ec471e89975108b85bf0f20c527d6c05bcc",
+      "expected": "883a426faab4c3fe6f621a0e2dad3ec471e89975108b85bf0f20c527d6c05bcc",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\characters\\stella.json",
+      "sha256": "4bb75f81aa4dd5c235327734cc63eddcec83c28f8d8d25261e586e328a1eec3f",
+      "expected": "4bb75f81aa4dd5c235327734cc63eddcec83c28f8d8d25261e586e328a1eec3f",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\climax_tag.md",
+      "sha256": "1b41b5af9ab6af7f4c74a3f963e8eb42704dca5c64f963928bb3cd92995fa914",
+      "expected": "1b41b5af9ab6af7f4c74a3f963e8eb42704dca5c64f963928bb3cd92995fa914",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\HOT_SCOOMP_COMPLETE_CHRONOLOGY.md",
+      "sha256": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693",
+      "expected": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\prequel.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "expected": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\climax_tag.manifest.json",
+      "sha256": "3edf21b51c2bfa550d00d0deb5b640ba55b89b1d7210bfb2b5461c9bb77dd2d1",
+      "expected": "3edf21b51c2bfa550d00d0deb5b640ba55b89b1d7210bfb2b5461c9bb77dd2d1",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\tapped_out_main.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "expected": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\characters\\francine.json",
+      "sha256": "3f8139a2a8e9189c6bcac1a576a73dc2af7b289ca47a233ac79c35a2b3301fd2",
+      "expected": "3f8139a2a8e9189c6bcac1a576a73dc2af7b289ca47a233ac79c35a2b3301fd2",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\tapped_out_b.md",
+      "sha256": "1b70d6a2e02a92f7f55d9ad69999530aa497e5cf2ec91c41ffca0dc3426b4ba0",
+      "expected": "1b70d6a2e02a92f7f55d9ad69999530aa497e5cf2ec91c41ffca0dc3426b4ba0",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\characters\\holly.json",
+      "sha256": "9bebca2e7f1f58ca1c9d33b7c98baba73adfd3b8c0ee3ade90c852b8c799ac86",
+      "expected": "9bebca2e7f1f58ca1c9d33b7c98baba73adfd3b8c0ee3ade90c852b8c799ac86",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\tapped_out_b.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "expected": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\timeline.json",
+      "sha256": "4de2861ab5da47cb345a6e30ccefb9f65b0365e4f63deaf2c4db19e863c0d6b4",
+      "expected": "4de2861ab5da47cb345a6e30ccefb9f65b0365e4f63deaf2c4db19e863c0d6b4",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\spring_break.md",
+      "sha256": "347bc61b3eceeb1d240d8b6acca8d56e12db101731dc1c79c264da61db2d8ebc",
+      "expected": "347bc61b3eceeb1d240d8b6acca8d56e12db101731dc1c79c264da61db2d8ebc",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\act_2.md",
+      "sha256": "cf9194f953cbd07fbf6c8102c06822752575ba909aabf53845b6beb27731212a",
+      "expected": "cf9194f953cbd07fbf6c8102c06822752575ba909aabf53845b6beb27731212a",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\spring_break.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "expected": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\prequel.md",
+      "sha256": "47fa5c089adb8860f6c2c56dc5a49354e98fccdf1d103bdbd68136ce56c8dd80",
+      "expected": "47fa5c089adb8860f6c2c56dc5a49354e98fccdf1d103bdbd68136ce56c8dd80",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\tapped_out_quick_story.md",
+      "sha256": "6047b96e0e312f0e45f881c97bcdd011c92b3474f5add9921938b8119a96cc79",
+      "expected": "6047b96e0e312f0e45f881c97bcdd011c92b3474f5add9921938b8119a96cc79",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\characters\\rainee.json",
+      "sha256": "55fc6596e32a61d1f7b28d67756f65e9d98f4378b8b5f1e00d7b4f727465a79d",
+      "expected": "55fc6596e32a61d1f7b28d67756f65e9d98f4378b8b5f1e00d7b4f727465a79d",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\gemini_hot_scoomp_master.md",
+      "sha256": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693",
+      "expected": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\characters\\kelly.json",
+      "sha256": "6afa13bed96fe354db8b71371b3618aed4eef578bc356920718a3510dc95a96c",
+      "expected": "6afa13bed96fe354db8b71371b3618aed4eef578bc356920718a3510dc95a96c",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\act_1.md",
+      "sha256": "b38d1a824dae1a2e935eb2098ee9d82649d633789d89f0e5eb8d7cd1f9983cc6",
+      "expected": "b38d1a824dae1a2e935eb2098ee9d82649d633789d89f0e5eb8d7cd1f9983cc6",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\characters\\ma_ma_ling.json",
+      "sha256": "a9ddf42bd8521272c47e0a44430c5c04b1713b00f29c8d141e5b14780a6d7b46",
+      "expected": "a9ddf42bd8521272c47e0a44430c5c04b1713b00f29c8d141e5b14780a6d7b46",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\characters\\haley.json",
+      "sha256": "150cac9e60a85b98b333635363519c39ea7e17ee3b6d9253ab5b11f0642674ce",
+      "expected": "150cac9e60a85b98b333635363519c39ea7e17ee3b6d9253ab5b11f0642674ce",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\act_1.manifest.json",
+      "sha256": "7355e1b7397e85e2b8a624cb2627c3834e35cbc24c7a558fe4e47f3f36344d2c",
+      "expected": "7355e1b7397e85e2b8a624cb2627c3834e35cbc24c7a558fe4e47f3f36344d2c",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\gemini_hot_scoomp_master.manifest.json",
+      "sha256": "007727a15b0b9a09483ce32243befaaa4f537cd937ad3a0257f7e671fadf6ab6",
+      "expected": "007727a15b0b9a09483ce32243befaaa4f537cd937ad3a0257f7e671fadf6ab6",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\out\\venice_graph_restart_20261101_01\\tapped_out_main.md",
+      "sha256": "636799147f295a86c0adcc2b3d75fd486ede388be0874f33eb3c0ddd83080694",
+      "expected": "636799147f295a86c0adcc2b3d75fd486ede388be0874f33eb3c0ddd83080694",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\HOT_SCOOMP_COMPLETE_CHRONOLOGY.md",
+      "sha256": "b907dd64a0f85a76199a9c79645a5f2694a48379aa8f5c572139582d7187d03f",
+      "expected": "b907dd64a0f85a76199a9c79645a5f2694a48379aa8f5c572139582d7187d03f",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\Episode Outline_ Tapped Out (Main Story Only).docx",
+      "sha256": "9539958663e0dd49c51fa833f8620cb16d395d6d4f328818d9292babb23ca5be",
+      "expected": "9539958663e0dd49c51fa833f8620cb16d395d6d4f328818d9292babb23ca5be",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\Episode Outline_ Tapped Out (Main Story Only).pdf",
+      "sha256": "f786045462a09c7602825c1ffcae40bacfef8e68ad1538caacffa3e4647f9d9b",
+      "expected": "f786045462a09c7602825c1ffcae40bacfef8e68ad1538caacffa3e4647f9d9b",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\Tapped Out Episode Story B.pdf",
+      "sha256": "5073a22cd1a92338dd48a8642b8c4ef8aaad25d8cb6ed1dc52f3ad1dd681aebb",
+      "expected": "5073a22cd1a92338dd48a8642b8c4ef8aaad25d8cb6ed1dc52f3ad1dd681aebb",
+      "match": true
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\Final Quick Story Stella into Big Tiddy Nerdy Female Steve.docx",
+      "sha256": "599976b902ec8fc54fdeead2eccdb7e68f828d7f5130ced82e863c31b2fcda79",
+      "expected": "599976b902ec8fc54fdeead2eccdb7e68f828d7f5130ced82e863c31b2fcda79",
+      "match": true
+    }
+  ],
+  "copied_files": [
+    {
+      "path": "act_1.manifest.json",
+      "sha256": "7355e1b7397e85e2b8a624cb2627c3834e35cbc24c7a558fe4e47f3f36344d2c"
+    },
+    {
+      "path": "act_1.md",
+      "sha256": "b38d1a824dae1a2e935eb2098ee9d82649d633789d89f0e5eb8d7cd1f9983cc6"
+    },
+    {
+      "path": "act_2.manifest.json",
+      "sha256": "883a426faab4c3fe6f621a0e2dad3ec471e89975108b85bf0f20c527d6c05bcc"
+    },
+    {
+      "path": "act_2.md",
+      "sha256": "cf9194f953cbd07fbf6c8102c06822752575ba909aabf53845b6beb27731212a"
+    },
+    {
+      "path": "character_data\\francine_source_index.json",
+      "sha256": "de39fb299b68261422f3acdfcbc8a26612cf5bbab8435c27366bb45750932dfb"
+    },
+    {
+      "path": "character_data\\haley_legacy_dialectic.json",
+      "sha256": "6aa25984f25eaf0d1b7e7b3b62b76dff17f196d5ecacb9de71958b8e7d779a88"
+    },
+    {
+      "path": "character_data\\haley_source_index.json",
+      "sha256": "83e9bb18b78675181fd56ec8b89cb42c36ed644d4c63e6e699ef825f0fd9faab"
+    },
+    {
+      "path": "character_data\\holly_source_index.json",
+      "sha256": "9fde271ea325166c9a1c5d2a957b1a7e307940a4cc628bb535805c329a72ab7e"
+    },
+    {
+      "path": "character_data\\kelly_source_index.json",
+      "sha256": "973f410501a742bd29c9add6394859a9fcb636b818118f24fe14f6ae09e2084b"
+    },
+    {
+      "path": "character_data\\ma_ma_ling_source_index.json",
+      "sha256": "c2a65350a2b69ae97aa56530b292125aeb2575fe41d8bef576d165eb61f9ba09"
+    },
+    {
+      "path": "character_data\\rainee_legacy_dialectic.json",
+      "sha256": "13deb09f4da11f49e1ecf48039def09400a2f5e57b3a46edf8eec4b0cee3de8a"
+    },
+    {
+      "path": "character_data\\rainee_source_index.json",
+      "sha256": "392a2a988218af933440b0e07ad980be3599d66b7061a0ef877e0f7479dd41e5"
+    },
+    {
+      "path": "character_data\\stella_source_index.json",
+      "sha256": "cff458154811e61f6a2821b9c047fc744e7671897055251028170fde2945fb33"
+    },
+    {
+      "path": "characters\\francine.json",
+      "sha256": "3f8139a2a8e9189c6bcac1a576a73dc2af7b289ca47a233ac79c35a2b3301fd2"
+    },
+    {
+      "path": "characters\\haley.json",
+      "sha256": "150cac9e60a85b98b333635363519c39ea7e17ee3b6d9253ab5b11f0642674ce"
+    },
+    {
+      "path": "characters\\holly.json",
+      "sha256": "9bebca2e7f1f58ca1c9d33b7c98baba73adfd3b8c0ee3ade90c852b8c799ac86"
+    },
+    {
+      "path": "characters\\kelly.json",
+      "sha256": "6afa13bed96fe354db8b71371b3618aed4eef578bc356920718a3510dc95a96c"
+    },
+    {
+      "path": "characters\\ma_ma_ling.json",
+      "sha256": "a9ddf42bd8521272c47e0a44430c5c04b1713b00f29c8d141e5b14780a6d7b46"
+    },
+    {
+      "path": "characters\\rainee.json",
+      "sha256": "da1edc15d8d1e9488bd7c6368ddb3c7e6e89061516d1362d9606bbf802bb5108"
+    },
+    {
+      "path": "characters\\stella.json",
+      "sha256": "4bb75f81aa4dd5c235327734cc63eddcec83c28f8d8d25261e586e328a1eec3f"
+    },
+    {
+      "path": "climax_tag.manifest.json",
+      "sha256": "3edf21b51c2bfa550d00d0deb5b640ba55b89b1d7210bfb2b5461c9bb77dd2d1"
+    },
+    {
+      "path": "climax_tag.md",
+      "sha256": "1b41b5af9ab6af7f4c74a3f963e8eb42704dca5c64f963928bb3cd92995fa914"
+    },
+    {
+      "path": "episode_0.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b"
+    },
+    {
+      "path": "episode_0.md",
+      "sha256": "c17ce518da420dc8e48c03257774593003f103e24176ca28b044a4cfc264fc79"
+    },
+    {
+      "path": "gemini_hot_scoomp_master.manifest.json",
+      "sha256": "007727a15b0b9a09483ce32243befaaa4f537cd937ad3a0257f7e671fadf6ab6"
+    },
+    {
+      "path": "gemini_hot_scoomp_master.md",
+      "sha256": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693"
+    },
+    {
+      "path": "prequel.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b"
+    },
+    {
+      "path": "prequel.md",
+      "sha256": "47fa5c089adb8860f6c2c56dc5a49354e98fccdf1d103bdbd68136ce56c8dd80"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "sha256": "52c917371b3500e4ea417670dabb09e1e0515eebb102a14cd66ba987b9c85769"
+    },
+    {
+      "path": "sources\\b_pdf.pdf",
+      "sha256": "5073a22cd1a92338dd48a8642b8c4ef8aaad25d8cb6ed1dc52f3ad1dd681aebb"
+    },
+    {
+      "path": "sources\\chronology.md",
+      "sha256": "b907dd64a0f85a76199a9c79645a5f2694a48379aa8f5c572139582d7187d03f"
+    },
+    {
+      "path": "sources\\main_docx.docx",
+      "sha256": "9539958663e0dd49c51fa833f8620cb16d395d6d4f328818d9292babb23ca5be"
+    },
+    {
+      "path": "sources\\main_pdf.pdf",
+      "sha256": "f786045462a09c7602825c1ffcae40bacfef8e68ad1538caacffa3e4647f9d9b"
+    },
+    {
+      "path": "sources\\tapped_out_quick_story_docx.docx",
+      "sha256": "599976b902ec8fc54fdeead2eccdb7e68f828d7f5130ced82e863c31b2fcda79"
+    },
+    {
+      "path": "spring_break.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b"
+    },
+    {
+      "path": "spring_break.md",
+      "sha256": "347bc61b3eceeb1d240d8b6acca8d56e12db101731dc1c79c264da61db2d8ebc"
+    },
+    {
+      "path": "tapped_out_b.extraction.json",
+      "sha256": "1921e48903e410fb7fbe7a6b58b6a6479547600dcdb1877d29f720a6f1d7d375"
+    },
+    {
+      "path": "tapped_out_b.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b"
+    },
+    {
+      "path": "tapped_out_b.md",
+      "sha256": "1b70d6a2e02a92f7f55d9ad69999530aa497e5cf2ec91c41ffca0dc3426b4ba0"
+    },
+    {
+      "path": "tapped_out_main.extraction.json",
+      "sha256": "f61fcc87ce2e5d7e348f61ecf61d762da267a0b2c7f98bdbba94dce4fc9983d5"
+    },
+    {
+      "path": "tapped_out_main.manifest.json",
+      "sha256": "eaf6d0c963b76578748e4318109ad9512139e2af856889bbd2a2dd290d67400b"
+    },
+    {
+      "path": "tapped_out_main.md",
+      "sha256": "636799147f295a86c0adcc2b3d75fd486ede388be0874f33eb3c0ddd83080694"
+    },
+    {
+      "path": "tapped_out_main_pdf.extraction.json",
+      "sha256": "3eb521bc6e54450aa7590823a3e6b25b494e91468bdfe115faa6ed73edc948ef"
+    },
+    {
+      "path": "tapped_out_quick_story.extraction.json",
+      "sha256": "1b96f481480e9746a7a7d7345be1e354b5824adbe63b3c77567cef4ff664038e"
+    },
+    {
+      "path": "tapped_out_quick_story.manifest.json",
+      "sha256": "6ef7ce888af6ecaeee2a8d3c08afca1830ddb8bb9f172a668bbee745c95b943f"
+    },
+    {
+      "path": "tapped_out_quick_story.md",
+      "sha256": "6047b96e0e312f0e45f881c97bcdd011c92b3474f5add9921938b8119a96cc79"
+    },
+    {
+      "path": "timeline.json",
+      "sha256": "4de2861ab5da47cb345a6e30ccefb9f65b0365e4f63deaf2c4db19e863c0d6b4"
+    }
+  ],
+  "note": "Separate snapshot; does not include unsaved drafts, prior proposal/session history, or path-bearing journals."
+}

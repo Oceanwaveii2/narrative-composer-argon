@@ -1,0 +1,20 @@
+{
+  "manifest_name": "auto",
+  "version": "1.0.0",
+  "facts": {},
+  "initial_beliefs": {},
+  "props": {},
+  "character_locations": {},
+  "room_topology": {},
+  "beats": {},
+  "initial_character_states": {
+    "haley": "haley.state.bbl_influencer",
+    "stella": "stella.state.big_tiddy_steve"
+  },
+  "initial_state_provenance": {
+    "status": "exercise selection; author review pending",
+    "source": "chronology",
+    "source_line": 2697,
+    "reason": "Section begins after earlier transformations; state context is not a new transition."
+  }
+}

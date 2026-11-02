@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "description": "Available story and separate outline editions; incomplete.",
+  "sources": {
+    "chronology": {
+      "original": "C:\\Users\\User\\OneDrive\\Current Work\\Documents\\ChatGPT\\Local Stuff\\SOL_HANDOFF_2026-11-01\\projects\\deepseek_narrative_composer\\HOT_SCOOMP_COMPLETE_CHRONOLOGY.md",
+      "copy": "sources\\chronology.md",
+      "sha256": "b907dd64a0f85a76199a9c79645a5f2694a48379aa8f5c572139582d7187d03f"
+    },
+    "main_docx": {
+      "original": "C:\\Users\\User\\Downloads\\Episode Outline_ Tapped Out (Main Story Only).docx",
+      "copy": "sources\\main_docx.docx",
+      "sha256": "9539958663e0dd49c51fa833f8620cb16d395d6d4f328818d9292babb23ca5be"
+    },
+    "main_pdf": {
+      "original": "C:\\Users\\User\\Downloads\\Episode Outline_ Tapped Out (Main Story Only).pdf",
+      "copy": "sources\\main_pdf.pdf",
+      "sha256": "f786045462a09c7602825c1ffcae40bacfef8e68ad1538caacffa3e4647f9d9b"
+    },
+    "b_pdf": {
+      "original": "C:\\Users\\User\\Downloads\\Tapped Out Episode Story B.pdf",
+      "copy": "sources\\b_pdf.pdf",
+      "sha256": "5073a22cd1a92338dd48a8642b8c4ef8aaad25d8cb6ed1dc52f3ad1dd681aebb"
+    },
+    "tapped_out_quick_story_docx": {
+      "original": "C:\\Users\\User\\Downloads\\Final Quick Story Stella into Big Tiddy Nerdy Female Steve.docx",
+      "copy": "sources/tapped_out_quick_story_docx.docx",
+      "sha256": "599976b902ec8fc54fdeead2eccdb7e68f828d7f5130ced82e863c31b2fcda79"
+    }
+  },
+  "sections": [
+    {
+      "id": "gemini_master",
+      "story": "gemini_hot_scoomp_master.md",
+      "manifest": "gemini_hot_scoomp_master.manifest.json",
+      "canon": "hot_scoomp_main",
+      "status": "Gemini chronology working copy",
+      "source": "Gemini session chronology",
+      "sha256": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693"
+    },
+    {
+      "id": "episode_0",
+      "story": "episode_0.md",
+      "manifest": "episode_0.manifest.json",
+      "canon": "hot_scoomp_main",
+      "source": "chronology",
+      "start_line": 1,
+      "end_line": 862,
+      "sha256": "c17ce518da420dc8e48c03257774593003f103e24176ca28b044a4cfc264fc79"
+    },
+    {
+      "id": "spring_break",
+      "story": "spring_break.md",
+      "manifest": "spring_break.manifest.json",
+      "canon": "ling_au",
+      "source": "chronology",
+      "start_line": 863,
+      "end_line": 1159,
+      "sha256": "347bc61b3eceeb1d240d8b6acca8d56e12db101731dc1c79c264da61db2d8ebc"
+    },
+    {
+      "id": "prequel",
+      "story": "prequel.md",
+      "manifest": "prequel.manifest.json",
+      "canon": "hot_scoomp_main",
+      "source": "chronology",
+      "start_line": 1160,
+      "end_line": 1838,
+      "sha256": "47fa5c089adb8860f6c2c56dc5a49354e98fccdf1d103bdbd68136ce56c8dd80"
+    },
+    {
+      "id": "act_1",
+      "story": "act_1.md",
+      "manifest": "act_1.manifest.json",
+      "canon": "hot_scoomp_main",
+      "source": "chronology",
+      "start_line": 1839,
+      "end_line": 2159,
+      "sha256": "b38d1a824dae1a2e935eb2098ee9d82649d633789d89f0e5eb8d7cd1f9983cc6"
+    },
+    {
+      "id": "act_2",
+      "story": "act_2.md",
+      "manifest": "act_2.manifest.json",
+      "canon": "hot_scoomp_main",
+      "source": "chronology",
+      "start_line": 2160,
+      "end_line": 2696,
+      "sha256": "cf9194f953cbd07fbf6c8102c06822752575ba909aabf53845b6beb27731212a"
+    },
+    {
+      "id": "climax_tag",
+      "story": "climax_tag.md",
+      "manifest": "climax_tag.manifest.json",
+      "canon": "hot_scoomp_main",
+      "source": "chronology",
+      "start_line": 2697,
+      "end_line": 2826,
+      "sha256": "1b41b5af9ab6af7f4c74a3f963e8eb42704dca5c64f963928bb3cd92995fa914"
+    },
+    {
+      "id": "tapped_out_main",
+      "story": "tapped_out_main.md",
+      "manifest": "tapped_out_main.manifest.json",
+      "canon": "hot_scoomp_main",
+      "source": "main_docx",
+      "sha256": "636799147f295a86c0adcc2b3d75fd486ede388be0874f33eb3c0ddd83080694",
+      "status": "outline extraction; review required"
+    },
+    {
+      "id": "tapped_out_b",
+      "story": "tapped_out_b.md",
+      "manifest": "tapped_out_b.manifest.json",
+      "canon": "hot_scoomp_main",
+      "source": "b_pdf",
+      "sha256": "1b70d6a2e02a92f7f55d9ad69999530aa497e5cf2ec91c41ffca0dc3426b4ba0",
+      "status": "outline extraction; review required"
+    },
+    {
+      "id": "tapped_out_quick_story",
+      "story": "tapped_out_quick_story.md",
+      "manifest": "tapped_out_quick_story.manifest.json",
+      "canon": "hot_scoomp_main",
+      "source": "tapped_out_quick_story_docx",
+      "sha256": "6047b96e0e312f0e45f881c97bcdd011c92b3474f5add9921938b8119a96cc79",
+      "status": "separate story variant; plain-text extraction and formatting require review"
+    }
+  ],
+  "planned_events": [
+    {
+      "id": "hayley_basement",
+      "status": "not written",
+      "after": [
+        "jess_event",
+        "steve_requests_help"
+      ]
+    }
+  ],
+  "author_exclusions": [
+    "main outline beat 11A and related breast-milk storyline"
+  ]
+}

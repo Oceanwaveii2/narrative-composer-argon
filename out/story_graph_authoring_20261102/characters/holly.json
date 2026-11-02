@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "entity_id": "holly",
+  "display_name": "Holly",
+  "aliases": [
+    "HOLLY",
+    "HOLLY GRAHAM"
+  ],
+  "canons": [
+    "hot_scoomp_main"
+  ],
+  "base_state": "base",
+  "attributes": {
+    "rank": "ruler"
+  },
+  "states": [
+    {
+      "id": "holly.state.base",
+      "slug": "base",
+      "label": "Holly Graham (Studio Ruler)",
+      "order": 0,
+      "canons": [
+        "hot_scoomp_main"
+      ],
+      "visual_anchors": [
+        "blonde",
+        "studio"
+      ]
+    }
+  ],
+  "transforms": [],
+  "data_port": {
+    "id": "holly.port.data",
+    "mode": "inherit",
+    "bindings": [
+      {
+        "dataset_id": "holly_source_index",
+        "revision": "1",
+        "content_hash": "9fde271ea325166c9a1c5d2a957b1a7e307940a4cc628bb535805c329a72ab7e",
+        "domain": "story_evidence",
+        "schema_id": "narrative.story-index.v1",
+        "relative_path": "holly_source_index.json"
+      }
+    ]
+  }
+}

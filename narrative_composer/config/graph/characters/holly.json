@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "entity_id": "holly",
+  "display_name": "Holly",
+  "aliases": ["HOLLY", "HOLLY GRAHAM"],
+  "canons": ["hot_scoomp_main"],
+  "base_state": "base",
+  "attributes": {
+    "rank": "ruler"
+  },
+  "states": [
+    {
+      "id": "holly.state.base",
+      "slug": "base",
+      "label": "Holly Graham (Studio Ruler)",
+      "order": 0,
+      "canons": ["hot_scoomp_main"],
+      "visual_anchors": ["blonde", "studio"]
+    }
+  ],
+  "transforms": []
+}

@@ -1,0 +1,802 @@
+{
+  "dataset_id": "kelly_source_index",
+  "revision": "1",
+  "schema_id": "narrative.story-index.v1",
+  "owner_id": "kelly",
+  "review_status": "pending_review",
+  "method": "lexical mentions; attribution requires review",
+  "sources": [
+    {
+      "section": "gemini_master",
+      "file": "gemini_hot_scoomp_master.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693",
+      "references": [
+        {
+          "block_id": "action-0255bcb6",
+          "line": 21,
+          "role": "action",
+          "match": "KELLY",
+          "line_sha256": "5fa46dbcaac89a5653d415cb1c3d49ff2c072595a23b614b8a3daa770692d260",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a",
+          "line": 23,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f",
+          "line": 28,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-2",
+          "line": 35,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-2",
+          "line": 40,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f3d57604",
+          "line": 43,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "81eb94b2dfbebaae14ac2c454eee3d508f5f0246006a261e00d732fc47ddafba",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-3",
+          "line": 45,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-3",
+          "line": 52,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-4",
+          "line": 57,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f36064f0",
+          "line": 60,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "30e871aad181944b60603211507ce44c1696e524a995307103d9160e71fe6569",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-5",
+          "line": 62,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-6",
+          "line": 67,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-98c0a32a",
+          "line": 70,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "61d17a1d4c72c68286e70000eeaf81b6dd768b133167b131d61c11d204f7a761",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-4",
+          "line": 75,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-7",
+          "line": 80,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-5",
+          "line": 91,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-01aa1edd",
+          "line": 97,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "abcbab51288827f80637d8ad340ba2d088bcc5c51fd10f4f0eb95b63dc928cd5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-899aeee2",
+          "line": 109,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "cbb2ab8e9ffe2c3ed69ed8f8959922786f625771731dabb163eaeb56a4141cb3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-6",
+          "line": 111,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-7",
+          "line": 119,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-8",
+          "line": 126,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-8",
+          "line": 131,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-9",
+          "line": 141,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-10",
+          "line": 147,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-75943667",
+          "line": 152,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "f9774969aab157efc16caffdb722b934cd82c5d3e8d8d2d85aa7e4f4fb904e87",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-9",
+          "line": 154,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-11",
+          "line": 160,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e62fb120",
+          "line": 165,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "aa3d961fb2cb9098efcda9b630e220e6af063d2ff0e9ca12ab0ec6a84babb52c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-10",
+          "line": 167,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-77326d22",
+          "line": 317,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "2775bcfb98d11b27dc391eab5291901ee7cf848d6ca622543e54fe409b4f2af6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-12",
+          "line": 319,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-be969e07",
+          "line": 414,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "684e8db5f86729ec435787e2776ad96585f0910ab7d569b14840b1c4308aa118",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-13",
+          "line": 419,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "scene-5-kelly-s-toast",
+          "line": 805,
+          "role": "chunk_header",
+          "match": "Kelly",
+          "line_sha256": "9cf5f68198aa5db616ee1a4b46d955a57226246ac2abd06903e2940bfff78ac4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a63b09ba",
+          "line": 809,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "73dda03f2e42ec447472a8ef4f327e13f696c38bbd90499ef0fd19fa35e4a8b2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-14",
+          "line": 811,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-11",
+          "line": 817,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-12",
+          "line": 822,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-15",
+          "line": 828,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e448b918",
+          "line": 831,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "aca23115f5146837010450fa1a67d36d6af60d1604f207e20cb49c7ce930e0ed",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-13",
+          "line": 835,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-14",
+          "line": 841,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-15",
+          "line": 846,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-26a669b5",
+          "line": 847,
+          "role": "dialogue",
+          "match": "KELLY",
+          "line_sha256": "d843fef33a0b51894b095da28d823522a84d6f1a5bc5c166f778e57ea5c8a8ec",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-16",
+          "line": 851,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "episode_0",
+      "file": "episode_0.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "c17ce518da420dc8e48c03257774593003f103e24176ca28b044a4cfc264fc79",
+      "references": [
+        {
+          "block_id": "action-0255bcb6",
+          "line": 21,
+          "role": "action",
+          "match": "KELLY",
+          "line_sha256": "5fa46dbcaac89a5653d415cb1c3d49ff2c072595a23b614b8a3daa770692d260",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a",
+          "line": 23,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f",
+          "line": 28,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-2",
+          "line": 35,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-2",
+          "line": 40,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f3d57604",
+          "line": 43,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "81eb94b2dfbebaae14ac2c454eee3d508f5f0246006a261e00d732fc47ddafba",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-3",
+          "line": 45,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-3",
+          "line": 52,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-4",
+          "line": 57,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f36064f0",
+          "line": 60,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "30e871aad181944b60603211507ce44c1696e524a995307103d9160e71fe6569",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-5",
+          "line": 62,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-6",
+          "line": 67,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-98c0a32a",
+          "line": 70,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "61d17a1d4c72c68286e70000eeaf81b6dd768b133167b131d61c11d204f7a761",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-4",
+          "line": 75,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-7",
+          "line": 80,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-5",
+          "line": 91,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-01aa1edd",
+          "line": 97,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "abcbab51288827f80637d8ad340ba2d088bcc5c51fd10f4f0eb95b63dc928cd5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-899aeee2",
+          "line": 109,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "cbb2ab8e9ffe2c3ed69ed8f8959922786f625771731dabb163eaeb56a4141cb3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-6",
+          "line": 111,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-7",
+          "line": 119,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-8",
+          "line": 126,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-8",
+          "line": 131,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-9",
+          "line": 141,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-10",
+          "line": 147,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-75943667",
+          "line": 152,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "f9774969aab157efc16caffdb722b934cd82c5d3e8d8d2d85aa7e4f4fb904e87",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-9",
+          "line": 154,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-11",
+          "line": 160,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e62fb120",
+          "line": 165,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "aa3d961fb2cb9098efcda9b630e220e6af063d2ff0e9ca12ab0ec6a84babb52c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-10",
+          "line": 167,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-77326d22",
+          "line": 317,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "2775bcfb98d11b27dc391eab5291901ee7cf848d6ca622543e54fe409b4f2af6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-12",
+          "line": 319,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-be969e07",
+          "line": 414,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "684e8db5f86729ec435787e2776ad96585f0910ab7d569b14840b1c4308aa118",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-13",
+          "line": 419,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "scene-5-kelly-s-toast",
+          "line": 805,
+          "role": "chunk_header",
+          "match": "Kelly",
+          "line_sha256": "9cf5f68198aa5db616ee1a4b46d955a57226246ac2abd06903e2940bfff78ac4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a63b09ba",
+          "line": 809,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "73dda03f2e42ec447472a8ef4f327e13f696c38bbd90499ef0fd19fa35e4a8b2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-14",
+          "line": 811,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-11",
+          "line": 817,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-12",
+          "line": 822,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-fc77149a-15",
+          "line": 828,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "73768408fdb027e64e2d59ad5d8672e5e73a2f9ebcc659301f3edf6ad2bdaa97",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e448b918",
+          "line": 831,
+          "role": "action",
+          "match": "Kelly",
+          "line_sha256": "aca23115f5146837010450fa1a67d36d6af60d1604f207e20cb49c7ce930e0ed",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-13",
+          "line": 835,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-14",
+          "line": 841,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-15",
+          "line": 846,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-26a669b5",
+          "line": 847,
+          "role": "dialogue",
+          "match": "KELLY",
+          "line_sha256": "d843fef33a0b51894b095da28d823522a84d6f1a5bc5c166f778e57ea5c8a8ec",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-a2fe3c6f-16",
+          "line": 851,
+          "role": "cue",
+          "match": "KELLY",
+          "line_sha256": "2d634ac8d11b022e9326a81dfc71789a57414e161dd4f5f1449b04070fcea3d9",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "spring_break",
+      "file": "spring_break.md",
+      "canon": "ling_au",
+      "sha256": "347bc61b3eceeb1d240d8b6acca8d56e12db101731dc1c79c264da61db2d8ebc",
+      "references": []
+    },
+    {
+      "section": "prequel",
+      "file": "prequel.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "47fa5c089adb8860f6c2c56dc5a49354e98fccdf1d103bdbd68136ce56c8dd80",
+      "references": []
+    },
+    {
+      "section": "act_1",
+      "file": "act_1.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "b38d1a824dae1a2e935eb2098ee9d82649d633789d89f0e5eb8d7cd1f9983cc6",
+      "references": []
+    },
+    {
+      "section": "act_2",
+      "file": "act_2.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "cf9194f953cbd07fbf6c8102c06822752575ba909aabf53845b6beb27731212a",
+      "references": []
+    },
+    {
+      "section": "climax_tag",
+      "file": "climax_tag.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "1b41b5af9ab6af7f4c74a3f963e8eb42704dca5c64f963928bb3cd92995fa914",
+      "references": []
+    },
+    {
+      "section": "tapped_out_main",
+      "file": "tapped_out_main.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "636799147f295a86c0adcc2b3d75fd486ede388be0874f33eb3c0ddd83080694",
+      "references": []
+    },
+    {
+      "section": "tapped_out_b",
+      "file": "tapped_out_b.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "1b70d6a2e02a92f7f55d9ad69999530aa497e5cf2ec91c41ffca0dc3426b4ba0",
+      "references": []
+    },
+    {
+      "section": "tapped_out_quick_story",
+      "file": "tapped_out_quick_story.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "6047b96e0e312f0e45f881c97bcdd011c92b3474f5add9921938b8119a96cc79",
+      "references": []
+    }
+  ]
+}

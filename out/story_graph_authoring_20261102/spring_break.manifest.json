@@ -1,0 +1,10 @@
+{
+  "manifest_name": "auto",
+  "version": "1.0.0",
+  "facts": {},
+  "initial_beliefs": {},
+  "props": {},
+  "character_locations": {},
+  "room_topology": {},
+  "beats": {}
+}

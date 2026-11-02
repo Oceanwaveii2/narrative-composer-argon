@@ -1,0 +1,15 @@
+{
+  "entity_id": "dana",
+  "display_name": "Dana",
+  "canons": ["recovery"],
+  "base_state": "base",
+  "states": [
+    {"id": "dana.state.base", "slug": "base", "label": "Calm", "order": 0, "cue_aliases": [{"cue":"DANA","state":null}]},
+    {"id": "dana.state.alert", "slug": "alert", "label": "Alert", "order": 1, "enter_patterns": ["Dana changes into the alert form"], "visual_anchors": ["cold"], "voice_profile": "measured", "cue_aliases": [{"cue":"DANA-ALERT","state":"alert"}]}
+  ],
+  "transforms": [{"id":"dana.xform.base__alert","from_state":"dana.state.base","to_state":"dana.state.alert","triggers":["pulse"],"reversible":true}],
+  "attributes": {
+    "profile_version": "cautious-1",
+    "behavior_rules": [{"rule_id":"check_latch","event":"challenge","response":"Dana checks the latch before answering.","state":"alert","required_beliefs":{"door_secret":1}}]
+  }
+}

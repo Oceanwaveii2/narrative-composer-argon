@@ -1,0 +1,301 @@
+{
+  "manifest_name": "Hot Scoomp - Act One: The Transformation",
+  "version": "1.0.0",
+  "facts": {
+    "fact_hg_pricing": {
+      "fact_id": "fact_hg_pricing",
+      "category": "commercial",
+      "ground_truth": true,
+      "canonical_text": "HG Studio charges $500 after the first free class, and Lindsay operates the desk.",
+      "embargo_tokens": ["five hundred dollars", "500 dollars", "$500", "lindsay"]
+    },
+    "fact_frontdesk_zap": {
+      "fact_id": "fact_frontdesk_zap",
+      "category": "backstory",
+      "ground_truth": true,
+      "canonical_text": "Hayley was zapped at the HG front desk at 2:00 PM today by Holly Graham.",
+      "embargo_tokens": ["overnight", "yesterday morning"]
+    },
+    "fact_steve_identity": {
+      "fact_id": "fact_steve_identity",
+      "category": "identity",
+      "ground_truth": true,
+      "canonical_text": "Francine always wished she had a son named Steve; Stella's transformed state embodies Steve.",
+      "embargo_tokens": ["steve", "steven", "big-tiddy steve", "big tiddy steve"]
+    },
+    "fact_rocket_ships": {
+      "fact_id": "fact_rocket_ships",
+      "category": "transformation",
+      "ground_truth": true,
+      "canonical_text": "Stella's Fleur du Mal silk lace morphed into coarse cartoon rocket-ship tighty-whities.",
+      "embargo_tokens": ["rocket ships", "apollo-era", "propulsion vehicles", "rocket ship print"]
+    },
+    "fact_gloria_broken": {
+      "fact_id": "fact_gloria_broken",
+      "category": "crime_event",
+      "ground_truth": true,
+      "canonical_text": "Francine's favorite pink ceramic flamingo lamp, Gloria, was shattered by the pink net.",
+      "embargo_tokens": []
+    },
+    "fact_battery_sponge": {
+      "fact_id": "fact_battery_sponge",
+      "category": "transformation",
+      "ground_truth": true,
+      "canonical_text": "The pink cube acted as a magical sponge; Stella absorbed Hayley's entire Goddess fox battery.",
+      "embargo_tokens": ["battery sponge", "drank your milkshake", "absorbed my fox battery"]
+    },
+    "fact_husband_jeff": {
+      "fact_id": "fact_husband_jeff",
+      "category": "domestic",
+      "ground_truth": true,
+      "canonical_text": "Hayley is legally married to Jeff Fischer, who lives in an RV in the driveway.",
+      "embargo_tokens": ["husband jeff", "my husband", "married to jeff", "jeff fischer"]
+    }
+  },
+  "initial_beliefs": {
+    "STELLA": {
+      "fact_hg_pricing": 0,
+      "fact_frontdesk_zap": 1,
+      "fact_steve_identity": 0,
+      "fact_rocket_ships": 0,
+      "fact_gloria_broken": 0,
+      "fact_battery_sponge": 0,
+      "fact_husband_jeff": 1
+    },
+    "HAYLEY": {
+      "fact_hg_pricing": 1,
+      "fact_frontdesk_zap": 1,
+      "fact_steve_identity": 0,
+      "fact_rocket_ships": 0,
+      "fact_gloria_broken": 0,
+      "fact_battery_sponge": 0,
+      "fact_husband_jeff": 1
+    },
+    "HOLLY": {
+      "fact_hg_pricing": 1,
+      "fact_frontdesk_zap": 1,
+      "fact_steve_identity": 0,
+      "fact_rocket_ships": 0,
+      "fact_gloria_broken": 0,
+      "fact_battery_sponge": 0,
+      "fact_husband_jeff": 0
+    },
+    "FRANCINE": {
+      "fact_hg_pricing": 0,
+      "fact_frontdesk_zap": 0,
+      "fact_steve_identity": 1,
+      "fact_rocket_ships": 0,
+      "fact_gloria_broken": 0,
+      "fact_battery_sponge": 0,
+      "fact_husband_jeff": 1
+    }
+  },
+  "props": {
+    "gloria_lamp": {
+      "item_id": "gloria_lamp",
+      "name": "Gloria the Flamingo Lamp",
+      "lifecycle": "dormant",
+      "room_id": "living_room",
+      "held_by": null,
+      "equipped_slot": "none",
+      "is_visible": true,
+      "charges_remaining": null,
+      "max_charges": null,
+      "damage_description": null
+    },
+    "hayley_undercover_notes": {
+      "item_id": "hayley_undercover_notes",
+      "name": "Hayley's Undercover Reporter Notebook",
+      "lifecycle": "dormant",
+      "room_id": "living_room",
+      "held_by": null,
+      "equipped_slot": "none",
+      "is_visible": true,
+      "charges_remaining": null,
+      "max_charges": null,
+      "damage_description": null
+    },
+    "stella_polo_buttons": {
+      "item_id": "stella_polo_buttons",
+      "name": "Stella's Polo Buttons",
+      "lifecycle": "equipped",
+      "room_id": "living_room",
+      "held_by": "STELLA",
+      "equipped_slot": "torso",
+      "is_visible": true,
+      "charges_remaining": 6,
+      "max_charges": 6,
+      "damage_description": null
+    },
+    "stella_underwear": {
+      "item_id": "stella_underwear",
+      "name": "Stella's Underwear",
+      "lifecycle": "equipped",
+      "room_id": "living_room",
+      "held_by": "STELLA",
+      "equipped_slot": "pelvis",
+      "is_visible": true,
+      "charges_remaining": null,
+      "max_charges": null,
+      "damage_description": null
+    },
+    "rainee_bra": {
+      "item_id": "rainee_bra",
+      "name": "Rainee's Anti-Gravity Shapeshifting Bra",
+      "lifecycle": "dormant",
+      "room_id": "living_room",
+      "held_by": null,
+      "equipped_slot": "none",
+      "is_visible": false,
+      "charges_remaining": null,
+      "max_charges": null,
+      "damage_description": null
+    }
+  },
+  "character_locations": {
+    "STELLA": "upstairs_bedroom",
+    "ZOOEY": "upstairs_bedroom",
+    "KRISTEN": "upstairs_bedroom",
+    "DANUTA": "upstairs_bedroom",
+    "SNOT": "upstairs_bedroom",
+    "TOSHI": "upstairs_bedroom",
+    "HAYLEY": "living_room",
+    "HOLLY": "living_room",
+    "FRANCINE": "outside"
+  },
+  "room_topology": {
+    "upstairs_bedroom": ["hallway"],
+    "hallway": ["upstairs_bedroom", "living_room"],
+    "living_room": ["hallway", "kitchen", "outside"]
+  },
+  "beats": {
+    "cold_open": {
+      "beat_id": "cold_open",
+      "chunk_index": 0,
+      "beat_order": 1,
+      "slugline": "INT. SMITH HOUSE - STELLA'S BEDROOM - NIGHT (FIVE MINUTES EARLIER)",
+      "active_characters": ["STELLA", "ZOOEY", "KRISTEN", "DANUTA", "SNOT", "TOSHI"],
+      "dramatic_goal": "Stella holding court with Boobers girlfriends; reveals she spiked Hayley's Sephora highlighter this afternoon; hears shriek downstairs.",
+      "prerequisite_beat_ids": [],
+      "required_beliefs": [],
+      "required_prop_states": [],
+      "state_delta": {
+        "character_relocations": {
+          "STELLA": "living_room"
+        },
+        "epistemic_updates": []
+      }
+    },
+    "chunk1_roast_and_gloria": {
+      "beat_id": "chunk1_roast_and_gloria",
+      "chunk_index": 1,
+      "beat_order": 2,
+      "slugline": "INT. SMITH HOUSE - LIVING ROOM - NIGHT",
+      "active_characters": ["STELLA", "HAYLEY", "HOLLY"],
+      "dramatic_goal": "Stella roasts Holly using Hayley's open notes; roasts Hayley's Fake Cakes; Hayley crushes dumbbell; net drags Stella; Gloria shatters.",
+      "prerequisite_beat_ids": ["cold_open"],
+      "required_beliefs": [],
+      "required_prop_states": [
+        {"item_id": "gloria_lamp", "required_lifecycle": "dormant"}
+      ],
+      "state_delta": {
+        "prop_mutations": [
+          {"item_id": "gloria_lamp", "lifecycle": "destroyed"}
+        ],
+        "epistemic_updates": [
+          {"character_id": "STELLA", "fact_id": "fact_hg_pricing", "belief": 1},
+          {"character_id": "STELLA", "fact_id": "fact_gloria_broken", "belief": 1},
+          {"character_id": "HAYLEY", "fact_id": "fact_gloria_broken", "belief": 1},
+          {"character_id": "HOLLY", "fact_id": "fact_gloria_broken", "belief": 1}
+        ]
+      }
+    },
+    "chunk2_cube_and_buttons": {
+      "beat_id": "chunk2_cube_and_buttons",
+      "chunk_index": 2,
+      "beat_order": 3,
+      "slugline": "INT. SMITH HOUSE - LIVING ROOM - CONTINUOUS",
+      "active_characters": ["STELLA", "HAYLEY", "HOLLY"],
+      "dramatic_goal": "Stella bolts from Gloria shards, clips table; top 2 collar buttons snap; folded into cube; step-aerobics on roof; 20% to 70% saturation; remaining 4 torso buttons pop inside cube; underwear morphs to rocket-ship cotton; butt deflates into nerd shelf.",
+      "prerequisite_beat_ids": ["chunk1_roast_and_gloria"],
+      "required_beliefs": [
+        {"character_id": "STELLA", "fact_id": "fact_gloria_broken", "min_belief": 1}
+      ],
+      "required_prop_states": [
+        {"item_id": "stella_polo_buttons", "required_lifecycle": "equipped"}
+      ],
+      "state_delta": {
+        "prop_mutations": [
+          {"item_id": "stella_polo_buttons", "charges_delta": -6, "lifecycle": "expended"},
+          {"item_id": "stella_underwear", "lifecycle": "damaged"}
+        ],
+        "epistemic_updates": [
+          {"character_id": "STELLA", "fact_id": "fact_rocket_ships", "belief": 1}
+        ]
+      }
+    },
+    "chunk3_overtime_and_discovery": {
+      "beat_id": "chunk3_overtime_and_discovery",
+      "chunk_index": 3,
+      "beat_order": 4,
+      "slugline": "INT. SMITH HOUSE - LIVING ROOM - CONTINUOUS",
+      "active_characters": ["STELLA", "HAYLEY", "FRANCINE"],
+      "dramatic_goal": "120% Stella begs for 30 minutes overtime for field study; Hayley ramps to 150%, heads upstairs; Francine enters with laundry, spots meat cube; Hayley explains it is Stella and she begged for overtime.",
+      "prerequisite_beat_ids": ["chunk2_cube_and_buttons"],
+      "required_beliefs": [
+        {"character_id": "STELLA", "fact_id": "fact_rocket_ships", "min_belief": 1}
+      ],
+      "required_prop_states": [],
+      "state_delta": {
+        "character_relocations": {
+          "FRANCINE": "living_room"
+        },
+        "epistemic_updates": [
+          {"character_id": "FRANCINE", "fact_id": "fact_frontdesk_zap", "belief": 1}
+        ]
+      }
+    },
+    "chunk4_decompression_pop": {
+      "beat_id": "chunk4_decompression_pop",
+      "chunk_index": 4,
+      "beat_order": 5,
+      "slugline": "INT. SMITH HOUSE - LIVING ROOM - CONTINUOUS",
+      "active_characters": ["STELLA", "HAYLEY", "FRANCINE"],
+      "dramatic_goal": "Cube pops; Stella crashes onto couch; Francine roasts the wedgie and giant chest without discovering rocket ships; Stella takes breast notes; tries to change back, discovers power battery drained into cube.",
+      "prerequisite_beat_ids": ["chunk3_overtime_and_discovery"],
+      "required_beliefs": [],
+      "required_prop_states": [],
+      "state_delta": {
+        "epistemic_updates": [
+          {"character_id": "STELLA", "fact_id": "fact_battery_sponge", "belief": 1},
+          {"character_id": "HAYLEY", "fact_id": "fact_battery_sponge", "belief": 1}
+        ]
+      }
+    },
+    "chunk5_anti_gravity_steve": {
+      "beat_id": "chunk5_anti_gravity_steve",
+      "chunk_index": 5,
+      "beat_order": 6,
+      "slugline": "INT. SMITH HOUSE - LIVING ROOM - CONTINUOUS",
+      "active_characters": ["STELLA", "HAYLEY", "FRANCINE", "HOLLY"],
+      "dramatic_goal": "Francine puts on anti-gravity bra; Stella calibrates frequency; Francine inspects waistband and discovers rocket ships for the first time; Francine's nostalgic Steve monologue and naming; Hayley's change-back spell bounces because Stella absorbed her fox battery; Francine atomic wedgie & tickle torture; PB&J plea; Francine sweeps Gloria shards; Francine final judgment and 'Uh-huh.'",
+      "prerequisite_beat_ids": ["chunk4_decompression_pop"],
+      "required_beliefs": [
+        {"character_id": "STELLA", "fact_id": "fact_battery_sponge", "min_belief": 1}
+      ],
+      "required_prop_states": [
+        {"item_id": "gloria_lamp", "required_lifecycle": "destroyed"}
+      ],
+      "state_delta": {
+        "prop_mutations": [
+          {"item_id": "rainee_bra", "lifecycle": "equipped", "held_by": "STELLA"}
+        ],
+        "epistemic_updates": [
+          {"character_id": "FRANCINE", "fact_id": "fact_rocket_ships", "belief": 1},
+          {"character_id": "HAYLEY", "fact_id": "fact_steve_identity", "belief": 1},
+          {"character_id": "STELLA", "fact_id": "fact_steve_identity", "belief": 1}
+        ]
+      }
+    }
+  }
+}

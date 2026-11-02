@@ -1,0 +1,2745 @@
+{
+  "dataset_id": "rainee_source_index",
+  "revision": "1",
+  "schema_id": "narrative.story-index.v1",
+  "owner_id": "rainee",
+  "review_status": "pending_review",
+  "method": "lexical mentions; attribution requires review",
+  "sources": [
+    {
+      "section": "gemini_master",
+      "file": "gemini_hot_scoomp_master.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693",
+      "references": [
+        {
+          "block_id": "action-30faf9c4",
+          "line": 2,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "39ee538af154611e50847867ee6af2e01671808eac0084f610878709468a2af8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-10f5eda9",
+          "line": 105,
+          "role": "action",
+          "match": "RAINEE",
+          "line_sha256": "da655084bff799e9bf113a8ab51dc6bef48d353a06c1f230eb19edecf7a286ac",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-b2261a1f",
+          "line": 179,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "26e95a280afbc0f3433ba38e45ff19eef970b13ac111ce082087ce6c2c1909eb",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee",
+          "line": 183,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-3cd9c013",
+          "line": 187,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "18a3cd72ddb33799c45b17c1514db57639dfe45500219c6e529676455eb933e5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-b7565cab",
+          "line": 189,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "bfbe4ba81d9335bdb5aacf06d793e4b9cebfd643e60954fdde1a160931083d94",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-2",
+          "line": 202,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f",
+          "line": 208,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-8d9fa1b1",
+          "line": 215,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "33d906a70382add818eeefeb07441da97f94d5dff508a3fe513fcab4d28ad69c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-3",
+          "line": 217,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-4",
+          "line": 224,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-5",
+          "line": 230,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-2",
+          "line": 236,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-6067d8dd",
+          "line": 239,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "b20c5f20a1dfea87b82e2d065366d4a1e63410addb598e3d6edcd2248a4967ad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-3",
+          "line": 245,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-6",
+          "line": 251,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-4",
+          "line": 256,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-d47800ed",
+          "line": 262,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "2e523f00303f6a8a26b3159aabf5b4466b07c3cdfa00ab9ad7ee867e244dcd15",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-74f3f076",
+          "line": 274,
+          "role": "cue",
+          "match": "RAINEE/MADONNA",
+          "line_sha256": "eba09d46569f4c8984c0a55266a1e40de72f87681ff072bd5d8076548814640f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-0b5d160a",
+          "line": 299,
+          "role": "cue",
+          "match": "RAINEE/CHRISTIE",
+          "line_sha256": "5700127f22e6d1bf6fb1cc66decccfe2873227764f8e565744329f8c61100ef6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e24c13a7",
+          "line": 305,
+          "role": "cue",
+          "match": "RAINEE/CHRISTIE",
+          "line_sha256": "708552df52b25b29684e1ceb8ea09b8f7ede89cdefb630805fa586c5e2b7d318",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c7d10f04",
+          "line": 333,
+          "role": "cue",
+          "match": "RAINEE/HEATHER",
+          "line_sha256": "19f4102a559fb87631d4c4ccd19377a4dfbc4909eff0b9cb011e3031efea9aba",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-473ee789",
+          "line": 341,
+          "role": "cue",
+          "match": "RAINEE/HEATHER",
+          "line_sha256": "2df6dc9e8655a0f0be665c8451c8ed66a6be7ba59108eae96a3f6fbd7ac1b0f3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c7d10f04-2",
+          "line": 347,
+          "role": "cue",
+          "match": "RAINEE/HEATHER",
+          "line_sha256": "19f4102a559fb87631d4c4ccd19377a4dfbc4909eff0b9cb011e3031efea9aba",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-17203cf4",
+          "line": 375,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "36fd9cfdbe9e8f868df893a918f8a13665fb255b145cdc2cc06ba121cf70019c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-44013f0d",
+          "line": 377,
+          "role": "cue",
+          "match": "RAINEE/KIM",
+          "line_sha256": "e9c62e27d7e2f6988cfe292fd39a17d220d08bb76a650e9da7c227a13206a79b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-717a5fca",
+          "line": 383,
+          "role": "cue",
+          "match": "RAINEE/KIM",
+          "line_sha256": "13a472a2cdbe5e63e44b467be9232416872d548fd4d0c42836410a302983bab6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-84418627",
+          "line": 404,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "05e849a240138fc3529d8a424e54c45ae2f23e3dfd409ee77c99bbf8c4e18c2c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-705003cd",
+          "line": 431,
+          "role": "cue",
+          "match": "RAINEE/DEBBIE",
+          "line_sha256": "8ec1b13c003d3ff86a58d115830d62955fde595d4a39a02ca64f3e301bb538cc",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6ab22c5c",
+          "line": 437,
+          "role": "cue",
+          "match": "RAINEE/DEBBIE",
+          "line_sha256": "21991511ea7e275489c0be771adcf186f87eaa1474f83da8353ff1c97012e1d7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-485c8f8c",
+          "line": 460,
+          "role": "cue",
+          "match": "RAINEE/BO",
+          "line_sha256": "2d9940e883efde45c44ad2e6ae9f595cef123ad3a323fbba319016b427973b4a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-32fcce77",
+          "line": 465,
+          "role": "cue",
+          "match": "RAINEE/BO",
+          "line_sha256": "9c4e08ce05a15f9deaddb1ba75c47adf90b8b752858aff6318525fd2165932bb",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-32fcce77-2",
+          "line": 470,
+          "role": "cue",
+          "match": "RAINEE/BO",
+          "line_sha256": "9c4e08ce05a15f9deaddb1ba75c47adf90b8b752858aff6318525fd2165932bb",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-2b4555a7",
+          "line": 478,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "6eb1c0d7273caa179c4f7e6935c51fd49c98812691e93975ff05a8a6a91a45db",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-589c82f2",
+          "line": 486,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "2239268b6389b84e49fe7be9db118b3bbb277554d65401daabb4def4d572f76e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0b8f3365",
+          "line": 496,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "4990537d79a8d0d72e3a57c5650c11dd62b9a55e9c56a98e28569106e3764f58",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-c4b3892c",
+          "line": 506,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "a17eccb30af5541a8166524b1759299906f65a96c65c448c508982215d3bc0a2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-7",
+          "line": 508,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-8",
+          "line": 514,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-9",
+          "line": 520,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-10",
+          "line": 529,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-11",
+          "line": 540,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-12",
+          "line": 548,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-00fe11e4",
+          "line": 554,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "fb664b9dbb2bb539cde52889b0b18fe6ad5d79701215a28b25c28267dae9bd2e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-13",
+          "line": 556,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-14",
+          "line": 566,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-15",
+          "line": 573,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-16",
+          "line": 580,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-17",
+          "line": 587,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-18",
+          "line": 595,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-5",
+          "line": 601,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-4765a4c6",
+          "line": 604,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "9ab9d5d95ac2d73a48d4639d7314c5dcb216c1315b6d151fe3b50bcda342f6a2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-19",
+          "line": 609,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-20",
+          "line": 618,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-21",
+          "line": 633,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-4b6ce8a7",
+          "line": 639,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "aff77e23d65fedccab3997abc00f8ec89f3d6d8837a03a98567c34452acce10a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-82a43db4",
+          "line": 644,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "06a4cc7a04ce93ccc3d1cf489aecea12fec1e31aee457a1ca06f2c882b886c66",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-22",
+          "line": 646,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-23",
+          "line": 652,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-6",
+          "line": 658,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-7",
+          "line": 663,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-24",
+          "line": 670,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-ba94e461",
+          "line": 671,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "8338b4605fd8802d89f517dca7f52959b7e4cc225f983663bab222e04cef6164",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-25",
+          "line": 686,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-26",
+          "line": 692,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-27",
+          "line": 698,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-28",
+          "line": 705,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-29",
+          "line": 714,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-8",
+          "line": 720,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-30",
+          "line": 727,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-9",
+          "line": 732,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-31",
+          "line": 738,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-32",
+          "line": 744,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-33",
+          "line": 752,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-3e528efa",
+          "line": 756,
+          "role": "parenthetical",
+          "match": "Rainee",
+          "line_sha256": "a1ea552d2491f22c2e3af56f07544d5d0faf606d759a2011271e15f526b8084d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a531f07e",
+          "line": 766,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "63ed357a66de6049a9bbeabf38f00cd1d72ac357fc8fd46cc39ab61be5a742f0",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-34",
+          "line": 773,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-35",
+          "line": 781,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-36",
+          "line": 789,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-10",
+          "line": 795,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f108e95d",
+          "line": 801,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "b66b1426fee92c7e7adbc8c1dcf42696c8bb62421b6a6a77697380a0848e9d7a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-953e3991",
+          "line": 864,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "c8b885f8fa072228512df533f5ea9cce13ed36c552c71deb6ef2f10bcc7a5db0",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e9fc178e",
+          "line": 931,
+          "role": "action",
+          "match": "RAINEE",
+          "line_sha256": "e657f5d769430f7c483a0740e7dd9ce8960fd484a4f2d530e967e4318e821ba6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-37",
+          "line": 933,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-38",
+          "line": 941,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-51fea8cc",
+          "line": 944,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "06f1b0e8f94d5579afdd5e98a9bcc3a6631c12cc32dcc4459b5056586df9cf8f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e2e07c67",
+          "line": 950,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "4f96db80a181ca83da503349e636431e67c143dda41b455c2c953efc0b2cb04d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e",
+          "line": 964,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-44778138",
+          "line": 970,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "a9adb98368ef7310059c84d53cb55fef8c5581ebfe093e1cf7086a10dfb15ff3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-2",
+          "line": 972,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a70e477f",
+          "line": 986,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "48ccf83a614c127e3fc02e48e59cffb8691e1be9691d5263d56ec28ca77f03ec",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f83937cb",
+          "line": 990,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "c9e79b5e75885dbca646cc17f7aa439ae51854cae166fde839f8d387efd583d5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-3",
+          "line": 996,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-75a37913",
+          "line": 1011,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "c0c3acfb953d9315111fb7bdf7452a7b05b5f8bee43fe0f97a1e2f709d34c572",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-4",
+          "line": 1013,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-b07dec76",
+          "line": 1022,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "bc4958cb162fe3c5e929d0e79fef315feb3aad081ea3dd86c86091d38250261a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-9b695d3d",
+          "line": 1035,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "a6c53a7fc5fc8d818d5955fe2a13a77061a6c07737aeac1e4218956bde7eac57",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-6a0be250",
+          "line": 1039,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "5e9593a4b860d1b590a9272377209bfc8a86242ec9c80a7cec84c8093a5506b8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-5",
+          "line": 1044,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-d784c297",
+          "line": 1055,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "269ac3bc7c5a67409bbd36ecf4b67bc870d0f999509199e371a0b6f7c7af5a83",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-6",
+          "line": 1063,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-7",
+          "line": 1069,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-8",
+          "line": 1076,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-7668f0ff",
+          "line": 1079,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "a977baeb007a85896cfb2ce4f54a9505cfbbee6551d5db1c205cf4ea07db7dd8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-63026939",
+          "line": 1083,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "f44322382a266c98a44c1d56121829fa17bed95adb48f3360bb5f67f6591e099",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-9",
+          "line": 1089,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-10",
+          "line": 1095,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0a726e35",
+          "line": 1124,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "7afa437f5d7470e3b8914e61c4be4bb87526b04c1536d827198894c5e6be29eb",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-e93b26f4",
+          "line": 1130,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "e7c1fa1589583b73a92cc15a330d602e12cb79758a55f90708520ba326e86852",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-11",
+          "line": 1132,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-1fe6bb87",
+          "line": 1140,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "5b61411bf51c436b70bd93a04b91f7c12081282b52ed5f7732bdefd59eb49b62",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-1257744a",
+          "line": 1161,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "87dc4c50e6c5330e45de9a95131119cc153ebdc33febe59dcbddc11b06a4f519",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-44b53ea8",
+          "line": 1204,
+          "role": "action",
+          "match": "RAINEE",
+          "line_sha256": "38ffef0b544eefb2f13d7422deca3373873e1ac988e77386e2ee29884d49f42d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-80cfd1c2",
+          "line": 1232,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "93c9c8b7637f28eebb9c1050630991b96465725fa186de3d971e791e1c9aaae8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-39",
+          "line": 1234,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-772c8c43",
+          "line": 1239,
+          "role": "parenthetical",
+          "match": "Rainee",
+          "line_sha256": "9acc7e5d26afb96abaa44856dffacaea6c912b476013e0955583a59adad74b2e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-40",
+          "line": 1253,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0cb5645e",
+          "line": 1387,
+          "role": "action",
+          "match": "RAINEE",
+          "line_sha256": "3db0c29116e1ef37f747eb77290586ef347a8f20357105696a9974ff15008a7c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-69b75f68",
+          "line": 1402,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "323b3dd735bc26be2c194f6e3c0dd7841eff6b37336b03f8f1347f30b03a54b9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-18ee7ca9",
+          "line": 1405,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "1f9cc3952ef2c86657834ebd3ce2324f4c6249c1fb9632d8f9fa369c657fcd6e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-41",
+          "line": 1407,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-79ec1e96",
+          "line": 1426,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "00c6f44bf42bde10e7bf57204f59611e57b95dc02e5d1dccd11f6038cf2b187e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-95f65dc5",
+          "line": 1709,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "070d10ad83e49e83826b821615153881f4b33262e9ea509ab42b3d54c6c10014",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-7c4bb95a",
+          "line": 1745,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "42cebc13bb93da80ed6e5d59fece7f173764833b6b962fdf1a6b37635aab8c31",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-bac47ac6",
+          "line": 1760,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "6b90527087f612ccaaf87844ed5b92fa10be6c8d212cffd5672aa718407d4791",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-42",
+          "line": 1762,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0c3b591-5",
+          "line": 1870,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "468bb4707852b9de66b14ff1d3e678d8ee2ce4f6eb9e741dca557f7330187d09",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-04aaf937",
+          "line": 1870,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "468bb4707852b9de66b14ff1d3e678d8ee2ce4f6eb9e741dca557f7330187d09",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0c3b591-6",
+          "line": 1878,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "75e188d41c6cab173a4e152b31dd023f71eb40c929e8034cff348bb5c6e46a4b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-4821f104",
+          "line": 1878,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "75e188d41c6cab173a4e152b31dd023f71eb40c929e8034cff348bb5c6e46a4b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-b1c17a2c-2",
+          "line": 1952,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "b2dc77b0c12879e42a0a63b68de98f06899191fb38a837e5cb7463540944f031",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-93cc11d9",
+          "line": 1952,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "b2dc77b0c12879e42a0a63b68de98f06899191fb38a837e5cb7463540944f031",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-4",
+          "line": 1956,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "5cde3f308b08ca30ba7c2c204a551f44b6c4ec0689803a3cace9646d10ea0117",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-3d81e07c",
+          "line": 1956,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "5cde3f308b08ca30ba7c2c204a551f44b6c4ec0689803a3cace9646d10ea0117",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-31",
+          "line": 2368,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "cbb17218ba97334637f442901a32e47d77f62103ca7c42e1a42ab8eb9f838811",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-6b768043",
+          "line": 2368,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "cbb17218ba97334637f442901a32e47d77f62103ca7c42e1a42ab8eb9f838811",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-3db66970-10",
+          "line": 2392,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "bcba1c937c7555c7f11c77bbcd743b3a4c86d68c7827a92a5a46b2f6c93df11a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-a00794fc",
+          "line": 2392,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "bcba1c937c7555c7f11c77bbcd743b3a4c86d68c7827a92a5a46b2f6c93df11a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-41",
+          "line": 2446,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "eb5574bb17be7ebd956b69761630699f335f6d968b436829b5d1df1359e05b0a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-936b7185",
+          "line": 2446,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "eb5574bb17be7ebd956b69761630699f335f6d968b436829b5d1df1359e05b0a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-42",
+          "line": 2462,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "3b7293bfc497c86f55567b71a90eb63986c7f625b57d2ad51347aee5858352a5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-6da89feb",
+          "line": 2462,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "3b7293bfc497c86f55567b71a90eb63986c7f625b57d2ad51347aee5858352a5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-43",
+          "line": 2468,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "d18208bfa3c3ac2dafeb24fc3b5c8a8b5216129e920eca18d4d496484a315f98",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-e8dcc9db",
+          "line": 2468,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "d18208bfa3c3ac2dafeb24fc3b5c8a8b5216129e920eca18d4d496484a315f98",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-fd0be657",
+          "line": 2532,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "ff86cf032d4b3d59569a9dc3a0b75c7d3ea76be06c4c3ff41613dd8ea7d63df0",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-2143ddd2",
+          "line": 2546,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "e454271b3905045ba2513f8f328d01381887fd97994d2d6abbc470c88fde635e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-46",
+          "line": 2566,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "f6178674c717251e4473302dca44f5ced33bd67aa179f69297f72aa376bdd5bd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-76f62ba3",
+          "line": 2566,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "f6178674c717251e4473302dca44f5ced33bd67aa179f69297f72aa376bdd5bd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-48",
+          "line": 2584,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "2788acdb0c6a9d60317a3b6488e38a3fb9dd65cca406849a598ad02c00f211cd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-8c52e0ed",
+          "line": 2584,
+          "role": "parenthetical",
+          "match": "Rainee",
+          "line_sha256": "2788acdb0c6a9d60317a3b6488e38a3fb9dd65cca406849a598ad02c00f211cd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-d0e6f545",
+          "line": 2584,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "2788acdb0c6a9d60317a3b6488e38a3fb9dd65cca406849a598ad02c00f211cd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-52",
+          "line": 2612,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "c62a576f6a3b0b66f6df8d26343fc6f7f39b3ce15ee4e224ddb474b7ef6ba5e5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-87fbd973",
+          "line": 2612,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "c62a576f6a3b0b66f6df8d26343fc6f7f39b3ce15ee4e224ddb474b7ef6ba5e5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-59",
+          "line": 2674,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "f6a5b89de1ebe95a0f4cb53aa04cc7b6fab782188e9f2229b29bea3f8b8ed3b3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-bebc9083",
+          "line": 2674,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "f6a5b89de1ebe95a0f4cb53aa04cc7b6fab782188e9f2229b29bea3f8b8ed3b3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c706d454-70",
+          "line": 2676,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "3b59a552c9ff699933208168e07bbf032b2eedc98c755e0181110e32cf968518",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-597ee09f",
+          "line": 2676,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "3b59a552c9ff699933208168e07bbf032b2eedc98c755e0181110e32cf968518",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "episode_0",
+      "file": "episode_0.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "c17ce518da420dc8e48c03257774593003f103e24176ca28b044a4cfc264fc79",
+      "references": [
+        {
+          "block_id": "action-30faf9c4",
+          "line": 2,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "39ee538af154611e50847867ee6af2e01671808eac0084f610878709468a2af8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-10f5eda9",
+          "line": 105,
+          "role": "action",
+          "match": "RAINEE",
+          "line_sha256": "da655084bff799e9bf113a8ab51dc6bef48d353a06c1f230eb19edecf7a286ac",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-b2261a1f",
+          "line": 179,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "26e95a280afbc0f3433ba38e45ff19eef970b13ac111ce082087ce6c2c1909eb",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee",
+          "line": 183,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-3cd9c013",
+          "line": 187,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "18a3cd72ddb33799c45b17c1514db57639dfe45500219c6e529676455eb933e5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-b7565cab",
+          "line": 189,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "bfbe4ba81d9335bdb5aacf06d793e4b9cebfd643e60954fdde1a160931083d94",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-2",
+          "line": 202,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f",
+          "line": 208,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-8d9fa1b1",
+          "line": 215,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "33d906a70382add818eeefeb07441da97f94d5dff508a3fe513fcab4d28ad69c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-3",
+          "line": 217,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-4",
+          "line": 224,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-5",
+          "line": 230,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-2",
+          "line": 236,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-6067d8dd",
+          "line": 239,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "b20c5f20a1dfea87b82e2d065366d4a1e63410addb598e3d6edcd2248a4967ad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-3",
+          "line": 245,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-6",
+          "line": 251,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-4",
+          "line": 256,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-d47800ed",
+          "line": 262,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "2e523f00303f6a8a26b3159aabf5b4466b07c3cdfa00ab9ad7ee867e244dcd15",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-74f3f076",
+          "line": 274,
+          "role": "cue",
+          "match": "RAINEE/MADONNA",
+          "line_sha256": "eba09d46569f4c8984c0a55266a1e40de72f87681ff072bd5d8076548814640f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-0b5d160a",
+          "line": 299,
+          "role": "cue",
+          "match": "RAINEE/CHRISTIE",
+          "line_sha256": "5700127f22e6d1bf6fb1cc66decccfe2873227764f8e565744329f8c61100ef6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e24c13a7",
+          "line": 305,
+          "role": "cue",
+          "match": "RAINEE/CHRISTIE",
+          "line_sha256": "708552df52b25b29684e1ceb8ea09b8f7ede89cdefb630805fa586c5e2b7d318",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c7d10f04",
+          "line": 333,
+          "role": "cue",
+          "match": "RAINEE/HEATHER",
+          "line_sha256": "19f4102a559fb87631d4c4ccd19377a4dfbc4909eff0b9cb011e3031efea9aba",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-473ee789",
+          "line": 341,
+          "role": "cue",
+          "match": "RAINEE/HEATHER",
+          "line_sha256": "2df6dc9e8655a0f0be665c8451c8ed66a6be7ba59108eae96a3f6fbd7ac1b0f3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c7d10f04-2",
+          "line": 347,
+          "role": "cue",
+          "match": "RAINEE/HEATHER",
+          "line_sha256": "19f4102a559fb87631d4c4ccd19377a4dfbc4909eff0b9cb011e3031efea9aba",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-17203cf4",
+          "line": 375,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "36fd9cfdbe9e8f868df893a918f8a13665fb255b145cdc2cc06ba121cf70019c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-44013f0d",
+          "line": 377,
+          "role": "cue",
+          "match": "RAINEE/KIM",
+          "line_sha256": "e9c62e27d7e2f6988cfe292fd39a17d220d08bb76a650e9da7c227a13206a79b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-717a5fca",
+          "line": 383,
+          "role": "cue",
+          "match": "RAINEE/KIM",
+          "line_sha256": "13a472a2cdbe5e63e44b467be9232416872d548fd4d0c42836410a302983bab6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-84418627",
+          "line": 404,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "05e849a240138fc3529d8a424e54c45ae2f23e3dfd409ee77c99bbf8c4e18c2c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-705003cd",
+          "line": 431,
+          "role": "cue",
+          "match": "RAINEE/DEBBIE",
+          "line_sha256": "8ec1b13c003d3ff86a58d115830d62955fde595d4a39a02ca64f3e301bb538cc",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6ab22c5c",
+          "line": 437,
+          "role": "cue",
+          "match": "RAINEE/DEBBIE",
+          "line_sha256": "21991511ea7e275489c0be771adcf186f87eaa1474f83da8353ff1c97012e1d7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-485c8f8c",
+          "line": 460,
+          "role": "cue",
+          "match": "RAINEE/BO",
+          "line_sha256": "2d9940e883efde45c44ad2e6ae9f595cef123ad3a323fbba319016b427973b4a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-32fcce77",
+          "line": 465,
+          "role": "cue",
+          "match": "RAINEE/BO",
+          "line_sha256": "9c4e08ce05a15f9deaddb1ba75c47adf90b8b752858aff6318525fd2165932bb",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-32fcce77-2",
+          "line": 470,
+          "role": "cue",
+          "match": "RAINEE/BO",
+          "line_sha256": "9c4e08ce05a15f9deaddb1ba75c47adf90b8b752858aff6318525fd2165932bb",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-2b4555a7",
+          "line": 478,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "6eb1c0d7273caa179c4f7e6935c51fd49c98812691e93975ff05a8a6a91a45db",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-589c82f2",
+          "line": 486,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "2239268b6389b84e49fe7be9db118b3bbb277554d65401daabb4def4d572f76e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0b8f3365",
+          "line": 496,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "4990537d79a8d0d72e3a57c5650c11dd62b9a55e9c56a98e28569106e3764f58",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-c4b3892c",
+          "line": 506,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "a17eccb30af5541a8166524b1759299906f65a96c65c448c508982215d3bc0a2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-7",
+          "line": 508,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-8",
+          "line": 514,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-9",
+          "line": 520,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-10",
+          "line": 529,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-11",
+          "line": 540,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-12",
+          "line": 548,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-00fe11e4",
+          "line": 554,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "fb664b9dbb2bb539cde52889b0b18fe6ad5d79701215a28b25c28267dae9bd2e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-13",
+          "line": 556,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-14",
+          "line": 566,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-15",
+          "line": 573,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-16",
+          "line": 580,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-17",
+          "line": 587,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-18",
+          "line": 595,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-5",
+          "line": 601,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-4765a4c6",
+          "line": 604,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "9ab9d5d95ac2d73a48d4639d7314c5dcb216c1315b6d151fe3b50bcda342f6a2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-19",
+          "line": 609,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-20",
+          "line": 618,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-21",
+          "line": 633,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-4b6ce8a7",
+          "line": 639,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "aff77e23d65fedccab3997abc00f8ec89f3d6d8837a03a98567c34452acce10a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-82a43db4",
+          "line": 644,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "06a4cc7a04ce93ccc3d1cf489aecea12fec1e31aee457a1ca06f2c882b886c66",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-22",
+          "line": 646,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-23",
+          "line": 652,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-6",
+          "line": 658,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-7",
+          "line": 663,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-24",
+          "line": 670,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-ba94e461",
+          "line": 671,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "8338b4605fd8802d89f517dca7f52959b7e4cc225f983663bab222e04cef6164",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-25",
+          "line": 686,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-26",
+          "line": 692,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-27",
+          "line": 698,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-28",
+          "line": 705,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-29",
+          "line": 714,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-8",
+          "line": 720,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-30",
+          "line": 727,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-9",
+          "line": 732,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-31",
+          "line": 738,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-32",
+          "line": 744,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-33",
+          "line": 752,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-3e528efa",
+          "line": 756,
+          "role": "parenthetical",
+          "match": "Rainee",
+          "line_sha256": "a1ea552d2491f22c2e3af56f07544d5d0faf606d759a2011271e15f526b8084d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a531f07e",
+          "line": 766,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "63ed357a66de6049a9bbeabf38f00cd1d72ac357fc8fd46cc39ab61be5a742f0",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-34",
+          "line": 773,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-35",
+          "line": 781,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-36",
+          "line": 789,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-6661ea1f-10",
+          "line": 795,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "b8a6aafce981524b730539f72621f2e71346852f90da7f2d6b459b5a96f32f9c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f108e95d",
+          "line": 801,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "b66b1426fee92c7e7adbc8c1dcf42696c8bb62421b6a6a77697380a0848e9d7a",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "spring_break",
+      "file": "spring_break.md",
+      "canon": "ling_au",
+      "sha256": "347bc61b3eceeb1d240d8b6acca8d56e12db101731dc1c79c264da61db2d8ebc",
+      "references": [
+        {
+          "block_id": "action-953e3991",
+          "line": 2,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "c8b885f8fa072228512df533f5ea9cce13ed36c552c71deb6ef2f10bcc7a5db0",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e9fc178e",
+          "line": 69,
+          "role": "action",
+          "match": "RAINEE",
+          "line_sha256": "e657f5d769430f7c483a0740e7dd9ce8960fd484a4f2d530e967e4318e821ba6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee",
+          "line": 71,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-2",
+          "line": 79,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-51fea8cc",
+          "line": 82,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "06f1b0e8f94d5579afdd5e98a9bcc3a6631c12cc32dcc4459b5056586df9cf8f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e2e07c67",
+          "line": 88,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "4f96db80a181ca83da503349e636431e67c143dda41b455c2c953efc0b2cb04d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e",
+          "line": 102,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-44778138",
+          "line": 108,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "a9adb98368ef7310059c84d53cb55fef8c5581ebfe093e1cf7086a10dfb15ff3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-2",
+          "line": 110,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a70e477f",
+          "line": 124,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "48ccf83a614c127e3fc02e48e59cffb8691e1be9691d5263d56ec28ca77f03ec",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f83937cb",
+          "line": 128,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "c9e79b5e75885dbca646cc17f7aa439ae51854cae166fde839f8d387efd583d5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-3",
+          "line": 134,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-75a37913",
+          "line": 149,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "c0c3acfb953d9315111fb7bdf7452a7b05b5f8bee43fe0f97a1e2f709d34c572",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-4",
+          "line": 151,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-b07dec76",
+          "line": 160,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "bc4958cb162fe3c5e929d0e79fef315feb3aad081ea3dd86c86091d38250261a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-9b695d3d",
+          "line": 173,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "a6c53a7fc5fc8d818d5955fe2a13a77061a6c07737aeac1e4218956bde7eac57",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-6a0be250",
+          "line": 177,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "5e9593a4b860d1b590a9272377209bfc8a86242ec9c80a7cec84c8093a5506b8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-5",
+          "line": 182,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-d784c297",
+          "line": 193,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "269ac3bc7c5a67409bbd36ecf4b67bc870d0f999509199e371a0b6f7c7af5a83",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-6",
+          "line": 201,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-7",
+          "line": 207,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-8",
+          "line": 214,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-7668f0ff",
+          "line": 217,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "a977baeb007a85896cfb2ce4f54a9505cfbbee6551d5db1c205cf4ea07db7dd8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-63026939",
+          "line": 221,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "f44322382a266c98a44c1d56121829fa17bed95adb48f3360bb5f67f6591e099",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-9",
+          "line": 227,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-10",
+          "line": 233,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0a726e35",
+          "line": 262,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "7afa437f5d7470e3b8914e61c4be4bb87526b04c1536d827198894c5e6be29eb",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-e93b26f4",
+          "line": 268,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "e7c1fa1589583b73a92cc15a330d602e12cb79758a55f90708520ba326e86852",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-cc36cb3e-11",
+          "line": 270,
+          "role": "cue",
+          "match": "RAINEE-PETER",
+          "line_sha256": "b3365c37b89418952071c776968f36788a4c4ba721cdf9fa9c55d24f0b1b0df2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-1fe6bb87",
+          "line": 278,
+          "role": "action",
+          "match": "Rainee-Peter",
+          "line_sha256": "5b61411bf51c436b70bd93a04b91f7c12081282b52ed5f7732bdefd59eb49b62",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "prequel",
+      "file": "prequel.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "47fa5c089adb8860f6c2c56dc5a49354e98fccdf1d103bdbd68136ce56c8dd80",
+      "references": [
+        {
+          "block_id": "action-1257744a",
+          "line": 2,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "87dc4c50e6c5330e45de9a95131119cc153ebdc33febe59dcbddc11b06a4f519",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-44b53ea8",
+          "line": 45,
+          "role": "action",
+          "match": "RAINEE",
+          "line_sha256": "38ffef0b544eefb2f13d7422deca3373873e1ac988e77386e2ee29884d49f42d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-80cfd1c2",
+          "line": 73,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "93c9c8b7637f28eebb9c1050630991b96465725fa186de3d971e791e1c9aaae8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee",
+          "line": 75,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-772c8c43",
+          "line": 80,
+          "role": "parenthetical",
+          "match": "Rainee",
+          "line_sha256": "9acc7e5d26afb96abaa44856dffacaea6c912b476013e0955583a59adad74b2e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-2",
+          "line": 94,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0cb5645e",
+          "line": 228,
+          "role": "action",
+          "match": "RAINEE",
+          "line_sha256": "3db0c29116e1ef37f747eb77290586ef347a8f20357105696a9974ff15008a7c",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-69b75f68",
+          "line": 243,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "323b3dd735bc26be2c194f6e3c0dd7841eff6b37336b03f8f1347f30b03a54b9",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-18ee7ca9",
+          "line": 246,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "1f9cc3952ef2c86657834ebd3ce2324f4c6249c1fb9632d8f9fa369c657fcd6e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-3",
+          "line": 248,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-79ec1e96",
+          "line": 267,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "00c6f44bf42bde10e7bf57204f59611e57b95dc02e5d1dccd11f6038cf2b187e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-95f65dc5",
+          "line": 550,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "070d10ad83e49e83826b821615153881f4b33262e9ea509ab42b3d54c6c10014",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-7c4bb95a",
+          "line": 586,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "42cebc13bb93da80ed6e5d59fece7f173764833b6b962fdf1a6b37635aab8c31",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-bac47ac6",
+          "line": 601,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "6b90527087f612ccaaf87844ed5b92fa10be6c8d212cffd5672aa718407d4791",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-016031ee-4",
+          "line": 603,
+          "role": "cue",
+          "match": "RAINEE",
+          "line_sha256": "876384b9ee57c4615017dffa9a163c66c6c4e5df9b5e9963fbff1481ca0bed80",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "act_1",
+      "file": "act_1.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "b38d1a824dae1a2e935eb2098ee9d82649d633789d89f0e5eb8d7cd1f9983cc6",
+      "references": [
+        {
+          "block_id": "cue-e0c3b591-3",
+          "line": 32,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "468bb4707852b9de66b14ff1d3e678d8ee2ce4f6eb9e741dca557f7330187d09",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-04aaf937",
+          "line": 32,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "468bb4707852b9de66b14ff1d3e678d8ee2ce4f6eb9e741dca557f7330187d09",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0c3b591-4",
+          "line": 40,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "75e188d41c6cab173a4e152b31dd023f71eb40c929e8034cff348bb5c6e46a4b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-4821f104",
+          "line": 40,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "75e188d41c6cab173a4e152b31dd023f71eb40c929e8034cff348bb5c6e46a4b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-b1c17a2c-2",
+          "line": 114,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "b2dc77b0c12879e42a0a63b68de98f06899191fb38a837e5cb7463540944f031",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-93cc11d9",
+          "line": 114,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "b2dc77b0c12879e42a0a63b68de98f06899191fb38a837e5cb7463540944f031",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-4",
+          "line": 118,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "5cde3f308b08ca30ba7c2c204a551f44b6c4ec0689803a3cace9646d10ea0117",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-3d81e07c",
+          "line": 118,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "5cde3f308b08ca30ba7c2c204a551f44b6c4ec0689803a3cace9646d10ea0117",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "act_2",
+      "file": "act_2.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "cf9194f953cbd07fbf6c8102c06822752575ba909aabf53845b6beb27731212a",
+      "references": [
+        {
+          "block_id": "cue-2af00bda-3",
+          "line": 209,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "cbb17218ba97334637f442901a32e47d77f62103ca7c42e1a42ab8eb9f838811",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-6b768043",
+          "line": 209,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "cbb17218ba97334637f442901a32e47d77f62103ca7c42e1a42ab8eb9f838811",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-3db66970-5",
+          "line": 233,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "bcba1c937c7555c7f11c77bbcd743b3a4c86d68c7827a92a5a46b2f6c93df11a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-a00794fc",
+          "line": 233,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "bcba1c937c7555c7f11c77bbcd743b3a4c86d68c7827a92a5a46b2f6c93df11a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-13",
+          "line": 287,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "eb5574bb17be7ebd956b69761630699f335f6d968b436829b5d1df1359e05b0a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-936b7185",
+          "line": 287,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "eb5574bb17be7ebd956b69761630699f335f6d968b436829b5d1df1359e05b0a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-14",
+          "line": 303,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "3b7293bfc497c86f55567b71a90eb63986c7f625b57d2ad51347aee5858352a5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-6da89feb",
+          "line": 303,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "3b7293bfc497c86f55567b71a90eb63986c7f625b57d2ad51347aee5858352a5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-15",
+          "line": 309,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "d18208bfa3c3ac2dafeb24fc3b5c8a8b5216129e920eca18d4d496484a315f98",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-e8dcc9db",
+          "line": 309,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "d18208bfa3c3ac2dafeb24fc3b5c8a8b5216129e920eca18d4d496484a315f98",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-fd0be657",
+          "line": 373,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "ff86cf032d4b3d59569a9dc3a0b75c7d3ea76be06c4c3ff41613dd8ea7d63df0",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-2143ddd2",
+          "line": 387,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "e454271b3905045ba2513f8f328d01381887fd97994d2d6abbc470c88fde635e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-18",
+          "line": 407,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "f6178674c717251e4473302dca44f5ced33bd67aa179f69297f72aa376bdd5bd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-76f62ba3",
+          "line": 407,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "f6178674c717251e4473302dca44f5ced33bd67aa179f69297f72aa376bdd5bd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-20",
+          "line": 425,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "2788acdb0c6a9d60317a3b6488e38a3fb9dd65cca406849a598ad02c00f211cd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-8c52e0ed",
+          "line": 425,
+          "role": "parenthetical",
+          "match": "Rainee",
+          "line_sha256": "2788acdb0c6a9d60317a3b6488e38a3fb9dd65cca406849a598ad02c00f211cd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-d0e6f545",
+          "line": 425,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "2788acdb0c6a9d60317a3b6488e38a3fb9dd65cca406849a598ad02c00f211cd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-24",
+          "line": 453,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "c62a576f6a3b0b66f6df8d26343fc6f7f39b3ce15ee4e224ddb474b7ef6ba5e5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-87fbd973",
+          "line": 453,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "c62a576f6a3b0b66f6df8d26343fc6f7f39b3ce15ee4e224ddb474b7ef6ba5e5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-31",
+          "line": 515,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "f6a5b89de1ebe95a0f4cb53aa04cc7b6fab782188e9f2229b29bea3f8b8ed3b3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-bebc9083",
+          "line": 515,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "f6a5b89de1ebe95a0f4cb53aa04cc7b6fab782188e9f2229b29bea3f8b8ed3b3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c706d454-46",
+          "line": 517,
+          "role": "cue",
+          "match": "Rainee",
+          "line_sha256": "3b59a552c9ff699933208168e07bbf032b2eedc98c755e0181110e32cf968518",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-597ee09f",
+          "line": 517,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "3b59a552c9ff699933208168e07bbf032b2eedc98c755e0181110e32cf968518",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "climax_tag",
+      "file": "climax_tag.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "1b41b5af9ab6af7f4c74a3f963e8eb42704dca5c64f963928bb3cd92995fa914",
+      "references": []
+    },
+    {
+      "section": "tapped_out_main",
+      "file": "tapped_out_main.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "636799147f295a86c0adcc2b3d75fd486ede388be0874f33eb3c0ddd83080694",
+      "references": [
+        {
+          "block_id": "note-256c1107",
+          "line": 36,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "8c73ac9cb7cd0db12c036734d07b231a02edbabd264ef85695faf4e063ddba8a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "beat-10-rainee-s-explanation",
+          "line": 50,
+          "role": "chunk_header",
+          "match": "Rainee",
+          "line_sha256": "2d35e3f8aa0b1efb41113ff2271e7eefb67733694435792d53a08079a9208c08",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "note-c3911c43",
+          "line": 52,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "222e00f763d53deb25728f7ae2f565c562a0053be1e2203b163db0119a84905a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "note-ae6b20e5",
+          "line": 54,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "c51fc7691a2bf0bf8c421ccc20b41bae8be372024cd951b7c0767bb0ee32bdaa",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "note-c3e1ad8b",
+          "line": 123,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "9107624416204aff1d0db8c6760c7ebe2a8a2aaf8650e276729ff0b76f00f9a2",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "tapped_out_b",
+      "file": "tapped_out_b.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "1b70d6a2e02a92f7f55d9ad69999530aa497e5cf2ec91c41ffca0dc3426b4ba0",
+      "references": [
+        {
+          "block_id": "note-e84910ad",
+          "line": 81,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "48cf8779debb73afcbd7e66badbf0193e4bd901999dd209baa2156796d8f427a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "note-638f6c56",
+          "line": 83,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "b59e6fcccd364726d8761520a702daed6116323b2da97c103f66cede80556c64",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "note-b32c6518",
+          "line": 94,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "d4ee0615bd45b4b80a2664db195ae6e6ff5325620034af75849abc023049903b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "note-07bfa8f7",
+          "line": 97,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "193a4b320fe41c59c4107ac448c2bceb3824a8344b0ddf9fc7eff00b46201fdc",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "note-59dd887b",
+          "line": 104,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "9e908a323bcc91f61e212a0bb39e5422f4c07974076810f266a292c5c4f5ffb5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "note-d05f6331",
+          "line": 107,
+          "role": "note",
+          "match": "Rainee",
+          "line_sha256": "865faaeb2ba960134248157dbcd386837ea750acde5857560e6431b0c90ee1a7",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "tapped_out_quick_story",
+      "file": "tapped_out_quick_story.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "6047b96e0e312f0e45f881c97bcdd011c92b3474f5add9921938b8119a96cc79",
+      "references": [
+        {
+          "block_id": "dialogue-3cd26731",
+          "line": 371,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "822a90bf09e0f18998a2dce5e3b4597cfea7cb709011953411b76703886fb0cd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-54a53b84",
+          "line": 839,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "31f1ceabceaeb4fa3cf03809a0ecdad9c80d086269f87484fa03c09f358196d3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-7665bd07",
+          "line": 867,
+          "role": "action",
+          "match": "Rainee",
+          "line_sha256": "3215ea1aca206acf4ae1222319bc815b16a51e8b65e3287e49a876c68b4c96b3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-34e84bcc",
+          "line": 894,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "b203274902f00d46d1500b84f05dfa8df553f40579fe2d0932fe2eb3b25489a5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-ff4bd7ce",
+          "line": 941,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "d9792a5ee82b9c720ac17ce11b071d6ac15c332e8b6922835e060b53e269706b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-326aba80",
+          "line": 968,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "a611458bf02940a7064563e4336883170efbb106496253fa0d0b7d437158c4d8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-f0ec030d",
+          "line": 1002,
+          "role": "dialogue",
+          "match": "Rainee",
+          "line_sha256": "a323e231b3db4bf5428beb1144a0cd099cc643d7e9db6234abbf7b4d4e244958",
+          "status": "candidate_mention"
+        }
+      ]
+    }
+  ]
+}

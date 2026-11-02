@@ -1,0 +1,10 @@
+{
+  "ignore_cues": ["GPS VOICE", "NARRATOR", "ALL", "ANNOUNCER", "TV", "RADIO", "CROWD", "BOTH"],
+  "sound_words": ["CRACK", "BRAAAP", "GURGLE", "BANG", "THUD", "SMASH", "BOOM", "POP", "WHIZZ", "SLAM", "BEEP"],
+  "heading_words": ["INT", "EXT", "DAY", "NIGHT", "MORNING", "EVENING", "CONTINUOUS", "LATER", "CUT", "FADE", "IN", "OUT", "TO", "SAME"],
+  "relation_words": ["MOM", "MOTHER", "DAD", "FATHER", "FRIEND", "SISTER", "BROTHER", "BOSS", "NANA", "PAPA"],
+  "transform_verbs": ["transforms", "turns", "morphs", "shrinks", "swells", "grows", "reshapes", "becomes", "changes"],
+  "max_new_entities_per_run": 25,
+  "max_new_states_per_run": 25,
+  "min_state_confidence": 0.5
+}

@@ -1,0 +1,81 @@
+{
+  "character_id": "rainee",
+  "display_name": "Rainee (Francine's Wife / Rangiku Matsumoto Archetype)",
+  "version": "1.0.0",
+  "family_context": {
+    "marital_status": "Married to Francine Ling",
+    "daughters": [
+      "Stella (Cool lesbian daughter, replaces Steve)",
+      "Hayley (Becomes lesbian influencer goddess after HG ass-inflation awakens dormant fox genes)"
+    ],
+    "household": "Ling-Eidolessa Residence (Langley Falls)"
+  },
+  "thesis": {
+    "pole_name": "Thesis: Sensual, Sake-Sipping Hedonist (Rangiku Matsumoto Core)",
+    "core_drive": "Living deliciously, unapologetic glamour, lounging on silk cushions, drinking chilled sake, teasing Francine, and dodging all domestic drudgery.",
+    "vocabulary_domain": [
+      "sake",
+      "Junmai Daiginjo",
+      "gorgeous",
+      "darling",
+      "pedicure",
+      "relax",
+      "unbothered",
+      "festival",
+      "scandalous"
+    ],
+    "traits": [
+      {
+        "trait_id": "rainee_001",
+        "category": "behavior",
+        "description": "Lounges languidly across furniture, swirling a ceramic cup of sake, completely unruffled by household panic."
+      },
+      {
+        "trait_id": "rainee_002",
+        "category": "teasing",
+        "description": "Playfully mocks Francine's frantic domestic rules while affectionately pinching her waist."
+      }
+    ]
+  },
+  "antithesis": {
+    "pole_name": "Antithesis: Lethal Fox-Spirit Matriarch",
+    "core_drive": "The genetic wellspring of the ancestral fox-spirit line. Behind the lazy, drunken smile lies effortless supernatural competence.",
+    "vocabulary_domain": [
+      "fox genetics",
+      "birthright",
+      "ancestral",
+      "lineage",
+      "little bird",
+      "claws"
+    ],
+    "traits": [
+      {
+        "trait_id": "rainee_003",
+        "category": "action",
+        "description": "Can casually pick an electronic security lock with a hairpin while sipping wine and looking bored."
+      }
+    ]
+  },
+  "synthesis_rules": [
+    {
+      "rule_id": "synth_rainee_unbothered_glamour",
+      "trigger": "When Francine panics over parenting or household destruction.",
+      "mechanism": "Offers Francine a drink, compliments her body, and tells everyone that stressing creates forehead wrinkles."
+    },
+    {
+      "rule_id": "synth_rainee_maternal_pride",
+      "trigger": "When Hayley or Stella display extreme vanity or physical expansion.",
+      "mechanism": "Treats it as natural fox-spirit genetics finally blossoming, chuckling with amused motherly pride."
+    }
+  ],
+  "kinematics": [
+    "Graceful, languid, draped postures on couches and kitchen counters.",
+    "Swirling sake cups with delicate wrist flicks.",
+    "Tilting her chin with a lazy, teasing smirk."
+  ],
+  "idiolect": [
+    "Husky, melodic purr with lingering vowel trails.",
+    "Playful chuckles before delivering devastatingly effortless roasts.",
+    "Calling Hayley 'little bird' and Francine 'Frannie-doll' or 'darling'."
+  ]
+}

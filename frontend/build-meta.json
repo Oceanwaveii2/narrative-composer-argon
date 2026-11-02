@@ -1,0 +1,1284 @@
+{
+  "inputs": {
+    "node_modules/@tiptap/core/dist/rolldown-runtime-D7D4PA-g.js": {
+      "bytes": 360,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/orderedmap/dist/index.js": {
+      "bytes": 4433,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-model/dist/index.js": {
+      "bytes": 124855,
+      "imports": [
+        {
+          "path": "node_modules/orderedmap/dist/index.js",
+          "kind": "import-statement",
+          "original": "orderedmap"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-transform/dist/index.js": {
+      "bytes": 86434,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-model/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-model"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/transform/index.js": {
+      "bytes": 50,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-transform/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-transform"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-state/dist/index.js": {
+      "bytes": 36285,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-model/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-model"
+        },
+        {
+          "path": "node_modules/prosemirror-transform/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-transform"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-commands/dist/index.js": {
+      "bytes": 34656,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-transform/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-transform"
+        },
+        {
+          "path": "node_modules/prosemirror-model/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-model"
+        },
+        {
+          "path": "node_modules/prosemirror-state/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-state"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/commands/index.js": {
+      "bytes": 49,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-commands/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-commands"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/state/index.js": {
+      "bytes": 46,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-state/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-state"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/model/index.js": {
+      "bytes": 46,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-model/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-model"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-schema-list/dist/index.js": {
+      "bytes": 13603,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-transform/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-transform"
+        },
+        {
+          "path": "node_modules/prosemirror-model/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-model"
+        },
+        {
+          "path": "node_modules/prosemirror-state/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-state"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/schema-list/index.js": {
+      "bytes": 52,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-schema-list/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-schema-list"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-view/dist/index.js": {
+      "bytes": 250622,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-state/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-state"
+        },
+        {
+          "path": "node_modules/prosemirror-model/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-model"
+        },
+        {
+          "path": "node_modules/prosemirror-transform/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-transform"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/view/index.js": {
+      "bytes": 45,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-view/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-view"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/w3c-keyname/index.js": {
+      "bytes": 2630,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-keymap/dist/index.js": {
+      "bytes": 4909,
+      "imports": [
+        {
+          "path": "node_modules/w3c-keyname/index.js",
+          "kind": "import-statement",
+          "original": "w3c-keyname"
+        },
+        {
+          "path": "node_modules/prosemirror-state/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-state"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/keymap/index.js": {
+      "bytes": 47,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-keymap/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-keymap"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/rope-sequence/dist/index.js": {
+      "bytes": 7310,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-history/dist/index.js": {
+      "bytes": 18498,
+      "imports": [
+        {
+          "path": "node_modules/rope-sequence/dist/index.js",
+          "kind": "import-statement",
+          "original": "rope-sequence"
+        },
+        {
+          "path": "node_modules/prosemirror-transform/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-transform"
+        },
+        {
+          "path": "node_modules/prosemirror-state/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-state"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/history/index.js": {
+      "bytes": 48,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-history/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-history"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/core/dist/index.js": {
+      "bytes": 303108,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/rolldown-runtime-D7D4PA-g.js",
+          "kind": "import-statement",
+          "original": "./rolldown-runtime-D7D4PA-g.js"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/transform/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/transform"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/commands/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/commands"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/state/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/state"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/model/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/model"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/schema-list/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/schema-list"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/view/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/view"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/keymap/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/keymap"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/history/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/history"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-paragraph/dist/index.js": {
+      "bytes": 2727,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/max.js": {
+      "bytes": 55,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/nil.js": {
+      "bytes": 55,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/regex.js": {
+      "bytes": 171,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/validate.js": {
+      "bytes": 142,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/regex.js",
+          "kind": "import-statement",
+          "original": "./regex.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/parse.js": {
+      "bytes": 612,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/validate.js",
+          "kind": "import-statement",
+          "original": "./validate.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/stringify.js": {
+      "bytes": 1093,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/validate.js",
+          "kind": "import-statement",
+          "original": "./validate.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/rng.js": {
+      "bytes": 110,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/v1.js": {
+      "bytes": 2776,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/rng.js",
+          "kind": "import-statement",
+          "original": "./rng.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/stringify.js",
+          "kind": "import-statement",
+          "original": "./stringify.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/v1ToV6.js": {
+      "bytes": 842,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/parse.js",
+          "kind": "import-statement",
+          "original": "./parse.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/stringify.js",
+          "kind": "import-statement",
+          "original": "./stringify.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/md5.js": {
+      "bytes": 5774,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/v35.js": {
+      "bytes": 1503,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/parse.js",
+          "kind": "import-statement",
+          "original": "./parse.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/stringify.js",
+          "kind": "import-statement",
+          "original": "./stringify.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/v3.js": {
+      "bytes": 259,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/md5.js",
+          "kind": "import-statement",
+          "original": "./md5.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v35.js",
+          "kind": "import-statement",
+          "original": "./v35.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v35.js",
+          "kind": "import-statement",
+          "original": "./v35.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/v4.js": {
+      "bytes": 926,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/rng.js",
+          "kind": "import-statement",
+          "original": "./rng.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/stringify.js",
+          "kind": "import-statement",
+          "original": "./stringify.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/sha1.js": {
+      "bytes": 2343,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/v5.js": {
+      "bytes": 262,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/sha1.js",
+          "kind": "import-statement",
+          "original": "./sha1.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v35.js",
+          "kind": "import-statement",
+          "original": "./v35.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v35.js",
+          "kind": "import-statement",
+          "original": "./v35.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/v6.js": {
+      "bytes": 630,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/stringify.js",
+          "kind": "import-statement",
+          "original": "./stringify.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v1.js",
+          "kind": "import-statement",
+          "original": "./v1.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v1ToV6.js",
+          "kind": "import-statement",
+          "original": "./v1ToV6.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/v6ToV1.js": {
+      "bytes": 842,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/parse.js",
+          "kind": "import-statement",
+          "original": "./parse.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/stringify.js",
+          "kind": "import-statement",
+          "original": "./stringify.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/v7.js": {
+      "bytes": 2144,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/rng.js",
+          "kind": "import-statement",
+          "original": "./rng.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/stringify.js",
+          "kind": "import-statement",
+          "original": "./stringify.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/version.js": {
+      "bytes": 208,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/validate.js",
+          "kind": "import-statement",
+          "original": "./validate.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/uuid/dist/index.js": {
+      "bytes": 636,
+      "imports": [
+        {
+          "path": "node_modules/uuid/dist/max.js",
+          "kind": "import-statement",
+          "original": "./max.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/nil.js",
+          "kind": "import-statement",
+          "original": "./nil.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/parse.js",
+          "kind": "import-statement",
+          "original": "./parse.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/stringify.js",
+          "kind": "import-statement",
+          "original": "./stringify.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v1.js",
+          "kind": "import-statement",
+          "original": "./v1.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v1ToV6.js",
+          "kind": "import-statement",
+          "original": "./v1ToV6.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v3.js",
+          "kind": "import-statement",
+          "original": "./v3.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v4.js",
+          "kind": "import-statement",
+          "original": "./v4.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v5.js",
+          "kind": "import-statement",
+          "original": "./v5.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v6.js",
+          "kind": "import-statement",
+          "original": "./v6.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v6ToV1.js",
+          "kind": "import-statement",
+          "original": "./v6ToV1.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/v7.js",
+          "kind": "import-statement",
+          "original": "./v7.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/validate.js",
+          "kind": "import-statement",
+          "original": "./validate.js"
+        },
+        {
+          "path": "node_modules/uuid/dist/version.js",
+          "kind": "import-statement",
+          "original": "./version.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-unique-id/dist/index.js": {
+      "bytes": 12815,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/model/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/model"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/state/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/state"
+        },
+        {
+          "path": "node_modules/uuid/dist/index.js",
+          "kind": "import-statement",
+          "original": "uuid"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/core/dist/jsx-runtime/jsx-runtime.js": {
+      "bytes": 2131,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/core/jsx-runtime/index.js": {
+      "bytes": 51,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/jsx-runtime/jsx-runtime.js",
+          "kind": "import-statement",
+          "original": "../dist/jsx-runtime/jsx-runtime.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-blockquote/dist/index.js": {
+      "bytes": 4351,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/model/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/model"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/state/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/state"
+        },
+        {
+          "path": "node_modules/@tiptap/core/jsx-runtime/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-bold/dist/index.js": {
+      "bytes": 2770,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/@tiptap/core/jsx-runtime/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core/jsx-runtime"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-code/dist/index.js": {
+      "bytes": 3665,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-code-block/dist/index.js": {
+      "bytes": 9657,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/state/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/state"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-document/dist/index.js": {
+      "bytes": 551,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-hard-break/dist/index.js": {
+      "bytes": 1850,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-heading/dist/index.js": {
+      "bytes": 2497,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-horizontal-rule/dist/index.js": {
+      "bytes": 2388,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/state/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/state"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-italic/dist/index.js": {
+      "bytes": 2542,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/linkifyjs/dist/linkify.mjs": {
+      "bytes": 66676,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-link/dist/index.js": {
+      "bytes": 22426,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/linkifyjs/dist/linkify.mjs",
+          "kind": "import-statement",
+          "original": "linkifyjs"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/history/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/history"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/state/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/state"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/transform/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/transform"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-list/dist/rolldown-runtime-D7D4PA-g.js": {
+      "bytes": 360,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-list/dist/index.js": {
+      "bytes": 55505,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/extension-list/dist/rolldown-runtime-D7D4PA-g.js",
+          "kind": "import-statement",
+          "original": "./rolldown-runtime-D7D4PA-g.js"
+        },
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/model/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/model"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/commands/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/commands"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/state/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/state"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-strike/dist/index.js": {
+      "bytes": 1908,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-text/dist/index.js": {
+      "bytes": 508,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extension-underline/dist/index.js": {
+      "bytes": 2289,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-dropcursor/dist/index.js": {
+      "bytes": 6798,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-state/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-state"
+        },
+        {
+          "path": "node_modules/prosemirror-transform/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-transform"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/dropcursor/index.js": {
+      "bytes": 51,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-dropcursor/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-dropcursor"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/prosemirror-gapcursor/dist/index.js": {
+      "bytes": 8620,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-keymap/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-keymap"
+        },
+        {
+          "path": "node_modules/prosemirror-state/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-state"
+        },
+        {
+          "path": "node_modules/prosemirror-model/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-model"
+        },
+        {
+          "path": "node_modules/prosemirror-view/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-view"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/pm/dist/gapcursor/index.js": {
+      "bytes": 50,
+      "imports": [
+        {
+          "path": "node_modules/prosemirror-gapcursor/dist/index.js",
+          "kind": "import-statement",
+          "original": "prosemirror-gapcursor"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/extensions/dist/index.js": {
+      "bytes": 24462,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/state/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/state"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/dropcursor/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/dropcursor"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/view/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/view"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/gapcursor/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/gapcursor"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/history/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/history"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/@tiptap/starter-kit/dist/index.js": {
+      "bytes": 4074,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-blockquote/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-blockquote"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-bold/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-bold"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-code/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-code"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-code-block/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-code-block"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-document/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-document"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-hard-break/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-hard-break"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-heading/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-heading"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-horizontal-rule/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-horizontal-rule"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-italic/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-italic"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-link/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-link"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-list/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-list"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-paragraph/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-paragraph"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-strike/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-strike"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-text/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-text"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-underline/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-underline"
+        },
+        {
+          "path": "node_modules/@tiptap/extensions/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extensions"
+        }
+      ],
+      "format": "esm"
+    },
+    "src/editor.js": {
+      "bytes": 7032,
+      "imports": [
+        {
+          "path": "node_modules/@tiptap/core/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/core"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-paragraph/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-paragraph"
+        },
+        {
+          "path": "node_modules/@tiptap/extension-unique-id/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/extension-unique-id"
+        },
+        {
+          "path": "node_modules/@tiptap/starter-kit/dist/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/starter-kit"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/model/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/model"
+        },
+        {
+          "path": "node_modules/@tiptap/pm/dist/history/index.js",
+          "kind": "import-statement",
+          "original": "@tiptap/pm/history"
+        }
+      ],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "../narrative_composer/assets/tiptap-engine.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "src/editor.js",
+      "inputs": {
+        "node_modules/@tiptap/core/dist/rolldown-runtime-D7D4PA-g.js": {
+          "bytesInOutput": 152
+        },
+        "node_modules/orderedmap/dist/index.js": {
+          "bytesInOutput": 1456
+        },
+        "node_modules/prosemirror-model/dist/index.js": {
+          "bytesInOutput": 44879
+        },
+        "node_modules/prosemirror-transform/dist/index.js": {
+          "bytesInOutput": 32285
+        },
+        "node_modules/@tiptap/pm/dist/transform/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/prosemirror-state/dist/index.js": {
+          "bytesInOutput": 11852
+        },
+        "node_modules/prosemirror-commands/dist/index.js": {
+          "bytesInOutput": 9516
+        },
+        "node_modules/@tiptap/pm/dist/commands/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/@tiptap/pm/dist/state/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/@tiptap/pm/dist/model/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/prosemirror-schema-list/dist/index.js": {
+          "bytesInOutput": 2767
+        },
+        "node_modules/@tiptap/pm/dist/schema-list/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/prosemirror-view/dist/index.js": {
+          "bytesInOutput": 98640
+        },
+        "node_modules/@tiptap/pm/dist/view/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/w3c-keyname/index.js": {
+          "bytesInOutput": 1495
+        },
+        "node_modules/prosemirror-keymap/dist/index.js": {
+          "bytesInOutput": 1215
+        },
+        "node_modules/@tiptap/pm/dist/keymap/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/rope-sequence/dist/index.js": {
+          "bytesInOutput": 3416
+        },
+        "node_modules/prosemirror-history/dist/index.js": {
+          "bytesInOutput": 5858
+        },
+        "node_modules/@tiptap/pm/dist/history/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/@tiptap/core/dist/index.js": {
+          "bytesInOutput": 89640
+        },
+        "node_modules/@tiptap/extension-paragraph/dist/index.js": {
+          "bytesInOutput": 1141
+        },
+        "node_modules/uuid/dist/stringify.js": {
+          "bytesInOutput": 310
+        },
+        "node_modules/uuid/dist/rng.js": {
+          "bytesInOutput": 74
+        },
+        "node_modules/uuid/dist/v4.js": {
+          "bytesInOutput": 418
+        },
+        "node_modules/uuid/dist/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/@tiptap/extension-unique-id/dist/index.js": {
+          "bytesInOutput": 4627
+        },
+        "node_modules/@tiptap/core/dist/jsx-runtime/jsx-runtime.js": {
+          "bytesInOutput": 684
+        },
+        "node_modules/@tiptap/extension-blockquote/dist/index.js": {
+          "bytesInOutput": 1686
+        },
+        "node_modules/@tiptap/extension-bold/dist/index.js": {
+          "bytesInOutput": 1316
+        },
+        "node_modules/@tiptap/extension-code/dist/index.js": {
+          "bytesInOutput": 1353
+        },
+        "node_modules/@tiptap/extension-code-block/dist/index.js": {
+          "bytesInOutput": 4854
+        },
+        "node_modules/@tiptap/extension-document/dist/index.js": {
+          "bytesInOutput": 126
+        },
+        "node_modules/@tiptap/extension-hard-break/dist/index.js": {
+          "bytesInOutput": 1010
+        },
+        "node_modules/@tiptap/extension-heading/dist/index.js": {
+          "bytesInOutput": 1365
+        },
+        "node_modules/@tiptap/extension-horizontal-rule/dist/index.js": {
+          "bytesInOutput": 1102
+        },
+        "node_modules/@tiptap/extension-italic/dist/index.js": {
+          "bytesInOutput": 1208
+        },
+        "node_modules/linkifyjs/dist/linkify.mjs": {
+          "bytesInOutput": 20132
+        },
+        "node_modules/@tiptap/extension-link/dist/index.js": {
+          "bytesInOutput": 9875
+        },
+        "node_modules/@tiptap/extension-list/dist/index.js": {
+          "bytesInOutput": 22230
+        },
+        "node_modules/@tiptap/extension-strike/dist/index.js": {
+          "bytesInOutput": 921
+        },
+        "node_modules/@tiptap/extension-text/dist/index.js": {
+          "bytesInOutput": 124
+        },
+        "node_modules/@tiptap/extension-underline/dist/index.js": {
+          "bytesInOutput": 1251
+        },
+        "node_modules/prosemirror-dropcursor/dist/index.js": {
+          "bytesInOutput": 3249
+        },
+        "node_modules/@tiptap/pm/dist/dropcursor/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/prosemirror-gapcursor/dist/index.js": {
+          "bytesInOutput": 3548
+        },
+        "node_modules/@tiptap/pm/dist/gapcursor/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/@tiptap/extensions/dist/index.js": {
+          "bytesInOutput": 8929
+        },
+        "node_modules/@tiptap/starter-kit/dist/index.js": {
+          "bytesInOutput": 1830
+        },
+        "src/editor.js": {
+          "bytesInOutput": 3878
+        }
+      },
+      "bytes": 400424
+    }
+  }
+}

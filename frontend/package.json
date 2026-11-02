@@ -1,0 +1,20 @@
+{
+  "name": "narrative-composer-document-editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/editor.js --bundle --minify --format=iife --target=es2020 --metafile=build-meta.json --outfile=../narrative_composer/assets/tiptap-engine.js",
+    "test:e2e": "node --test tests/editor.e2e.cjs"
+  },
+  "dependencies": {
+    "@tiptap/core": "3.32.2",
+    "@tiptap/extension-paragraph": "3.32.2",
+    "@tiptap/extension-unique-id": "3.32.2",
+    "@tiptap/pm": "3.32.2",
+    "@tiptap/starter-kit": "3.32.2"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "playwright": "1.64.1"
+  }
+}

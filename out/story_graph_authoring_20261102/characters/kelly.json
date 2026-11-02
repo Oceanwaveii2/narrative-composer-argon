@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "entity_id": "kelly",
+  "display_name": "Kelly",
+  "aliases": [
+    "KELLY"
+  ],
+  "canons": [
+    "hot_scoomp_main"
+  ],
+  "base_state": "base",
+  "attributes": {
+    "role": "friend_of_francine"
+  },
+  "states": [
+    {
+      "id": "kelly.state.base",
+      "slug": "base",
+      "label": "Kelly (Francine's Friend)",
+      "order": 0,
+      "canons": [
+        "hot_scoomp_main"
+      ]
+    }
+  ],
+  "transforms": [],
+  "data_port": {
+    "id": "kelly.port.data",
+    "mode": "inherit",
+    "bindings": [
+      {
+        "dataset_id": "kelly_source_index",
+        "revision": "1",
+        "content_hash": "973f410501a742bd29c9add6394859a9fcb636b818118f24fe14f6ae09e2084b",
+        "domain": "story_evidence",
+        "schema_id": "narrative.story-index.v1",
+        "relative_path": "kelly_source_index.json"
+      }
+    ]
+  }
+}

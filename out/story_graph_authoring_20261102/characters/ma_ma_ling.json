@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "entity_id": "ma_ma_ling",
+  "display_name": "Ma Ma Ling",
+  "aliases": [
+    "MA MA LING",
+    "MAMA LING"
+  ],
+  "canons": [
+    "hot_scoomp_main",
+    "ling_au"
+  ],
+  "base_state": "base",
+  "attributes": {
+    "role": "mother_of_francine"
+  },
+  "states": [
+    {
+      "id": "ma_ma_ling.state.base",
+      "slug": "base",
+      "label": "Ma Ma Ling (Francine's Mother)",
+      "order": 0,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ]
+    }
+  ],
+  "transforms": [],
+  "data_port": {
+    "id": "ma_ma_ling.port.data",
+    "mode": "inherit",
+    "bindings": [
+      {
+        "dataset_id": "ma_ma_ling_source_index",
+        "revision": "1",
+        "content_hash": "c2a65350a2b69ae97aa56530b292125aeb2575fe41d8bef576d165eb61f9ba09",
+        "domain": "story_evidence",
+        "schema_id": "narrative.story-index.v1",
+        "relative_path": "ma_ma_ling_source_index.json"
+      }
+    ]
+  }
+}

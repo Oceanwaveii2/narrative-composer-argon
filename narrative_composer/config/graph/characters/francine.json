@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "entity_id": "francine",
+  "display_name": "Francine",
+  "aliases": [
+    "FRANCINE",
+    "FRANCINE LING",
+    "NURSE FRANCINE",
+    "NURSE FRANCINE DELUXE",
+    "SEXY NURSE",
+    "FRANCINE J.LO BBL",
+    "BBL FRANCINE",
+    "FRANCINE J.LO"
+  ],
+  "canons": ["hot_scoomp_main", "ling_au"],
+  "base_state": "base",
+  "attributes": {
+    "orientation": "lesbian",
+    "marital_status": "married_to_rainee",
+    "spouse": "rainee"
+  },
+  "states": [
+    {
+      "id": "francine.state.base",
+      "slug": "base",
+      "label": "Base Francine",
+      "order": 0,
+      "canons": ["hot_scoomp_main", "ling_au"],
+      "visual_anchors": ["cocktail dress", "mascara", "blond"]
+    },
+    {
+      "id": "francine.state.nurse_deluxe",
+      "slug": "nurse_deluxe",
+      "label": "Nurse Francine Deluxe",
+      "order": 1,
+      "canons": ["hot_scoomp_main", "ling_au"],
+      "cue_aliases": [
+        {"cue": "NURSE FRANCINE DELUXE", "state": "nurse_deluxe", "canons": ["hot_scoomp_main", "ling_au"]},
+        {"cue": "NURSE FRANCINE", "state": "nurse_deluxe", "canons": ["hot_scoomp_main", "ling_au"]},
+        {"cue": "SEXY NURSE", "state": "nurse_deluxe", "canons": ["hot_scoomp_main", "ling_au"]}
+      ],
+      "enter_patterns": [
+        "nurse\\s+uniform",
+        "nurse\\s+francine",
+        "white\\s+vintage\\s+nurse",
+        "clinic\\s+sneakers"
+      ],
+      "visual_anchors": ["nurse", "uniform", "stethoscope", "clinic sneakers", "white cap"]
+    },
+    {
+      "id": "francine.state.jlo_bbl",
+      "slug": "jlo_bbl",
+      "label": "Francine J.Lo BBL (Aerobics Leotard Form)",
+      "order": 2,
+      "canons": ["hot_scoomp_main", "ling_au"],
+      "cue_aliases": [
+        {"cue": "FRANCINE J.LO BBL", "state": "jlo_bbl", "canons": ["hot_scoomp_main", "ling_au"]},
+        {"cue": "BBL FRANCINE", "state": "jlo_bbl", "canons": ["hot_scoomp_main", "ling_au"]},
+        {"cue": "FRANCINE J.LO", "state": "jlo_bbl", "canons": ["hot_scoomp_main", "ling_au"]}
+      ],
+      "enter_patterns": [
+        "turquoise\\s+leotard",
+        "high-cut\\s+turquoise",
+        "purple\\s+legwarmers",
+        "spandex\\s+and\\s+glute",
+        "j\\.?lo\\s+bbl"
+      ],
+      "visual_anchors": ["turquoise leotard", "purple legwarmers", "spandex", "celebrity rear", "sweatbands"]
+    }
+  ],
+  "transforms": [
+    {
+      "id": "francine.xform.base__nurse_deluxe",
+      "from_state": "francine.state.base",
+      "to_state": "francine.state.nurse_deluxe",
+      "triggers": ["uniform_change"],
+      "reversible": true,
+      "canons": ["hot_scoomp_main", "ling_au"]
+    },
+    {
+      "id": "francine.xform.nurse_deluxe__base",
+      "from_state": "francine.state.nurse_deluxe",
+      "to_state": "francine.state.base",
+      "triggers": ["uniform_remove"],
+      "reversible": true,
+      "canons": ["hot_scoomp_main", "ling_au"]
+    },
+    {
+      "id": "francine.xform.base__jlo_bbl",
+      "from_state": "francine.state.base",
+      "to_state": "francine.state.jlo_bbl",
+      "triggers": ["aerobics_infiltrate"],
+      "reversible": true,
+      "canons": ["hot_scoomp_main", "ling_au"]
+    },
+    {
+      "id": "francine.xform.jlo_bbl__base",
+      "from_state": "francine.state.jlo_bbl",
+      "to_state": "francine.state.base",
+      "triggers": ["leotard_remove"],
+      "reversible": true,
+      "canons": ["hot_scoomp_main", "ling_au"]
+    },
+    {
+      "id": "francine.xform.nurse_deluxe__jlo_bbl",
+      "from_state": "francine.state.nurse_deluxe",
+      "to_state": "francine.state.jlo_bbl",
+      "triggers": ["aerobics_infiltrate"],
+      "reversible": true,
+      "canons": ["hot_scoomp_main", "ling_au"]
+    }
+  ]
+}

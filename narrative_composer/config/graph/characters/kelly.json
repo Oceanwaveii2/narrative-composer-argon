@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "entity_id": "kelly",
+  "display_name": "Kelly",
+  "aliases": ["KELLY"],
+  "canons": ["hot_scoomp_main"],
+  "base_state": "base",
+  "attributes": {
+    "role": "friend_of_francine"
+  },
+  "states": [
+    {
+      "id": "kelly.state.base",
+      "slug": "base",
+      "label": "Kelly (Francine's Friend)",
+      "order": 0,
+      "canons": ["hot_scoomp_main"]
+    }
+  ],
+  "transforms": []
+}

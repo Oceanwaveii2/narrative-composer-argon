@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "entity_id": "haley",
+  "display_name": "Haley",
+  "aliases": [
+    "HALEY",
+    "HAYLEY",
+    "INFLUENCER BBL HAYLEY",
+    "HAYLEY FITNESS GODDESS",
+    "BBL HAYLEY"
+  ],
+  "canons": ["hot_scoomp_main", "ling_au"],
+  "base_state": "standard",
+  "attributes": {
+    "base_orientation": "hetero_dormant",
+    "post_transformation_orientation": "lesbian"
+  },
+  "states": [
+    {
+      "id": "haley.state.standard",
+      "slug": "standard",
+      "label": "Standard Haley",
+      "order": 0,
+      "canons": ["hot_scoomp_main", "ling_au"],
+      "visual_anchors": ["bandana", "crop top", "peace", "jeans"]
+    },
+    {
+      "id": "haley.state.roger_dome",
+      "slug": "roger_dome",
+      "label": "Roger Dome Haley",
+      "order": 1,
+      "canons": ["hot_scoomp_main"],
+      "visual_anchors": ["dome", "expansion"]
+    },
+    {
+      "id": "haley.state.bbl_influencer",
+      "slug": "bbl_influencer",
+      "label": "Big Booty BBL Influencer Haley / Fitness Goddess",
+      "order": 2,
+      "canons": ["hot_scoomp_main"],
+      "cue_aliases": [
+        {"cue": "INFLUENCER BBL HAYLEY", "state": "bbl_influencer", "canons": ["hot_scoomp_main"]},
+        {"cue": "HAYLEY FITNESS GODDESS", "state": "bbl_influencer", "canons": ["hot_scoomp_main"]},
+        {"cue": "BBL HAYLEY", "state": "bbl_influencer", "canons": ["hot_scoomp_main"]}
+      ],
+      "enter_patterns": [
+        "influencer\\s+bbl\\s+hayley",
+        "hayley\\s+fitness\\s+goddess",
+        "dolphin\\s+shorts",
+        "fitness\\s+messiah"
+      ],
+      "visual_anchors": ["tie-dye", "dolphin shorts", "peace", "blowout"],
+      "attributes": {
+        "orientation": "lesbian",
+        "sexuality_shift": "becomes lesbian upon BBL influencer transformation",
+        "alias_slugs": ["big_booty"],
+        "rank": "second_in_command"
+      }
+    }
+  ],
+  "transforms": [
+    {
+      "id": "haley.xform.standard__roger_dome",
+      "from_state": "haley.state.standard",
+      "to_state": "haley.state.roger_dome",
+      "triggers": ["roger_dna"],
+      "canons": ["hot_scoomp_main"]
+    },
+    {
+      "id": "haley.xform.standard__bbl_influencer",
+      "from_state": "haley.state.standard",
+      "to_state": "haley.state.bbl_influencer",
+      "triggers": ["formula_zap"],
+      "canons": ["hot_scoomp_main"]
+    },
+    {
+      "id": "haley.xform.roger_dome__bbl_influencer",
+      "from_state": "haley.state.roger_dome",
+      "to_state": "haley.state.bbl_influencer",
+      "triggers": ["formula_zap"],
+      "canons": ["hot_scoomp_main"]
+    },
+    {
+      "id": "haley.xform.bbl_influencer__standard",
+      "from_state": "haley.state.bbl_influencer",
+      "to_state": "haley.state.standard",
+      "triggers": ["revert"],
+      "reversible": true,
+      "canons": ["hot_scoomp_main"]
+    }
+  ]
+}

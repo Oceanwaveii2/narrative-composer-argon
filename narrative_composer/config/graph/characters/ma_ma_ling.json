@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "entity_id": "ma_ma_ling",
+  "display_name": "Ma Ma Ling",
+  "aliases": ["MA MA LING", "MAMA LING"],
+  "canons": ["hot_scoomp_main", "ling_au"],
+  "base_state": "base",
+  "attributes": {
+    "role": "mother_of_francine"
+  },
+  "states": [
+    {
+      "id": "ma_ma_ling.state.base",
+      "slug": "base",
+      "label": "Ma Ma Ling (Francine's Mother)",
+      "order": 0,
+      "canons": ["hot_scoomp_main", "ling_au"]
+    }
+  ],
+  "transforms": []
+}

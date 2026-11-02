@@ -1,0 +1,426 @@
+{
+  "dataset_id": "haley_legacy_dialectic",
+  "revision": "1",
+  "schema_id": "narrative.dialectic.v1",
+  "owner_id": "haley",
+  "review_status": "pending_review",
+  "profile": {
+    "character_id": "hayley",
+    "display_name": "Hayley Smith (Hot Scoomp Fox-Goddess)",
+    "version": "1.0.0",
+    "thesis": {
+      "pole_name": "Thesis: Crunchy Activist",
+      "core_drive": "Moral and intellectual superiority through eco-righteousness, anti-capitalist critique, and organic purity.",
+      "vocabulary_domain": [
+        "fair-trade",
+        "bamboo",
+        "systemic oppression",
+        "corporate greed",
+        "indigenous",
+        "microplastics",
+        "unethical labor",
+        "investigative journalism"
+      ],
+      "traits": [
+        {
+          "trait_id": "trait_008",
+          "category": "rationalization",
+          "description": "Using a metaphorical 'glass' to justify her uncertain path, framing it as a tool for clarity.",
+          "provenance": [
+            {
+              "source_id": "hot_scoomp_s18e11",
+              "scene_id": "scene_001",
+              "evidence_start": 20.5,
+              "evidence_end": 24.8,
+              "frame_ref": null
+            }
+          ],
+          "recurrence_count": 1,
+          "confidence_score": 0.95,
+          "example_expression": null
+        },
+        {
+          "trait_id": "trait_012",
+          "category": "rationalization",
+          "description": "justifying actions with exaggerated optimism",
+          "provenance": [
+            {
+              "source_id": "hot_scoomp_s18e11",
+              "scene_id": "scene_002",
+              "evidence_start": 60.1,
+              "evidence_end": 65.0,
+              "frame_ref": null
+            }
+          ],
+          "recurrence_count": 1,
+          "confidence_score": 0.95,
+          "example_expression": null
+        }
+      ]
+    },
+    "antithesis": {
+      "pole_name": "Antithesis: Grotesque Luxury Influencer",
+      "core_drive": "Unbothered bodily vanity, treating physical mass as an elite commercial asset, expecting adoration.",
+      "vocabulary_domain": [
+        "billion-dollar peach",
+        "pop-and-lock",
+        "brand-worthy",
+        "calabasas",
+        "aesthetic maintenance",
+        "vocal fry",
+        "luxury asset",
+        "snack"
+      ],
+      "traits": [
+        {
+          "trait_id": "trait_004",
+          "category": "rationalization",
+          "description": "Justifies extreme actions by framing them as necessary to maintain a certain image or standard.",
+          "provenance": [
+            {
+              "source_id": "kardashian_inflate",
+              "scene_id": "scene_002",
+              "evidence_start": 15.0,
+              "evidence_end": 17.5,
+              "frame_ref": null
+            }
+          ],
+          "recurrence_count": 1,
+          "confidence_score": 0.95,
+          "example_expression": null
+        },
+        {
+          "trait_id": "trait_016",
+          "category": "rationalization",
+          "description": "Justifies personal preferences by framing them as universal needs, using a tone of authority.",
+          "provenance": [
+            {
+              "source_id": "boondocks_s04e06",
+              "scene_id": "scene_002",
+              "evidence_start": 57.0,
+              "evidence_end": 62.0,
+              "frame_ref": null
+            }
+          ],
+          "recurrence_count": 1,
+          "confidence_score": 0.95,
+          "example_expression": null
+        },
+        {
+          "trait_id": "trait_021",
+          "category": "rationalization",
+          "description": "Justifies aggressive behavior by framing it as a necessary defense against perceived slights.",
+          "provenance": [
+            {
+              "source_id": "boondocks_s04e06",
+              "scene_id": "scene_003",
+              "evidence_start": 68.0,
+              "evidence_end": 75.5,
+              "frame_ref": null
+            }
+          ],
+          "recurrence_count": 1,
+          "confidence_score": 0.95,
+          "example_expression": null
+        }
+      ]
+    },
+    "synthesis_rules": [
+      {
+        "rule_id": "synth_01_moral_vanity_fusion",
+        "trigger": "When someone critiques her absurd physical mass, vanity, or grotesque posture.",
+        "mechanism": "Uses Thesis eco-activist vocabulary to defend and rationalize Antithesis bodily excess.",
+        "example_volley": "HAYLEY: 'Excuse me, but this peach is 100% sustainably farmed, fair-trade, and non-exploitative! You're just uncomfortable seeing a woman seize the means of mass production!'"
+      },
+      {
+        "rule_id": "synth_02_unbothered_deflection",
+        "trigger": "When a physical disaster or supernatural event occurs in the room.",
+        "mechanism": "Ignores the actual catastrophe to critique minor aesthetic details or assert dominance.",
+        "example_volley": "HAYLEY: 'Honestly, Stella, your energy is so toxic right now. Like, my glutes literally cannot absorb your negative vibes.'"
+      }
+    ],
+    "kinematics": [
+      {
+        "trait_id": "trait_001",
+        "category": "kinematics",
+        "description": "Shifts weight from one foot to the other, creating a sense of instability and urgency.",
+        "provenance": [
+          {
+            "source_id": "kardashian_inflate",
+            "scene_id": "scene_002",
+            "evidence_start": 4.5,
+            "evidence_end": 7.2,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_005",
+        "category": "kinematics",
+        "description": "Dynamic hand gestures to emphasize key phrases, maintaining an upright posture to assert confidence.",
+        "provenance": [
+          {
+            "source_id": "hot_scoomp_s18e11",
+            "scene_id": "scene_001",
+            "evidence_start": 2.3,
+            "evidence_end": 5.6,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_009",
+        "category": "kinematics",
+        "description": "rapid head tilts to emphasize points",
+        "provenance": [
+          {
+            "source_id": "hot_scoomp_s18e11",
+            "scene_id": "scene_002",
+            "evidence_start": 37.2,
+            "evidence_end": 42.1,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_013",
+        "category": "kinematics",
+        "description": "Maintains a relaxed, confident posture with arms crossed, signaling self-assuredness and control.",
+        "provenance": [
+          {
+            "source_id": "boondocks_s04e06",
+            "scene_id": "scene_002",
+            "evidence_start": 35.0,
+            "evidence_end": 40.0,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_017",
+        "category": "kinematics",
+        "description": "Maintains a rigid posture with arms crossed, signaling defensiveness and authority.",
+        "provenance": [
+          {
+            "source_id": "boondocks_s04e06",
+            "scene_id": "scene_003",
+            "evidence_start": 65.2,
+            "evidence_end": 72.1,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      }
+    ],
+    "idiolect": [
+      {
+        "trait_id": "trait_002",
+        "category": "idiolect",
+        "description": "Uses a rising intonation at the end of sentences to convey a sense of disbelief and frustration.",
+        "provenance": [
+          {
+            "source_id": "kardashian_inflate",
+            "scene_id": "scene_002",
+            "evidence_start": 8.0,
+            "evidence_end": 10.5,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_006",
+        "category": "idiolect",
+        "description": "Vocal fry on vowel endings to convey a laid-back, confident tone.",
+        "provenance": [
+          {
+            "source_id": "hot_scoomp_s18e11",
+            "scene_id": "scene_001",
+            "evidence_start": 1.2,
+            "evidence_end": 8.9,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_010",
+        "category": "idiolect",
+        "description": "vocal fry on vowel endings to convey sarcasm",
+        "provenance": [
+          {
+            "source_id": "hot_scoomp_s18e11",
+            "scene_id": "scene_002",
+            "evidence_start": 45.3,
+            "evidence_end": 50.2,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_014",
+        "category": "idiolect",
+        "description": "Uses a smooth, confident vocal cadence with occasional vocal fry to emphasize points.",
+        "provenance": [
+          {
+            "source_id": "boondocks_s04e06",
+            "scene_id": "scene_002",
+            "evidence_start": 42.0,
+            "evidence_end": 48.0,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_018",
+        "category": "idiolect",
+        "description": "Uses a rapid-fire delivery with sharp consonants to emphasize points and assert dominance.",
+        "provenance": [
+          {
+            "source_id": "boondocks_s04e06",
+            "scene_id": "scene_003",
+            "evidence_start": 73.5,
+            "evidence_end": 80.3,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_019",
+        "category": "idiolect",
+        "description": "Employs a mocking tone with exaggerated vowel sounds to belittle and dismiss others.",
+        "provenance": [
+          {
+            "source_id": "boondocks_s04e06",
+            "scene_id": "scene_003",
+            "evidence_start": 85.0,
+            "evidence_end": 92.8,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      }
+    ],
+    "status_moves": [
+      {
+        "trait_id": "trait_003",
+        "category": "status_move",
+        "description": "Rolls eyes and waves a hand dismissively to emphasize the absurdity of the situation.",
+        "provenance": [
+          {
+            "source_id": "kardashian_inflate",
+            "scene_id": "scene_002",
+            "evidence_start": 12.0,
+            "evidence_end": 14.5,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_007",
+        "category": "status_move",
+        "description": "Dramatic pause before stating her name, creating a sense of anticipation and importance.",
+        "provenance": [
+          {
+            "source_id": "hot_scoomp_s18e11",
+            "scene_id": "scene_001",
+            "evidence_start": 10.0,
+            "evidence_end": 12.3,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_011",
+        "category": "status_move",
+        "description": "dismissive hand wave to indicate lack of interest",
+        "provenance": [
+          {
+            "source_id": "hot_scoomp_s18e11",
+            "scene_id": "scene_002",
+            "evidence_start": 53.8,
+            "evidence_end": 58.7,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_015",
+        "category": "status_move",
+        "description": "Expresses admiration for another's qualities with a subtle, knowing smile, indicating a sense of shared understanding.",
+        "provenance": [
+          {
+            "source_id": "boondocks_s04e06",
+            "scene_id": "scene_002",
+            "evidence_start": 50.0,
+            "evidence_end": 55.0,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      },
+      {
+        "trait_id": "trait_020",
+        "category": "status_move",
+        "description": "Displays a dismissive wave to indicate superiority and lack of concern for others' opinions.",
+        "provenance": [
+          {
+            "source_id": "boondocks_s04e06",
+            "scene_id": "scene_003",
+            "evidence_start": 93.5,
+            "evidence_end": 98.2,
+            "frame_ref": null
+          }
+        ],
+        "recurrence_count": 1,
+        "confidence_score": 0.95,
+        "example_expression": null
+      }
+    ]
+  },
+  "provenance": {
+    "source_file": "hayley.json",
+    "sha256": "7cd7c8123829406802f26e8b5b527a7893650d604355ef2760249b2166e5adad",
+    "identity_mapping": "hayley -> haley"
+  }
+}

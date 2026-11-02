@@ -1,0 +1,30 @@
+{
+  "relationships": [
+    {
+      "a": "holly",
+      "b": "haley",
+      "kind": "girlfriend",
+      "canons": ["hot_scoomp_main"]
+    },
+    {
+      "a": "haley",
+      "b": "holly",
+      "kind": "second_in_command_of",
+      "from_scene": null,
+      "canons": ["hot_scoomp_main"]
+    },
+    {
+      "a": "kelly",
+      "b": "francine",
+      "kind": "friend",
+      "canons": ["hot_scoomp_main"]
+    },
+    {
+      "a": "ma_ma_ling",
+      "b": "francine",
+      "kind": "mother_of",
+      "canons": ["ling_au"]
+    }
+  ],
+  "facts": []
+}

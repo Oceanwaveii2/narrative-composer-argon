@@ -1,0 +1,6 @@
+{
+  "entity_id": "alex", "display_name": "Alex", "canons":["recovery"], "base_state":"base",
+  "states":[{"id":"alex.state.base","slug":"base","label":"Patient","cue_aliases":[{"cue":"ALEX","state":null}]}],
+  "transforms":[],
+  "attributes":{"profile_version":"patient-1","behavior_rules":[{"rule_id":"wait","event":"challenge","response":"Alex waits by the table."}]}
+}

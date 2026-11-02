@@ -1,0 +1,19 @@
+# Local credentials — never commit
+local_secrets.json
+config/secrets.json
+.env
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.tmp_test/
+node_modules/
+
+# Generated artifacts (regenerate with `python run_pipeline.py`)
+out/
+hot_scoomp_reader.html
+ledger*.json
+*.revisions/
+.narrative_proposals/

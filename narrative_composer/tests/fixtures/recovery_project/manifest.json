@@ -1,0 +1,8 @@
+{
+  "manifest_name":"Recovery exercise", "version":"1.0.0",
+  "facts":{"door_secret":{"fact_id":"door_secret","category":"backstory","canonical_text":"Only Dana knows the hidden door code.","embargo_tokens":["hidden door code"]}},
+  "initial_beliefs":{"DANA":{"door_secret":1},"ALEX":{"door_secret":0}},
+  "props":{"lamp":{"item_id":"lamp","name":"lamp","lifecycle":"dormant","room_id":"hall"}},
+  "character_locations":{"DANA":"hall","ALEX":"hall"}, "room_topology":{"hall":[]},
+  "beats":{"observe":{"beat_id":"observe","chunk_index":1,"beat_order":1,"slugline":"INT. HALL - DAY","active_characters":["DANA","ALEX"],"dramatic_goal":"Dana and Alex decide how to proceed without revealing the door code.","required_beliefs":[{"character_id":"DANA","fact_id":"door_secret","min_belief":1}],"required_prop_states":[{"item_id":"lamp","required_lifecycle":"dormant"}],"state_delta":{}}}
+}

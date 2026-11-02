@@ -1,0 +1,178 @@
+{
+  "dataset_id": "ma_ma_ling_source_index",
+  "revision": "1",
+  "schema_id": "narrative.story-index.v1",
+  "owner_id": "ma_ma_ling",
+  "review_status": "pending_review",
+  "method": "lexical mentions; attribution requires review",
+  "sources": [
+    {
+      "section": "gemini_master",
+      "file": "gemini_hot_scoomp_master.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693",
+      "references": [
+        {
+          "block_id": "action-5cc6199d",
+          "line": 1107,
+          "role": "action",
+          "match": "MA MA LING",
+          "line_sha256": "fdd4e8cf25e7b956f6f2959c019fb7c24674de643d0a5e0cc05b6769f4ed61a5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-4e4b7038",
+          "line": 1111,
+          "role": "cue",
+          "match": "MA MA LING",
+          "line_sha256": "5e9605d10db09732775f328c799e85a5affc2cbff26d82ae383ba31ea517d1d5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-4e4b7038-2",
+          "line": 1118,
+          "role": "cue",
+          "match": "MA MA LING",
+          "line_sha256": "5e9605d10db09732775f328c799e85a5affc2cbff26d82ae383ba31ea517d1d5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-466d9a3c",
+          "line": 1126,
+          "role": "action",
+          "match": "Ma Ma Ling",
+          "line_sha256": "abdb7be6eb20e388a227327274297ba19b6f71a5b6fc9cf14a1ce923f82d1ec0",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ffe3bc8a",
+          "line": 1128,
+          "role": "cue",
+          "match": "MA MA LING",
+          "line_sha256": "3f205427320807b1830137e9fbafff0d883195b1181310a0d8be3b87f32058c4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-4e4b7038-3",
+          "line": 1146,
+          "role": "cue",
+          "match": "MA MA LING",
+          "line_sha256": "5e9605d10db09732775f328c799e85a5affc2cbff26d82ae383ba31ea517d1d5",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "episode_0",
+      "file": "episode_0.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "c17ce518da420dc8e48c03257774593003f103e24176ca28b044a4cfc264fc79",
+      "references": []
+    },
+    {
+      "section": "spring_break",
+      "file": "spring_break.md",
+      "canon": "ling_au",
+      "sha256": "347bc61b3eceeb1d240d8b6acca8d56e12db101731dc1c79c264da61db2d8ebc",
+      "references": [
+        {
+          "block_id": "action-5cc6199d",
+          "line": 245,
+          "role": "action",
+          "match": "MA MA LING",
+          "line_sha256": "fdd4e8cf25e7b956f6f2959c019fb7c24674de643d0a5e0cc05b6769f4ed61a5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-4e4b7038",
+          "line": 249,
+          "role": "cue",
+          "match": "MA MA LING",
+          "line_sha256": "5e9605d10db09732775f328c799e85a5affc2cbff26d82ae383ba31ea517d1d5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-4e4b7038-2",
+          "line": 256,
+          "role": "cue",
+          "match": "MA MA LING",
+          "line_sha256": "5e9605d10db09732775f328c799e85a5affc2cbff26d82ae383ba31ea517d1d5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-466d9a3c",
+          "line": 264,
+          "role": "action",
+          "match": "Ma Ma Ling",
+          "line_sha256": "abdb7be6eb20e388a227327274297ba19b6f71a5b6fc9cf14a1ce923f82d1ec0",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ffe3bc8a",
+          "line": 266,
+          "role": "cue",
+          "match": "MA MA LING",
+          "line_sha256": "3f205427320807b1830137e9fbafff0d883195b1181310a0d8be3b87f32058c4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-4e4b7038-3",
+          "line": 284,
+          "role": "cue",
+          "match": "MA MA LING",
+          "line_sha256": "5e9605d10db09732775f328c799e85a5affc2cbff26d82ae383ba31ea517d1d5",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "prequel",
+      "file": "prequel.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "47fa5c089adb8860f6c2c56dc5a49354e98fccdf1d103bdbd68136ce56c8dd80",
+      "references": []
+    },
+    {
+      "section": "act_1",
+      "file": "act_1.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "b38d1a824dae1a2e935eb2098ee9d82649d633789d89f0e5eb8d7cd1f9983cc6",
+      "references": []
+    },
+    {
+      "section": "act_2",
+      "file": "act_2.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "cf9194f953cbd07fbf6c8102c06822752575ba909aabf53845b6beb27731212a",
+      "references": []
+    },
+    {
+      "section": "climax_tag",
+      "file": "climax_tag.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "1b41b5af9ab6af7f4c74a3f963e8eb42704dca5c64f963928bb3cd92995fa914",
+      "references": []
+    },
+    {
+      "section": "tapped_out_main",
+      "file": "tapped_out_main.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "636799147f295a86c0adcc2b3d75fd486ede388be0874f33eb3c0ddd83080694",
+      "references": []
+    },
+    {
+      "section": "tapped_out_b",
+      "file": "tapped_out_b.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "1b70d6a2e02a92f7f55d9ad69999530aa497e5cf2ec91c41ffca0dc3426b4ba0",
+      "references": []
+    },
+    {
+      "section": "tapped_out_quick_story",
+      "file": "tapped_out_quick_story.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "6047b96e0e312f0e45f881c97bcdd011c92b3474f5add9921938b8119a96cc79",
+      "references": []
+    }
+  ]
+}

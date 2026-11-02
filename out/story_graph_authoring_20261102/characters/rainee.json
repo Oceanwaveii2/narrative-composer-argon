@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "entity_id": "rainee",
+  "display_name": "Rainee",
+  "aliases": [
+    "RAINEE",
+    "RAINEE LING",
+    "RAINEE-PETER",
+    "PETER RAINEE",
+    "RAINEE/MADONNA",
+    "RAINEE/CHRISTIE",
+    "RAINEE/HEATHER",
+    "RAINEE/KIM",
+    "RAINEE/DEBBIE",
+    "RAINEE/BO"
+  ],
+  "canons": [
+    "hot_scoomp_main",
+    "ling_au"
+  ],
+  "base_state": "base",
+  "attributes": {
+    "orientation": "lesbian",
+    "marital_status": "married_to_francine",
+    "spouse": "francine"
+  },
+  "states": [
+    {
+      "id": "rainee.state.base",
+      "slug": "base",
+      "label": "Base Rainee (Eidolessa Form)",
+      "order": 0,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "visual_anchors": [
+        "eidolessa",
+        "lavender",
+        "sequins"
+      ]
+    },
+    {
+      "id": "rainee.state.strip_tease",
+      "slug": "strip_tease",
+      "label": "Rainee grouped transformations (legacy)",
+      "order": 1,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "cue_aliases": [],
+      "enter_patterns": [
+        "strip\\s+tease"
+      ],
+      "visual_anchors": [
+        "sequins",
+        "shimmer",
+        "cards",
+        "bustier",
+        "veil"
+      ]
+    },
+    {
+      "id": "rainee.state.madonna",
+      "slug": "madonna",
+      "label": "Rainee / Madonna",
+      "order": 2,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "cue_aliases": [
+        {
+          "cue": "RAINEE/MADONNA",
+          "state": "madonna",
+          "canons": [
+            "hot_scoomp_main",
+            "ling_au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rainee.state.christie_brinkley",
+      "slug": "christie_brinkley",
+      "label": "Rainee / Christie Brinkley",
+      "order": 3,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "cue_aliases": [
+        {
+          "cue": "RAINEE/CHRISTIE",
+          "state": "christie_brinkley",
+          "canons": [
+            "hot_scoomp_main",
+            "ling_au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rainee.state.heather_locklear",
+      "slug": "heather_locklear",
+      "label": "Rainee / Heather Locklear",
+      "order": 4,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "cue_aliases": [
+        {
+          "cue": "RAINEE/HEATHER",
+          "state": "heather_locklear",
+          "canons": [
+            "hot_scoomp_main",
+            "ling_au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rainee.state.kim_basinger",
+      "slug": "kim_basinger",
+      "label": "Rainee / Kim Basinger",
+      "order": 5,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "cue_aliases": [
+        {
+          "cue": "RAINEE/KIM",
+          "state": "kim_basinger",
+          "canons": [
+            "hot_scoomp_main",
+            "ling_au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rainee.state.debbie_harry",
+      "slug": "debbie_harry",
+      "label": "Rainee / Debbie Harry",
+      "order": 6,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "cue_aliases": [
+        {
+          "cue": "RAINEE/DEBBIE",
+          "state": "debbie_harry",
+          "canons": [
+            "hot_scoomp_main",
+            "ling_au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rainee.state.bo_derek",
+      "slug": "bo_derek",
+      "label": "Rainee / Bo Derek",
+      "order": 7,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "cue_aliases": [
+        {
+          "cue": "RAINEE/BO",
+          "state": "bo_derek",
+          "canons": [
+            "hot_scoomp_main",
+            "ling_au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rainee.state.peter_50",
+      "slug": "peter_50",
+      "label": "Rainee / Peter — 50% (optional)",
+      "order": 8,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "attributes": {
+        "provisional": true,
+        "availability": "author-defined option; not established as observed",
+        "source": "author clarification"
+      }
+    },
+    {
+      "id": "rainee.state.peter",
+      "slug": "peter",
+      "label": "Peter-Rainee Persona",
+      "order": 9,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "cue_aliases": [
+        {
+          "cue": "RAINEE-PETER",
+          "state": "peter",
+          "canons": [
+            "hot_scoomp_main",
+            "ling_au"
+          ]
+        },
+        {
+          "cue": "PETER RAINEE",
+          "state": "peter",
+          "canons": [
+            "hot_scoomp_main",
+            "ling_au"
+          ]
+        }
+      ],
+      "enter_patterns": [
+        "peter\\s+protocol",
+        "rainee[- ]peter",
+        "cleft\\s+chin"
+      ],
+      "visual_anchors": [
+        "cleft chin",
+        "baritone",
+        "green trousers",
+        "size-twelve"
+      ]
+    }
+  ],
+  "transforms": [
+    {
+      "id": "rainee.xform.base__strip_tease",
+      "from_state": "rainee.state.base",
+      "to_state": "rainee.state.strip_tease",
+      "triggers": [
+        "shimmer_flare",
+        "strip_tease"
+      ],
+      "reversible": true,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ]
+    },
+    {
+      "id": "rainee.xform.strip_tease__base",
+      "from_state": "rainee.state.strip_tease",
+      "to_state": "rainee.state.base",
+      "triggers": [
+        "cards_into_deck",
+        "shimmer_collapse"
+      ],
+      "reversible": true,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ]
+    },
+    {
+      "id": "rainee.xform.base__peter",
+      "from_state": "rainee.state.base",
+      "to_state": "rainee.state.peter",
+      "triggers": [
+        "gas_release",
+        "peter_protocol"
+      ],
+      "reversible": true,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ]
+    },
+    {
+      "id": "rainee.xform.peter__base",
+      "from_state": "rainee.state.peter",
+      "to_state": "rainee.state.base",
+      "triggers": [
+        "gas_clear",
+        "decompression"
+      ],
+      "reversible": true,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ]
+    },
+    {
+      "id": "rainee.xform.strip_tease__peter",
+      "from_state": "rainee.state.strip_tease",
+      "to_state": "rainee.state.peter",
+      "triggers": [
+        "gas_release"
+      ],
+      "reversible": true,
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ]
+    },
+    {
+      "id": "rainee.xform.base__peter_50",
+      "from_state": "rainee.state.base",
+      "to_state": "rainee.state.peter_50",
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "attributes": {
+        "provisional": true,
+        "origin": "author_option",
+        "review_status": "not observed"
+      }
+    },
+    {
+      "id": "rainee.xform.peter_50__peter",
+      "from_state": "rainee.state.peter_50",
+      "to_state": "rainee.state.peter",
+      "canons": [
+        "hot_scoomp_main",
+        "ling_au"
+      ],
+      "attributes": {
+        "provisional": true,
+        "origin": "author_option",
+        "review_status": "not observed"
+      }
+    }
+  ],
+  "data_port": {
+    "id": "rainee.port.data",
+    "mode": "inherit",
+    "bindings": [
+      {
+        "dataset_id": "rainee_source_index",
+        "revision": "1",
+        "content_hash": "392a2a988218af933440b0e07ad980be3599d66b7061a0ef877e0f7479dd41e5",
+        "domain": "story_evidence",
+        "schema_id": "narrative.story-index.v1",
+        "relative_path": "rainee_source_index.json"
+      },
+      {
+        "dataset_id": "rainee_legacy_dialectic",
+        "revision": "1",
+        "content_hash": "13deb09f4da11f49e1ecf48039def09400a2f5e57b3a46edf8eec4b0cee3de8a",
+        "domain": "personality_profile",
+        "schema_id": "narrative.dialectic.v1",
+        "relative_path": "rainee_legacy_dialectic.json"
+      }
+    ]
+  }
+}

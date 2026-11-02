@@ -1,0 +1,2153 @@
+{
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "beat": null,
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 2,
+      "beat": null,
+      "role": "title",
+      "text": "Episode Outline: Tapped Out (Main Story Only)",
+      "included": true,
+      "runs": [
+        {
+          "text": "Episode Outline: Tapped Out (Main Story Only)",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 3,
+      "beat": null,
+      "role": "document_metadata",
+      "text": "Below is the cleaned and organized main-story outline with headers, labeled sections, bolded character names, and paragraph structure. All B story material has been removed.",
+      "included": false,
+      "runs": [
+        {
+          "text": "Below is the cleaned and organized main-story outline with headers, labeled sections, bolded character names, and paragraph structure. All B story material has been removed.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 4,
+      "beat": null,
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 5,
+      "beat": null,
+      "role": "act",
+      "text": "Act 1: Setup and Distance",
+      "included": true,
+      "runs": [
+        {
+          "text": "Act 1: Setup and Distance",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 6,
+      "beat": "1",
+      "role": "beat",
+      "text": "Beat 1: Stella’s Independence",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 1: Stella’s Independence",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 7,
+      "beat": "1",
+      "role": "outline_note",
+      "text": "Notes:\nStella has been avoiding Francine, spending more time out of the house and exploring the world on her own; Francine feels left behind by her growing daughter. Klaus observes dryly that Stella’s “princess” era is giving way to independent womanhood, needling Francine’s anxieties as Stella’s priorities shift.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella has been avoiding Francine, spending more time out of the house and exploring the world on her own; Francine feels left behind by her growing daughter. Klaus observes dryly that Stella’s “princess” era is giving way to independent womanhood, needling Francine’s anxieties as Stella’s priorities shift.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 8,
+      "beat": "1",
+      "role": "sample_dialogue",
+      "text": "Dialogue samples:\nKlaus: \"Uh oh, your princess is growing up.\"",
+      "included": true,
+      "runs": [
+        {
+          "text": "Dialogue samples:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Klaus:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Uh oh, your princess is growing up.\"",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 9,
+      "beat": "1",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 10,
+      "beat": "2",
+      "role": "beat",
+      "text": "Beat 2: Francine’s Deepening Fears",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 2: Francine’s Deepening Fears",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 11,
+      "beat": "2",
+      "role": "outline_note",
+      "text": "Notes:\nFrancine doom-scrolls a string of anxiety-inducing videos about kids leaving the nest and aging alone, which intensifies her fear that Stella is slipping away; this spiral leaves Francine depressed and primed to overreact. The emotional pressure becomes the powder keg that will misdirect and amplify Hayley’s later magic.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine doom-scrolls a string of anxiety-inducing videos about kids leaving the nest and aging alone, which intensifies her fear that Stella is slipping away; this spiral leaves Francine depressed and primed to overreact. The emotional pressure becomes the powder keg that will misdirect and amplify Hayley’s later magic.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 12,
+      "beat": "2",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 13,
+      "beat": "3",
+      "role": "beat",
+      "text": "Beat 3: The Schedule Prank",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 3: The Schedule Prank",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 14,
+      "beat": "3",
+      "role": "outline_note",
+      "text": "Notes:\nStella arrives to run the day’s schedule and shows up in a stylish, businesswoman “hot girl” look, signaling maturity and autonomy; Francine sees a resemblance to Aunt Gwen Tenfiner and recoils at the implied change. Stella’s prank reframes the “dutiful daughter” routine as performance, not obedience, which further rattles Francine.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella arrives to run the day’s schedule and shows up in a stylish, businesswoman “hot girl” look, signaling maturity and autonomy; Francine sees a resemblance to Aunt Gwen Tenfiner and recoils at the implied change. Stella’s prank reframes the “dutiful daughter” routine as performance, not obedience, which further rattles Francine.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 15,
+      "beat": "3",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 16,
+      "beat": "4",
+      "role": "beat",
+      "text": "Beat 4: Stella’s Retaliation Prank",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 4: Stella’s Retaliation Prank",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 17,
+      "beat": "4",
+      "role": "outline_note",
+      "text": "Notes:\nAt 9:30 pm, Stella follows through on a payback prank against Hayley by dusting itching powder over a $100 makeup kit; the sibling sting is petty but cathartic. The prank is the immediate spark that brings Hayley’s powers into play under heightened emotion.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "At 9:30 pm, Stella follows through on a payback prank against Hayley by dusting itching powder over a $100 makeup kit; the sibling sting is petty but cathartic. The prank is the immediate spark that brings Hayley’s powers into play under heightened emotion.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 18,
+      "beat": "4",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 19,
+      "beat": null,
+      "role": "act",
+      "text": "Act 2: The Transformation",
+      "included": true,
+      "runs": [
+        {
+          "text": "Act 2: The Transformation",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 20,
+      "beat": "5",
+      "role": "beat",
+      "text": "Beat 5: The Magic Accident",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 5: The Magic Accident",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 21,
+      "beat": "5",
+      "role": "outline_note",
+      "text": "Notes:\nAngry, Hayley calls on goddess power and frames a “nerdy teen boy fantasy” curse; at the same time, Francine privately wishes for her “little princess back,” which warps the spell’s intent. The magic misfires and channels primarily into Stella, “compressing” her into a nerdy female/teen-boy hybrid—“dorky boy in a can”—with a locked matrix and a nerd body sporting huge breasts.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Angry, Hayley calls on goddess power and frames a “nerdy teen boy fantasy” curse; at the same time, Francine privately wishes for her “little princess back,” which warps the spell’s intent. The magic misfires and channels primarily into Stella, “compressing” her into a nerdy female/teen-boy hybrid—“dorky boy in a can”—with a locked matrix and a nerd body sporting huge breasts.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 22,
+      "beat": "5",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 23,
+      "beat": "6",
+      "role": "beat",
+      "text": "Beat 6: Trapped and Transformed",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 6: Trapped and Transformed",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 24,
+      "beat": "6",
+      "role": "outline_note",
+      "text": "Notes:\nStella is stuck in the nerdy female/teen-boy form and cannot revert; montage vignettes show incongruous domesticity, including her cooking and a moment of self-love in the cube before release. The “matrix lock” explains the failure to snap back, and the scene contrasts preserved cognition with imposed behavior.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella is stuck in the nerdy female/teen-boy form and cannot revert; montage vignettes show incongruous domesticity, including her cooking and a moment of self-love in the cube before release. The “matrix lock” explains the failure to snap back, and the scene contrasts preserved cognition with imposed behavior.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 25,
+      "beat": "6",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 26,
+      "beat": "7",
+      "role": "beat",
+      "text": "Beat 7: Francine Takes Advantage",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 7: Francine Takes Advantage",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 27,
+      "beat": "7",
+      "role": "outline_note",
+      "text": "Notes:\nSensing opportunity, Francine leans in to keep Stella dependent, believing this form guarantees her “little girl” forever; she labels and defines the persona to cement it. Naming becomes manipulation through identity framing.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Sensing opportunity, Francine leans in to keep Stella dependent, believing this form guarantees her “little girl” forever; she labels and defines the persona to cement it. Naming becomes manipulation through identity framing.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 28,
+      "beat": "7",
+      "role": "sample_dialogue",
+      "text": "Dialogue samples:\nFrancine: \"Ya know, you look like a nerdy dorky boy who got into his sister's underwear drawer and just couldn't stop. If I had a son I'd call them Steve, but with Rainee Fox genes it was always going to be daughters. Look and kinda smell like a Steve.\"",
+      "included": true,
+      "runs": [
+        {
+          "text": "Dialogue samples:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Ya know, you look like a nerdy dorky boy who got into his sister's underwear drawer and just couldn't stop. If I had a son I'd call them Steve, but with Rainee Fox genes it was always going to be daughters. Look and kinda smell like a Steve.\"",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 29,
+      "beat": "7",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 30,
+      "beat": "8",
+      "role": "beat",
+      "text": "Beat 8: Naming the New Persona",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 8: Naming the New Persona",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 31,
+      "beat": "8",
+      "role": "outline_note",
+      "text": "Notes:\nHayley twists the knife with a nickname—“BIG TIDDY FEMALE STEVE!”—turning the regression into a gag that unfortunately reinforces the imposed identity. The joke lands, but the label sticks, worsening Stella’s bind.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Hayley twists the knife with a nickname—“BIG TIDDY FEMALE STEVE!”—turning the regression into a gag that unfortunately reinforces the imposed identity. The joke lands, but the label sticks, worsening Stella’s bind.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 32,
+      "beat": "8",
+      "role": "sample_dialogue",
+      "text": "Dialogue samples:\nStella: \"Don't you dare call me that!\"\nHayley: (thinking) \"How progressive I am—I respect Big Tiddy Steve's pronouns.\"",
+      "included": true,
+      "runs": [
+        {
+          "text": "Dialogue samples:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Don't you dare call me that!\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Hayley:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (thinking) \"How progressive I am—I respect Big Tiddy Steve's pronouns.\"",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 33,
+      "beat": "8",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 34,
+      "beat": "9",
+      "role": "beat",
+      "text": "Beat 9: Stuck, For Now",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 9: Stuck, For Now",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 35,
+      "beat": "9",
+      "role": "outline_note",
+      "text": "Notes:\nStella attempts to revert but can’t; Hayley’s powers are drained and cannot undo the damage immediately. Francine doubles down on babying Stella, talking as if “beauty queen” restoration depends on Stella staying pliant in this in-between state.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella attempts to revert but can’t; Hayley’s powers are drained and cannot undo the damage immediately. Francine doubles down on babying Stella, talking as if “beauty queen” restoration depends on Stella staying pliant in this in-between state.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 36,
+      "beat": "9",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 37,
+      "beat": null,
+      "role": "act",
+      "text": "Act 3: Diagnosis and Stakes",
+      "included": true,
+      "runs": [
+        {
+          "text": "Act 3: Diagnosis and Stakes",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 38,
+      "beat": "10",
+      "role": "beat",
+      "text": "Beat 10: Rainee’s Explanation",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 10: Rainee’s Explanation",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 39,
+      "beat": "10",
+      "role": "outline_note",
+      "text": "Notes:\nRainee evaluates Stella and explains that higher brain functions are intact, but an identity overlay has been imposed; Stella’s body “believes” the nerd template and follows it. The path forward is psychological and magical: make the body believe she is Miss Stella again.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Rainee evaluates Stella and explains that higher brain functions are intact, but an identity overlay has been imposed; Stella’s body “believes” the nerd template and follows it. The path forward is psychological and magical: make the body believe she is Miss Stella again.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 40,
+      "beat": "10",
+      "role": "sample_dialogue",
+      "text": "Dialogue samples:\nRainee: \"It's kinda like when she was stuck as Lashonda Dyke Rainee-Roger—her higher brain functions are protected—but an identity has been imposed on her matrix, and her body has come to believe Hayley’s idea of a nerd, thus acts like one. We just need to get her body to believe she is Miss Stella, not this nerdy construct.\"",
+      "included": true,
+      "runs": [
+        {
+          "text": "Dialogue samples:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Rainee:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"It's kinda like when she was stuck as Lashonda Dyke Rainee-Roger—her higher brain functions are protected—but an identity has been imposed on her matrix, and her body has come to believe Hayley’s idea of a nerd, thus acts like one. We just need to get her body to believe she is Miss Stella, not this nerdy construct.\"",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 41,
+      "beat": "10",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 42,
+      "beat": null,
+      "role": "act",
+      "text": "Act 4: Confrontation and Collapse (Before the Strippers)",
+      "included": true,
+      "runs": [
+        {
+          "text": "Act 4: Confrontation and Collapse (Before the Strippers)",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 43,
+      "beat": "11",
+      "role": "beat",
+      "text": "Beat 11: Stella Realizes the Truth",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 11: Stella Realizes the Truth",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 44,
+      "beat": "11",
+      "role": "outline_note",
+      "text": "Notes:\nStella notices patterns in Francine’s behavior—infantilizing routines, strategic triggers, and exploiting the nerd persona’s impulse weaknesses—and prepares to confront her mother. The evidence frames the conflict as love turning coercive through arrested development.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella notices patterns in Francine’s behavior—infantilizing routines, strategic triggers, and exploiting the nerd persona’s impulse weaknesses—and prepares to confront her mother. The evidence frames the conflict as love turning coercive through arrested development.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 45,
+      "beat": "11",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 46,
+      "beat": "11A",
+      "role": "beat",
+      "text": "Beat 11A: Breast Milk Joke (Original Reference)",
+      "included": false,
+      "runs": [
+        {
+          "text": "Beat 11A: Breast Milk Joke (Original Reference)",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 47,
+      "beat": "11A",
+      "role": "outline_note",
+      "text": "Notes:\nDuring confrontation, a scene nods to the original breast milk gag; Klaus acts as “security,” witnessing the absurdity. The callback heightens discomfort and underscores Francine’s refusal to let go.",
+      "included": false,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "During confrontation, a scene nods to the original breast milk gag; Klaus acts as “security,” witnessing the absurdity. The callback heightens discomfort and underscores Francine’s refusal to let go.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 48,
+      "beat": "11A",
+      "role": "sample_dialogue",
+      "text": "Dialogue samples:\nStella/Steve: (in a black wig) \"Found you.\"\nFrancine: \"I never quite stopped giving you. While others stop, I kept going.\"\nStella/Steve: \"Creepy. I know your plot now, Mom, and I'll find it.\" (Opens one and drinks.) \"I can make my own—and mine is better!\"\nFrancine: \"How dare you! My genes gave you those boobs!\"\nStella/Steve: \"I’ll figure out a way to beat you.\"",
+      "included": false,
+      "runs": [
+        {
+          "text": "Dialogue samples:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella/Steve:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (in a black wig) \"Found you.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"I never quite stopped giving you. While others stop, I kept going.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella/Steve:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Creepy. I know your plot now, Mom, and I'll find it.\" (Opens one and drinks.) \"I can make my own—and mine is better!\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"How dare you! My genes gave you those boobs!\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella/Steve:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"I’ll figure out a way to beat you.\"",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 49,
+      "beat": "11A",
+      "role": "blank",
+      "text": "",
+      "included": false,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 50,
+      "beat": "12",
+      "role": "beat",
+      "text": "Beat 12: Francine’s Confession",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 12: Francine’s Confession",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 51,
+      "beat": "12",
+      "role": "outline_note",
+      "text": "Notes:\nFrancine admits she’s terrified of losing Stella and that distance has already begun; her rationalization is control masquerading as protection. The confession reframes the fight as fear versus autonomy.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine admits she’s terrified of losing Stella and that distance has already begun; her rationalization is control masquerading as protection. The confession reframes the fight as fear versus autonomy.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 52,
+      "beat": "12",
+      "role": "sample_dialogue",
+      "text": "Dialogue samples:\nFrancine: \"As long as you're in this form, you'll never leave momma's nest and you lack the will and stamina to oppose her.\"\nStella: \"I can't do this.\"",
+      "included": true,
+      "runs": [
+        {
+          "text": "Dialogue samples:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"As long as you're in this form, you'll never leave momma's nest and you lack the will and stamina to oppose her.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"I can't do this.\"",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 53,
+      "beat": "12",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 54,
+      "beat": "13",
+      "role": "beat",
+      "text": "Beat 13: Complete Collapse",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 13: Complete Collapse",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 55,
+      "beat": "13",
+      "role": "outline_note",
+      "text": "Notes:\nFrancine pushes a final lever—emotional or magical—that knocks Stella’s willpower out; Stella collapses into the “Big Tiddy Steve Smith” teen-boy persona and begins acting like a classic mamma’s boy. The low point cements the need for outside intervention and inner reassertion.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine pushes a final lever—emotional or magical—that knocks Stella’s willpower out; Stella collapses into the “Big Tiddy Steve Smith” teen-boy persona and begins acting like a classic mamma’s boy. The low point cements the need for outside intervention and inner reassertion.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 56,
+      "beat": "13",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 57,
+      "beat": null,
+      "role": "act",
+      "text": "Act 5: The Girlfriend Conspiracy (After Confrontation)",
+      "included": true,
+      "runs": [
+        {
+          "text": "Act 5: The Girlfriend Conspiracy (After Confrontation)",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 58,
+      "beat": "14",
+      "role": "beat",
+      "text": "Beat 14: Complaints and Cracks",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 14: Complaints and Cracks",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 59,
+      "beat": "14",
+      "role": "outline_note",
+      "text": "Notes:\nShaken, Stella/Big Tiddy Steve vents to Hayley that Mom is exploiting her; the confession opens a line of investigation. The complaint is the first proactive step back to selfhood.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Shaken, Stella/Big Tiddy Steve vents to Hayley that Mom is exploiting her; the confession opens a line of investigation. The complaint is the first proactive step back to selfhood.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 60,
+      "beat": "14",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 61,
+      "beat": "15",
+      "role": "beat",
+      "text": "Beat 15: Payments and Pressure",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 15: Payments and Pressure",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 62,
+      "beat": "15",
+      "role": "outline_note",
+      "text": "Notes:\nIt’s revealed Francine is paying Zooey, Kristen, and Danuta Tenuta to keep Stella aroused and trapped in the nerd persona; intimacy becomes a tool of control. The girlfriends attempt to “handle” Stella physically, leveraging the persona’s susceptibilities.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "It’s revealed Francine is paying Zooey, Kristen, and Danuta Tenuta to keep Stella aroused and trapped in the nerd persona; intimacy becomes a tool of control. The girlfriends attempt to “handle” Stella physically, leveraging the persona’s susceptibilities.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 63,
+      "beat": "15",
+      "role": "sample_dialogue",
+      "text": "Dialogue samples:\nStella: \"What the hell, Zooey? Don't you want me hot again? Do you really want me to be a nerdy-looking female boy, whatever the heck I am?\"\nZooey: \"Of course, babe, but… your mom is paying us a lot to turn you on. You should really investigate her funding. If we keep your teen boy persona aroused, you'll stay her little princess.\"\nZooey: \"We want our hot little wife back, but I’ve got bills and a house to buy so all four of us can practice on stripper poles.\"\nDanuta Tenuta: \"I’ve slept with uglier-looking guys than anything you look like, and you still have great boobs, so I relate.\"\nKristen: (checks phone) \"Another payment from your mom just hit.\"\nBig Tiddy Steve/Stella: (backing away) \"You're stopping me from becoming a hot girl again.\"\nZooey & Kristen: \"Grab her.\"\nKristen: (presses her breast to the back of Stella’s head)\nBig Tiddy Steve/Stella: \"Oh baby—\" (shivers, melts) \"Come on, body, fight back! I can handle Kristen.\"\nKristen: \"Hot fox Stella can handle Kristen. Big Tiddy female boy Steve is putty in our hands.\"\nZooey: \"Make this easy.\" (Flashes; presses breast to Stella/Steve’s face.)\nSteve: \"Woah, momma—\" (spell energy flares)\nSteve/Stella: \"Damn it.\"\nStella: (to Hayley) \"You have to stop Mom. I’m too weak. She knows all my weaknesses in this form. I can out-seduce Zooey on a normal day.\"\nHayley: \"Damn it, I’ll do my best. Hang in there.\"\nZooey: (shoves Stella/Steve onto the bed, sits on her) \"You can seduce me on a normal day, but today I’m the powerful one. Stephan—Steve, I’ll call you that—suck on my tits.\"\nStella: \"Yes ma’am—immediately.\"",
+      "included": true,
+      "runs": [
+        {
+          "text": "Dialogue samples:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"What the hell, Zooey? Don't you want me hot again? Do you really want me to be a nerdy-looking female boy, whatever the heck I am?\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Zooey:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Of course, babe, but… your mom is paying us a lot to turn you on. You should really investigate her funding. If we keep your teen boy persona aroused, you'll stay her little princess.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Zooey:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"We want our hot little wife back, but I’ve got bills and a house to buy so all four of us can practice on stripper poles.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Danuta Tenuta:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"I’ve slept with uglier-looking guys than anything you look like, and you still have great boobs, so I relate.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Kristen:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (checks phone) \"Another payment from your mom just hit.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Big Tiddy Steve/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (backing away) \"You're stopping me from becoming a hot girl again.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Zooey & Kristen:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Grab her.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Kristen:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (presses her breast to the back of Stella’s head)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Big Tiddy Steve/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Oh baby—\" (shivers, melts) \"Come on, body, fight back! I can handle Kristen.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Kristen:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Hot fox Stella can handle Kristen. Big Tiddy female boy Steve is putty in our hands.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Zooey:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Make this easy.\" (Flashes; presses breast to Stella/Steve’s face.)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Steve:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Woah, momma—\" (spell energy flares)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Steve/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Damn it.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (to Hayley) \"You have to stop Mom. I’m too weak. She knows all my weaknesses in this form. I can out-seduce Zooey on a normal day.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Hayley:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Damn it, I’ll do my best. Hang in there.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Zooey:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (shoves Stella/Steve onto the bed, sits on her) \"You can seduce me on a normal day, but today I’m the powerful one. Stephan—Steve, I’ll call you that—suck on my tits.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Yes ma’am—immediately.\"",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 64,
+      "beat": "15",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 65,
+      "beat": null,
+      "role": "act",
+      "text": "Act 6: Final Battle and Resolution",
+      "included": true,
+      "runs": [
+        {
+          "text": "Act 6: Final Battle and Resolution",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 66,
+      "beat": "16",
+      "role": "beat",
+      "text": "Beat 16: Hayley vs. Francine",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 16: Hayley vs. Francine",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 67,
+      "beat": "16",
+      "role": "outline_note",
+      "text": "Notes:\nAfter the stripper confrontation, Hayley challenges Francine to free Stella; Francine counters with fox talismans and Taoist sealing techniques, turning the conflict into a duel of magic and motherhood. The clash externalizes the thematic war over agency and attachment.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "After the stripper confrontation, Hayley challenges Francine to free Stella; Francine counters with fox talismans and Taoist sealing techniques, turning the conflict into a duel of magic and motherhood. The clash externalizes the thematic war over agency and attachment.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 68,
+      "beat": "16",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 69,
+      "beat": "17",
+      "role": "beat",
+      "text": "Beat 17: Edna Ascendant, Mother and Daughter Healed",
+      "included": true,
+      "runs": [
+        {
+          "text": "Beat 17: Edna Ascendant, Mother and Daughter Healed",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 70,
+      "beat": "17",
+      "role": "outline_note",
+      "text": "Notes:\nIn the final showdown, Big Tiddy Steve (black wig, heavy mascara) commits to self-definition and transforms into an Edna-like form—short, commanding, couture—embodying mature authority and taste. Stella asserts boundaries, dismisses the girlfriends, and addresses Francine’s fear directly, promising presence while rejecting control; she then spins back into “Princess Stella” in a black gown, reconciling glamour with autonomy.",
+      "included": true,
+      "runs": [
+        {
+          "text": "Notes:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "In the final showdown, Big Tiddy Steve (black wig, heavy mascara) commits to self-definition and transforms into an Edna-like form—short, commanding, couture—embodying mature authority and taste. Stella asserts boundaries, dismisses the girlfriends, and addresses Francine’s fear directly, promising presence while rejecting control; she then spins back into “Princess Stella” in a black gown, reconciling glamour with autonomy.",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 71,
+      "beat": "17",
+      "role": "sample_dialogue",
+      "text": "Dialogue samples:\nBig Tiddy Steve/Stella: \"It’s time to end this, Mom.\"\nFrancine: \"Girls, stop her—him!\"\n(Zooey and Danuta fail to stop her; Stella begins glowing.)\nStella: \"Your cheap tart tricks won’t work on me anymore, Zooey—traitor to me for money to my own mother. I can’t be trapped as this nerdy boy anymore. Even if these breasts are fantastic, I’ll enjoy them as a true woman. But I have to stop you, Mom. Someone has to grow up, and it must be me—the elder.\"\n(Transforms into an Edna-from-The-Incredibles archetype.)\nFrancine: \"Stella, is that you? You look like Grandma!\"\nEdna/Stella: (to the girlfriends) \"How dare you betray me and try to keep me as that abomination of Steve!\" (smacks Danuta; then kisses her) \"Go to the club; I’ll meet you later. Wear the blue outfit I like.\"\nZooey/Danuta/Kristen: \"That is so hot!\"\nEdna/Stella: \"BE GONE! Punishments later.\"\n(Girlfriends flee.)\nFrancine: (softly) \"I’m scared of growing old and being left alone.\"\nEdna/Stella: \"I’m older than you now; if you won’t be the adult, I will. I’ll be Grandma.\"\nFrancine: \"Woah… you just flew right past me—so stylish.\"\nEdna/Stella: \"Silly goose. We’re fox immortal; time and age are different for us. You won’t become Grandma while I’m here—or Hayley. I’ll be your fitness surgeon.\"\n(She waves; Francine regresses to Teen Francine.)\nTeen Francine: \"Wooooah… I forgot you could do that. I was so wracked with fear I forgot you’re supernatural. So you inherited Rainee’s powers—hot! Vampire-bride vibes.\"\nEdna/Stella: \"I’m not going anywhere. We foxes don’t leave family like that… though after a thousand years, Klaus might test us.\"\nKlaus: \"HEY!\"\nEdna: \"Hey yourself, you silly fish, before I turn you into sashimi! I saw your tapes—you planted these weird ideas!\"\n(Klaus yelps and paddles frantically off-screen.)\n(Edna/Stella turns tender.)\nEdna/Stella: \"I’m sorry for avoiding you, Mom. I won’t leave you. You’ll always have your princess.\"\n(She spins and reverts to Stella in a black, fluffy princess gown.)\nPrincess Stella: \"I won’t do pink, but this is girly enough! I know I’ve been too busy and distant. And taking advantage of my compromised state wasn’t great either! I love breasts, but I have more dignity than to masturbate in a box like that nerd—I’ve got luxury toys for that.\" (She inflates her bust a touch.) \"Now I have to put those hoes in their place for turning on me.\" (Cracks a whip.)\nFrancine: (rushes in, ugly-crying) \"I’m so sorry I tried to lock you into that boyish form for selfish reasons! I’m glad to have my princess—yeah, tame them hoes!\"",
+      "included": true,
+      "runs": [
+        {
+          "text": "Dialogue samples:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Big Tiddy Steve/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"It’s time to end this, Mom.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Girls, stop her—him!\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "(Zooey and Danuta fail to stop her; Stella begins glowing.)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Your cheap tart tricks won’t work on me anymore, Zooey—traitor to me for money to my own mother. I can’t be trapped as this nerdy boy anymore. Even if these breasts are fantastic, I’ll enjoy them as a true woman. But I have to stop you, Mom. Someone has to grow up, and it must be me—the elder.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "(Transforms into an Edna-from-The-Incredibles archetype.)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Stella, is that you? You look like Grandma!\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Edna/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (to the girlfriends) \"How dare you betray me and try to keep me as that abomination of Steve!\" (smacks Danuta; then kisses her) \"Go to the club; I’ll meet you later. Wear the blue outfit I like.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Zooey/Danuta/Kristen:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"That is so hot!\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Edna/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"BE GONE! Punishments later.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "(Girlfriends flee.)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (softly) \"I’m scared of growing old and being left alone.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Edna/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"I’m older than you now; if you won’t be the adult, I will. I’ll be Grandma.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Woah… you just flew right past me—so stylish.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Edna/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Silly goose. We’re fox immortal; time and age are different for us. You won’t become Grandma while I’m here—or Hayley. I’ll be your fitness surgeon.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "(She waves; Francine regresses to Teen Francine.)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Teen Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Wooooah… I forgot you could do that. I was so wracked with fear I forgot you’re supernatural. So you inherited Rainee’s powers—hot! Vampire-bride vibes.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Edna/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"I’m not going anywhere. We foxes don’t leave family like that… though after a thousand years, Klaus might test us.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Klaus:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"HEY!\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Edna:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"Hey yourself, you silly fish, before I turn you into sashimi! I saw your tapes—you planted these weird ideas!\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "(Klaus yelps and paddles frantically off-screen.)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "(Edna/Stella turns tender.)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Edna/Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"I’m sorry for avoiding you, Mom. I won’t leave you. You’ll always have your princess.\"",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "(She spins and reverts to Stella in a black, fluffy princess gown.)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Princess Stella:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " \"I won’t do pink, but this is girly enough! I know I’ve been too busy and distant. And taking advantage of my compromised state wasn’t great either! I love breasts, but I have more dignity than to masturbate in a box like that nerd—I’ve got luxury toys for that.\" (She inflates her bust a touch.) \"Now I have to put those hoes in their place for turning on me.\" (Cracks a whip.)",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "\n",
+          "bold": null,
+          "italic": null
+        },
+        {
+          "text": "Francine:",
+          "bold": true,
+          "italic": null
+        },
+        {
+          "text": " (rushes in, ugly-crying) \"I’m so sorry I tried to lock you into that boyish form for selfish reasons! I’m glad to have my princess—yeah, tame them hoes!\"",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 72,
+      "beat": "17",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 73,
+      "beat": "17",
+      "role": "document_metadata",
+      "text": "End of Main Story Outline",
+      "included": false,
+      "runs": [
+        {
+          "text": "End of Main Story Outline",
+          "bold": true,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 74,
+      "beat": "17",
+      "role": "document_metadata",
+      "text": "⁂",
+      "included": false,
+      "runs": [
+        {
+          "text": "⁂",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 75,
+      "beat": "17",
+      "role": "blank",
+      "text": "",
+      "included": true,
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 76,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://help.arcstudiopro.com/guides/the-plot-board ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 77,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://kb.finaldraft.com/hc/en-us/articles/22375683409556-Final-Draft-13-Using-the-Outline-Editor-video ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 78,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://help.arcstudiopro.com/all-how-tos/how-do-i-delete-beats-in-outline-view ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 79,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://www.reddit.com/r/Screenwriting/comments/10hht8d/how_to_move_past_the_outline_phase_of/ ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 80,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://www.finaldraft.com/blog/how-to-use-final-draft-the-outline-editor ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 81,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://noamkroll.com/this-simple-beat-sheet-technique-will-help-you-finish-your-feature-screenplay-in-record-time/ ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 82,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://kb.finaldraft.com/hc/en-us/articles/15575172749588-How-do-I-remove-a-page-goal-from-a-Beat-or-Structure-Point-or-How-do-I-get-a-Beat-or-SP-out-of-my-Story-Map ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 83,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://www.youtube.com/watch?v=D2-hOoMlYrg ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 84,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://www.beemgee.com/blog/story-structure-plot-beats/ ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    },
+    {
+      "paragraph": 85,
+      "beat": "17",
+      "role": "reference",
+      "text": "https://screencraft.org/blog/how-to-outline-a-screenplay/ ",
+      "included": false,
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "italic": null
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Word extraction is a review projection; source file, images, and unsupported formatting remain authoritative.",
+    "0 tables and 1 inline images were not projected into active text."
+  ]
+}

@@ -1,0 +1,1678 @@
+{
+  "dataset_id": "holly_source_index",
+  "revision": "1",
+  "schema_id": "narrative.story-index.v1",
+  "owner_id": "holly",
+  "review_status": "pending_review",
+  "method": "lexical mentions; attribution requires review",
+  "sources": [
+    {
+      "section": "gemini_master",
+      "file": "gemini_hot_scoomp_master.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "072763be84030aa4243e154191f150421fc5eab298042c86ad7f08d36e2ce693",
+      "references": [
+        {
+          "block_id": "action-6c046b09",
+          "line": 1318,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "e5a22b025f94a5487ffd9e5e5ded1165d622a8468fdf6bfc37ff562b39d3e0ad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47",
+          "line": 1320,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-2",
+          "line": 1330,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-3",
+          "line": 1339,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-4",
+          "line": 1347,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-299269d7",
+          "line": 1359,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "76c7dd5a8793dca585738af2b4880f72330528e7545dfdcb4dd64db04e10aa0d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-614dce43",
+          "line": 1361,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "40c68a451ef7895790b078ae6e268db118b093ab876f9f8717a725b8eff9ca91",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-5",
+          "line": 1363,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2666bfda",
+          "line": 1369,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "a0a25f9564e945f831908d9edb7f84d953b0b429da52d3dafff3548f2174634b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-ea950542",
+          "line": 1372,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "f0851558f8b5e24355182dcc8a973b9570b0cd1912b686958e9b756e2aa19410",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2666bfda-2",
+          "line": 1374,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "a0a25f9564e945f831908d9edb7f84d953b0b429da52d3dafff3548f2174634b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-f237b396",
+          "line": 1398,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "8601285697ce7c3393de6be75b3c64ac55266d798a0e857eb3863d9ab273a2c8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-63ec005d",
+          "line": 1445,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "192e29d4405b647c45de33f0cecfd0996c3db6c3f4e570104f663f4b3cf640a3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-93e9ba31",
+          "line": 1496,
+          "role": "action",
+          "match": "Holly Graham",
+          "line_sha256": "19692eaea0b10afbf5bf0d25228509a3f35516df3b93072c32edd6b55202f295",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-6",
+          "line": 1498,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-1262d528",
+          "line": 1501,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "d3eca8a92d8dbfeba0a2f27e44beebde9a265e320cd33e2c8285b18edfa44de7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f6528454",
+          "line": 1513,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "c35b8d0e994e513aeecf26133a93b743e480f48a6cfc5b2ffffa1807e963badc",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-7",
+          "line": 1515,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-f04060a6",
+          "line": 1532,
+          "role": "parenthetical",
+          "match": "Holly",
+          "line_sha256": "5e96cf13b213bb8cfc9f0558c37ac2c9d36292e3197663e7420cd49d0428bbef",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-eaf4bfc3",
+          "line": 1533,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "a7b773093a297d13c64f99081f75398027bdded58c7006772779ba20a151d3a4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-340a4483",
+          "line": 1535,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "20e011f49cf9e35067e7ad7e46d22f9995265bddb3903f6b1fa4bf36dbd10288",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-8",
+          "line": 1537,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-92f966a0",
+          "line": 1566,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "f1ad690f45af5680658bd6abe1af6e193893fb475da9c843c70f6bdd5042d565",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a2f1f7c1",
+          "line": 1580,
+          "role": "action",
+          "match": "Holly Graham",
+          "line_sha256": "9fa7d12f3b3a871841405ce42ba5f1067a42b0f80b5bc54db8ebde75cf9ed648",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-f13a796a",
+          "line": 1585,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "2e15877028360bd0493cedafe5acc6cc3f994bb681e53f8efabd371f5e17f8f5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-8a963442",
+          "line": 1592,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "c1982ac7b59405f2337a8070c2041465ea5eb3cb5e1387af940df0cde4fea5a4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-9",
+          "line": 1594,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-dcc157e2",
+          "line": 1608,
+          "role": "dialogue",
+          "match": "Holly Graham",
+          "line_sha256": "dfef7d6d6a30c76aef845cfd522a1fc0f542c26737773b7a225fc25865038d36",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-c9ce63d1",
+          "line": 1620,
+          "role": "action",
+          "match": "Holly Graham",
+          "line_sha256": "c344ad1ab20f012be043add9c1d7f68b235a0487dc1998588683042594834c1f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-10",
+          "line": 1622,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-11",
+          "line": 1630,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-12",
+          "line": 1647,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-e018869a",
+          "line": 1661,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "e902bb3d5806b66225a40e3b1a4d804949be661fd7ecf782d697341ab898b12e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-c181bc7f",
+          "line": 1663,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "490d86d6b8ad06838228ead32aeb166eb4a7a824c9abc9810ffddaae4dd01c5a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-13",
+          "line": 1665,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0869f323",
+          "line": 1672,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "df5b71f8063a56264c995a343c4dc89714a5589667690e0a05a1010d11603a35",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-14",
+          "line": 1674,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-93b1c13b",
+          "line": 1686,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "ec2e687ff3fcc8fea0debd3b74c32349f72ad0ae35eaf71da4643ac04c0df4bc",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-15",
+          "line": 1694,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a8c7f970",
+          "line": 1747,
+          "role": "action",
+          "match": "Holly Graham",
+          "line_sha256": "661b9493f153c9bf95fb37ea32e12cf866a33c0f4f67f0d43b84bf3ab3202b90",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-16",
+          "line": 1749,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-923029f7",
+          "line": 1766,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "4e61190a8229ae6b07ed6c463672af650c007c1d3f763fe873c74196c094bc39",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-17",
+          "line": 1794,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-6c7f7993",
+          "line": 1806,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "b3f7ac44d6caccf80f21f777949c274234e1ede2330af9972845a6127a663092",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-18",
+          "line": 1808,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-19",
+          "line": 1819,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-20",
+          "line": 1825,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-4065aff9",
+          "line": 1908,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5ccd66e5054fab36a75faebc0a2d393df491a82291314c75d1339acf1b43016f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c706d454",
+          "line": 1912,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "d68c1896ecc980dc5bc0231831cb8769e5f4353e30001d27e69c6157c27d6dc7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-0f38bebe",
+          "line": 1912,
+          "role": "parenthetical",
+          "match": "Holly",
+          "line_sha256": "d68c1896ecc980dc5bc0231831cb8769e5f4353e30001d27e69c6157c27d6dc7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-db7afb3c",
+          "line": 1912,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "d68c1896ecc980dc5bc0231831cb8769e5f4353e30001d27e69c6157c27d6dc7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6",
+          "line": 1914,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "2e46000e2a4d8c8375f488d3a8f5620196bef9362b69d9bb56cbe4080656d723",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-999c1965",
+          "line": 1914,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "2e46000e2a4d8c8375f488d3a8f5620196bef9362b69d9bb56cbe4080656d723",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-2",
+          "line": 1924,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "7bf9305ebac8aa4ed7e9018dc797826d8c40cfe8106cd3c7d32dfe624e17e39d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-73e2d136",
+          "line": 1924,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "7bf9305ebac8aa4ed7e9018dc797826d8c40cfe8106cd3c7d32dfe624e17e39d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0c3b591-10",
+          "line": 1926,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "3886a78093dd3f478e40c087f0ce7d8b45e15a3446f2e9632390f6449491efad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-bb42234c",
+          "line": 1926,
+          "role": "parenthetical",
+          "match": "Holly",
+          "line_sha256": "3886a78093dd3f478e40c087f0ce7d8b45e15a3446f2e9632390f6449491efad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-391c4cf7",
+          "line": 1926,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "3886a78093dd3f478e40c087f0ce7d8b45e15a3446f2e9632390f6449491efad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-c52eceb2",
+          "line": 1928,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "440401801fc097b8e81cbcd84cba8bc47534bf0f735ec9589ad137bcfea594b4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-3",
+          "line": 1932,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "91c23ffe3b7ea2f72e9e2e7b80a0170002805f4aaf429fe8e35ce6ea685efb3f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-2ee4e422",
+          "line": 1932,
+          "role": "parenthetical",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "91c23ffe3b7ea2f72e9e2e7b80a0170002805f4aaf429fe8e35ce6ea685efb3f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-bd72c170",
+          "line": 1932,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "91c23ffe3b7ea2f72e9e2e7b80a0170002805f4aaf429fe8e35ce6ea685efb3f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0a16012e",
+          "line": 1936,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "51d924749297f0e06661853dbeb8a7999fdb41ff962b44f70a42d5b9de08c126",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-b1c17a2c-2",
+          "line": 1952,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "b2dc77b0c12879e42a0a63b68de98f06899191fb38a837e5cb7463540944f031",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-93cc11d9",
+          "line": 1952,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "b2dc77b0c12879e42a0a63b68de98f06899191fb38a837e5cb7463540944f031",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-7e9ecde5",
+          "line": 1954,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "2d13988d2e9c17a3e1a71b0ed70f6d3fa864cd990be3914eda50fa01ef1145fe",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-4",
+          "line": 1956,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cde3f308b08ca30ba7c2c204a551f44b6c4ec0689803a3cace9646d10ea0117",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-3d81e07c",
+          "line": 1956,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cde3f308b08ca30ba7c2c204a551f44b6c4ec0689803a3cace9646d10ea0117",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c706d454-5",
+          "line": 1958,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "e174684e1dfa0075088f1394088a6bc027300608fa993150440bf35e09417593",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-65aaa2e9",
+          "line": 1958,
+          "role": "parenthetical",
+          "match": "Holly",
+          "line_sha256": "e174684e1dfa0075088f1394088a6bc027300608fa993150440bf35e09417593",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-243723c9",
+          "line": 1958,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "e174684e1dfa0075088f1394088a6bc027300608fa993150440bf35e09417593",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-5",
+          "line": 1960,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d27a1882de49f2dd2ddc2d45e4cd25e8cac1a7fd95082adb866dc80b92fa06ff",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-3881b828",
+          "line": 1960,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d27a1882de49f2dd2ddc2d45e4cd25e8cac1a7fd95082adb866dc80b92fa06ff",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-24ee2773",
+          "line": 1978,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "213ea15d859068e008aac10328bab1cff0262ade8ffdbd12b847d3b4c9d6ef28",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-6",
+          "line": 1980,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "b1ef582748b19cf44b1886e4fcb27b25aacc0251c6f726c23d54f93310a52b25",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-aacd849c",
+          "line": 1980,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "b1ef582748b19cf44b1886e4fcb27b25aacc0251c6f726c23d54f93310a52b25",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-b1c17a2c-5",
+          "line": 2114,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "709e4c2e3e97884c198f1cec146ebf6e41bd4032aa7164807499187961a57bb3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-ae209d20",
+          "line": 2114,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "709e4c2e3e97884c198f1cec146ebf6e41bd4032aa7164807499187961a57bb3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-7",
+          "line": 2116,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "88a1dd1aa69439baf84ce5f1c743ac4113e443662f4b8869519eb442db15839e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-d14ff0a2",
+          "line": 2116,
+          "role": "parenthetical",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "88a1dd1aa69439baf84ce5f1c743ac4113e443662f4b8869519eb442db15839e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-b9ba498d",
+          "line": 2116,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "88a1dd1aa69439baf84ce5f1c743ac4113e443662f4b8869519eb442db15839e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-8",
+          "line": 2174,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cf3db4605583ef6ce1250a2ea19383fe570369c29ee4c6e6dc140ae630fedc6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-222a89ce",
+          "line": 2174,
+          "role": "parenthetical",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cf3db4605583ef6ce1250a2ea19383fe570369c29ee4c6e6dc140ae630fedc6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-3a75e0b8",
+          "line": 2174,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cf3db4605583ef6ce1250a2ea19383fe570369c29ee4c6e6dc140ae630fedc6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-670b3dfd",
+          "line": 2258,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "d6fd6e71cd1bb434eb6396ec0bb1cbaf29e392c7589006eeb66559a31b13a11d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-9",
+          "line": 2260,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d7a1ce855d7b51e25f2637e60db66d50cbab776760017d5f7a842fe9c5d0acd6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-a9b439dc",
+          "line": 2260,
+          "role": "parenthetical",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d7a1ce855d7b51e25f2637e60db66d50cbab776760017d5f7a842fe9c5d0acd6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-8227f356",
+          "line": 2260,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d7a1ce855d7b51e25f2637e60db66d50cbab776760017d5f7a842fe9c5d0acd6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e51359e6",
+          "line": 2660,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "3bd23a233ea01da3f15c80191d1a8ec30c9d178f6b9e1008294a799559b0b9b1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-57",
+          "line": 2662,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "8bafb9e7d02ef0a91a0d0b9f21011ac347bcafe95a3abf1debb69c56057b9d4a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-b38715e7",
+          "line": 2662,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "8bafb9e7d02ef0a91a0d0b9f21011ac347bcafe95a3abf1debb69c56057b9d4a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-10",
+          "line": 2664,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "130ef52d026b016d4d8b8e2391c5da429f15a1ed2611b7e848b00129449c4cb2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-c1e0a4f7",
+          "line": 2664,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "130ef52d026b016d4d8b8e2391c5da429f15a1ed2611b7e848b00129449c4cb2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-9ded9a7c",
+          "line": 2713,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "56659727de01ff28435f153676aacbbc573d93f72321cce73fde7490ee9f3ed3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-83f6e6b9",
+          "line": 2721,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "75028d8aa852c9536c03226dc60725e9672a3c365b3b86e5bf0a085ec56b5f67",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-5194e7b9",
+          "line": 2725,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "477fe6c657744f35cec4c7fc0510e932b74744e507fa33d0a49cf378423ddcd6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-5194e7b9-2",
+          "line": 2739,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "477fe6c657744f35cec4c7fc0510e932b74744e507fa33d0a49cf378423ddcd6",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "episode_0",
+      "file": "episode_0.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "c17ce518da420dc8e48c03257774593003f103e24176ca28b044a4cfc264fc79",
+      "references": []
+    },
+    {
+      "section": "spring_break",
+      "file": "spring_break.md",
+      "canon": "ling_au",
+      "sha256": "347bc61b3eceeb1d240d8b6acca8d56e12db101731dc1c79c264da61db2d8ebc",
+      "references": []
+    },
+    {
+      "section": "prequel",
+      "file": "prequel.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "47fa5c089adb8860f6c2c56dc5a49354e98fccdf1d103bdbd68136ce56c8dd80",
+      "references": [
+        {
+          "block_id": "action-6c046b09",
+          "line": 159,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "e5a22b025f94a5487ffd9e5e5ded1165d622a8468fdf6bfc37ff562b39d3e0ad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47",
+          "line": 161,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-2",
+          "line": 171,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-3",
+          "line": 180,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-4",
+          "line": 188,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-299269d7",
+          "line": 200,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "76c7dd5a8793dca585738af2b4880f72330528e7545dfdcb4dd64db04e10aa0d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-614dce43",
+          "line": 202,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "40c68a451ef7895790b078ae6e268db118b093ab876f9f8717a725b8eff9ca91",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-5",
+          "line": 204,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2666bfda",
+          "line": 210,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "a0a25f9564e945f831908d9edb7f84d953b0b429da52d3dafff3548f2174634b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-ea950542",
+          "line": 213,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "f0851558f8b5e24355182dcc8a973b9570b0cd1912b686958e9b756e2aa19410",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2666bfda-2",
+          "line": 215,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "a0a25f9564e945f831908d9edb7f84d953b0b429da52d3dafff3548f2174634b",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-f237b396",
+          "line": 239,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "8601285697ce7c3393de6be75b3c64ac55266d798a0e857eb3863d9ab273a2c8",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-63ec005d",
+          "line": 286,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "192e29d4405b647c45de33f0cecfd0996c3db6c3f4e570104f663f4b3cf640a3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-93e9ba31",
+          "line": 337,
+          "role": "action",
+          "match": "Holly Graham",
+          "line_sha256": "19692eaea0b10afbf5bf0d25228509a3f35516df3b93072c32edd6b55202f295",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-6",
+          "line": 339,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-1262d528",
+          "line": 342,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "d3eca8a92d8dbfeba0a2f27e44beebde9a265e320cd33e2c8285b18edfa44de7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-f6528454",
+          "line": 354,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "c35b8d0e994e513aeecf26133a93b743e480f48a6cfc5b2ffffa1807e963badc",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-7",
+          "line": 356,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-f04060a6",
+          "line": 373,
+          "role": "parenthetical",
+          "match": "Holly",
+          "line_sha256": "5e96cf13b213bb8cfc9f0558c37ac2c9d36292e3197663e7420cd49d0428bbef",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-eaf4bfc3",
+          "line": 374,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "a7b773093a297d13c64f99081f75398027bdded58c7006772779ba20a151d3a4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-340a4483",
+          "line": 376,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "20e011f49cf9e35067e7ad7e46d22f9995265bddb3903f6b1fa4bf36dbd10288",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-8",
+          "line": 378,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-92f966a0",
+          "line": 407,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "f1ad690f45af5680658bd6abe1af6e193893fb475da9c843c70f6bdd5042d565",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a2f1f7c1",
+          "line": 421,
+          "role": "action",
+          "match": "Holly Graham",
+          "line_sha256": "9fa7d12f3b3a871841405ce42ba5f1067a42b0f80b5bc54db8ebde75cf9ed648",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-f13a796a",
+          "line": 426,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "2e15877028360bd0493cedafe5acc6cc3f994bb681e53f8efabd371f5e17f8f5",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-8a963442",
+          "line": 433,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "c1982ac7b59405f2337a8070c2041465ea5eb3cb5e1387af940df0cde4fea5a4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-9",
+          "line": 435,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-dcc157e2",
+          "line": 449,
+          "role": "dialogue",
+          "match": "Holly Graham",
+          "line_sha256": "dfef7d6d6a30c76aef845cfd522a1fc0f542c26737773b7a225fc25865038d36",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-c9ce63d1",
+          "line": 461,
+          "role": "action",
+          "match": "Holly Graham",
+          "line_sha256": "c344ad1ab20f012be043add9c1d7f68b235a0487dc1998588683042594834c1f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-10",
+          "line": 463,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-11",
+          "line": 471,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-12",
+          "line": 488,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-e018869a",
+          "line": 502,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "e902bb3d5806b66225a40e3b1a4d804949be661fd7ecf782d697341ab898b12e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-c181bc7f",
+          "line": 504,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "490d86d6b8ad06838228ead32aeb166eb4a7a824c9abc9810ffddaae4dd01c5a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-13",
+          "line": 506,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0869f323",
+          "line": 513,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "df5b71f8063a56264c995a343c4dc89714a5589667690e0a05a1010d11603a35",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-14",
+          "line": 515,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-93b1c13b",
+          "line": 527,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "ec2e687ff3fcc8fea0debd3b74c32349f72ad0ae35eaf71da4643ac04c0df4bc",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-15",
+          "line": 535,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-a8c7f970",
+          "line": 588,
+          "role": "action",
+          "match": "Holly Graham",
+          "line_sha256": "661b9493f153c9bf95fb37ea32e12cf866a33c0f4f67f0d43b84bf3ab3202b90",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-16",
+          "line": 590,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-923029f7",
+          "line": 607,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "4e61190a8229ae6b07ed6c463672af650c007c1d3f763fe873c74196c094bc39",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-17",
+          "line": 635,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-6c7f7993",
+          "line": 647,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "b3f7ac44d6caccf80f21f777949c274234e1ede2330af9972845a6127a663092",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-18",
+          "line": 649,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-19",
+          "line": 660,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47-20",
+          "line": 666,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "e0ed9fc8581d6dac488d52a4db2553592f1789f468bc0bff603e1f5ffa951cf1",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "act_1",
+      "file": "act_1.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "b38d1a824dae1a2e935eb2098ee9d82649d633789d89f0e5eb8d7cd1f9983cc6",
+      "references": [
+        {
+          "block_id": "action-4065aff9",
+          "line": 70,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5ccd66e5054fab36a75faebc0a2d393df491a82291314c75d1339acf1b43016f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c706d454",
+          "line": 74,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "d68c1896ecc980dc5bc0231831cb8769e5f4353e30001d27e69c6157c27d6dc7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-0f38bebe",
+          "line": 74,
+          "role": "parenthetical",
+          "match": "Holly",
+          "line_sha256": "d68c1896ecc980dc5bc0231831cb8769e5f4353e30001d27e69c6157c27d6dc7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-db7afb3c",
+          "line": 74,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "d68c1896ecc980dc5bc0231831cb8769e5f4353e30001d27e69c6157c27d6dc7",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6",
+          "line": 76,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "2e46000e2a4d8c8375f488d3a8f5620196bef9362b69d9bb56cbe4080656d723",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-999c1965",
+          "line": 76,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "2e46000e2a4d8c8375f488d3a8f5620196bef9362b69d9bb56cbe4080656d723",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-2",
+          "line": 86,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "7bf9305ebac8aa4ed7e9018dc797826d8c40cfe8106cd3c7d32dfe624e17e39d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-73e2d136",
+          "line": 86,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "7bf9305ebac8aa4ed7e9018dc797826d8c40cfe8106cd3c7d32dfe624e17e39d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0c3b591-8",
+          "line": 88,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "3886a78093dd3f478e40c087f0ce7d8b45e15a3446f2e9632390f6449491efad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-bb42234c",
+          "line": 88,
+          "role": "parenthetical",
+          "match": "Holly",
+          "line_sha256": "3886a78093dd3f478e40c087f0ce7d8b45e15a3446f2e9632390f6449491efad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-391c4cf7",
+          "line": 88,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "3886a78093dd3f478e40c087f0ce7d8b45e15a3446f2e9632390f6449491efad",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-c52eceb2",
+          "line": 90,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "440401801fc097b8e81cbcd84cba8bc47534bf0f735ec9589ad137bcfea594b4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-3",
+          "line": 94,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "91c23ffe3b7ea2f72e9e2e7b80a0170002805f4aaf429fe8e35ce6ea685efb3f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-2ee4e422",
+          "line": 94,
+          "role": "parenthetical",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "91c23ffe3b7ea2f72e9e2e7b80a0170002805f4aaf429fe8e35ce6ea685efb3f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-bd72c170",
+          "line": 94,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "91c23ffe3b7ea2f72e9e2e7b80a0170002805f4aaf429fe8e35ce6ea685efb3f",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-0a16012e",
+          "line": 98,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "51d924749297f0e06661853dbeb8a7999fdb41ff962b44f70a42d5b9de08c126",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-b1c17a2c-2",
+          "line": 114,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "b2dc77b0c12879e42a0a63b68de98f06899191fb38a837e5cb7463540944f031",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-93cc11d9",
+          "line": 114,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "b2dc77b0c12879e42a0a63b68de98f06899191fb38a837e5cb7463540944f031",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-7e9ecde5",
+          "line": 116,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "2d13988d2e9c17a3e1a71b0ed70f6d3fa864cd990be3914eda50fa01ef1145fe",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-4",
+          "line": 118,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cde3f308b08ca30ba7c2c204a551f44b6c4ec0689803a3cace9646d10ea0117",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-3d81e07c",
+          "line": 118,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cde3f308b08ca30ba7c2c204a551f44b6c4ec0689803a3cace9646d10ea0117",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-c706d454-5",
+          "line": 120,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "e174684e1dfa0075088f1394088a6bc027300608fa993150440bf35e09417593",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-65aaa2e9",
+          "line": 120,
+          "role": "parenthetical",
+          "match": "Holly",
+          "line_sha256": "e174684e1dfa0075088f1394088a6bc027300608fa993150440bf35e09417593",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-243723c9",
+          "line": 120,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "e174684e1dfa0075088f1394088a6bc027300608fa993150440bf35e09417593",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-5",
+          "line": 122,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d27a1882de49f2dd2ddc2d45e4cd25e8cac1a7fd95082adb866dc80b92fa06ff",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-3881b828",
+          "line": 122,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d27a1882de49f2dd2ddc2d45e4cd25e8cac1a7fd95082adb866dc80b92fa06ff",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-24ee2773",
+          "line": 140,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "213ea15d859068e008aac10328bab1cff0262ade8ffdbd12b847d3b4c9d6ef28",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-6",
+          "line": 142,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "b1ef582748b19cf44b1886e4fcb27b25aacc0251c6f726c23d54f93310a52b25",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-aacd849c",
+          "line": 142,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "b1ef582748b19cf44b1886e4fcb27b25aacc0251c6f726c23d54f93310a52b25",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-b1c17a2c-5",
+          "line": 276,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "709e4c2e3e97884c198f1cec146ebf6e41bd4032aa7164807499187961a57bb3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-ae209d20",
+          "line": 276,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "709e4c2e3e97884c198f1cec146ebf6e41bd4032aa7164807499187961a57bb3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-7",
+          "line": 278,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "88a1dd1aa69439baf84ce5f1c743ac4113e443662f4b8869519eb442db15839e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-d14ff0a2",
+          "line": 278,
+          "role": "parenthetical",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "88a1dd1aa69439baf84ce5f1c743ac4113e443662f4b8869519eb442db15839e",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-b9ba498d",
+          "line": 278,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "88a1dd1aa69439baf84ce5f1c743ac4113e443662f4b8869519eb442db15839e",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "act_2",
+      "file": "act_2.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "cf9194f953cbd07fbf6c8102c06822752575ba909aabf53845b6beb27731212a",
+      "references": [
+        {
+          "block_id": "cue-ef8a65c6",
+          "line": 15,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cf3db4605583ef6ce1250a2ea19383fe570369c29ee4c6e6dc140ae630fedc6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-222a89ce",
+          "line": 15,
+          "role": "parenthetical",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cf3db4605583ef6ce1250a2ea19383fe570369c29ee4c6e6dc140ae630fedc6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-3a75e0b8",
+          "line": 15,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "5cf3db4605583ef6ce1250a2ea19383fe570369c29ee4c6e6dc140ae630fedc6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-670b3dfd",
+          "line": 99,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "d6fd6e71cd1bb434eb6396ec0bb1cbaf29e392c7589006eeb66559a31b13a11d",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-2",
+          "line": 101,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d7a1ce855d7b51e25f2637e60db66d50cbab776760017d5f7a842fe9c5d0acd6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "parenthetical-a9b439dc",
+          "line": 101,
+          "role": "parenthetical",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d7a1ce855d7b51e25f2637e60db66d50cbab776760017d5f7a842fe9c5d0acd6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-8227f356",
+          "line": 101,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "d7a1ce855d7b51e25f2637e60db66d50cbab776760017d5f7a842fe9c5d0acd6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-e51359e6",
+          "line": 501,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "3bd23a233ea01da3f15c80191d1a8ec30c9d178f6b9e1008294a799559b0b9b1",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-2af00bda-29",
+          "line": 503,
+          "role": "cue",
+          "match": "Holly",
+          "line_sha256": "8bafb9e7d02ef0a91a0d0b9f21011ac347bcafe95a3abf1debb69c56057b9d4a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-b38715e7",
+          "line": 503,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "8bafb9e7d02ef0a91a0d0b9f21011ac347bcafe95a3abf1debb69c56057b9d4a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6-3",
+          "line": 505,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "130ef52d026b016d4d8b8e2391c5da429f15a1ed2611b7e848b00129449c4cb2",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "dialogue-c1e0a4f7",
+          "line": 505,
+          "role": "dialogue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "130ef52d026b016d4d8b8e2391c5da429f15a1ed2611b7e848b00129449c4cb2",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "climax_tag",
+      "file": "climax_tag.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "1b41b5af9ab6af7f4c74a3f963e8eb42704dca5c64f963928bb3cd92995fa914",
+      "references": [
+        {
+          "block_id": "dialogue-9ded9a7c",
+          "line": 17,
+          "role": "dialogue",
+          "match": "Holly",
+          "line_sha256": "56659727de01ff28435f153676aacbbc573d93f72321cce73fde7490ee9f3ed3",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-83f6e6b9",
+          "line": 25,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "75028d8aa852c9536c03226dc60725e9672a3c365b3b86e5bf0a085ec56b5f67",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-5194e7b9",
+          "line": 29,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "477fe6c657744f35cec4c7fc0510e932b74744e507fa33d0a49cf378423ddcd6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-5194e7b9-2",
+          "line": 43,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "477fe6c657744f35cec4c7fc0510e932b74744e507fa33d0a49cf378423ddcd6",
+          "status": "candidate_mention"
+        }
+      ]
+    },
+    {
+      "section": "tapped_out_main",
+      "file": "tapped_out_main.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "636799147f295a86c0adcc2b3d75fd486ede388be0874f33eb3c0ddd83080694",
+      "references": []
+    },
+    {
+      "section": "tapped_out_b",
+      "file": "tapped_out_b.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "1b70d6a2e02a92f7f55d9ad69999530aa497e5cf2ec91c41ffca0dc3426b4ba0",
+      "references": []
+    },
+    {
+      "section": "tapped_out_quick_story",
+      "file": "tapped_out_quick_story.md",
+      "canon": "hot_scoomp_main",
+      "sha256": "6047b96e0e312f0e45f881c97bcdd011c92b3474f5add9921938b8119a96cc79",
+      "references": [
+        {
+          "block_id": "action-1c35b6c5",
+          "line": 13,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "9d58e295b6e8257fc9b5ae8732d666d1125c293dcfe476ae2ea84c68bd52b7e6",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-e0381e47",
+          "line": 33,
+          "role": "cue",
+          "match": "HOLLY",
+          "line_sha256": "58de530cfa35752b7230e9569c99343ed77411f6807bfb0ad69c8fad0ce2344a",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-d50d72d7",
+          "line": 407,
+          "role": "action",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "27452c972c9993ace87a7fdcc138784c1eeb9b4324e12c50e1c96c0052b39de4",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "cue-ef8a65c6",
+          "line": 419,
+          "role": "cue",
+          "match": "HOLLY GRAHAM",
+          "line_sha256": "8a7122eba73760b94c4f55503980a8ac09f01b0ac9aa0af61768223659a095fd",
+          "status": "candidate_mention"
+        },
+        {
+          "block_id": "action-9c21ded2",
+          "line": 425,
+          "role": "action",
+          "match": "Holly",
+          "line_sha256": "a310f7fb3d35908deeb30179c7d564a5c073c8856edbb15eec4484442e8eb764",
+          "status": "candidate_mention"
+        }
+      ]
+    }
+  ]
+}

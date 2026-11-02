@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "entity_id": "stella",
+  "display_name": "Stella",
+  "aliases": [
+    "STELLA"
+  ],
+  "canons": ["hot_scoomp_main", "ling_au"],
+  "base_state": "standard",
+  "attributes": {
+    "orientation": "lesbian",
+    "attracted_to": "women",
+    "disinterest": ["men", "college_quarterbacks"],
+    "canon_base_states": {
+      "ling_au": "poser_nerd"
+    }
+  },
+  "states": [
+    {
+      "id": "stella.state.standard",
+      "slug": "standard",
+      "label": "Standard Stella",
+      "order": 0,
+      "canons": ["hot_scoomp_main"],
+      "visual_anchors": ["fox", "fur"]
+    },
+    {
+      "id": "stella.state.nerd_20",
+      "slug": "nerd_20",
+      "label": "Dork transformation 20%",
+      "order": 1,
+      "canons": ["hot_scoomp_main"],
+      "observation_patterns": ["NERD\\s+SATURATION\\s*[—–-]\\s*20%"],
+      "enter_patterns": [
+        "buttons?\\s+(pop|burst|snap)",
+        "slips?\\s+into\\s+(?:a\\s+)?(?:canary[- ]yellow\\s+)?polo",
+        "fitted\\s+(?:canary[- ])?yellow\\s+polo"
+      ],
+      "visual_anchors": ["polo", "buttons"]
+    },
+    {
+      "id": "stella.state.nerd_40",
+      "slug": "nerd_40",
+      "label": "Dork transformation 40%",
+      "order": 2,
+      "canons": ["hot_scoomp_main"],
+      "observation_patterns": ["NERD\\s+SATURATION\\s*[—–-]\\s*40%"]
+    },
+    {
+      "id": "stella.state.nerd_70",
+      "slug": "nerd_70",
+      "label": "Dork transformation 70%",
+      "order": 3,
+      "canons": ["hot_scoomp_main"],
+      "observation_patterns": ["NERD\\s+SATURATION\\s*[—–-]\\s*70%"]
+    },
+    {
+      "id": "stella.state.nerd_80",
+      "slug": "nerd_80",
+      "label": "Dork transformation 80%",
+      "order": 4,
+      "canons": ["hot_scoomp_main"],
+      "visual_anchors": ["glasses", "snort"]
+    },
+    {
+      "id": "stella.state.big_tiddy_steve",
+      "slug": "big_tiddy_steve",
+      "label": "Big Tiddy Steve / Stella's Steve form (120–150%)",
+      "order": 5,
+      "canons": ["hot_scoomp_main"],
+      "observation_patterns": ["NERD\\s+SATURATION\\s*[—–-]\\s*(?:120|150)%"],
+      "cue_aliases": [
+        {"cue": "STEVE", "state": "big_tiddy_steve", "canons": ["hot_scoomp_main"]},
+        {"cue": "BIG TIDDY STEVE", "state": "big_tiddy_steve", "canons": ["hot_scoomp_main"]},
+        {"cue": "BIG TIDDY NERDY", "state": "big_tiddy_steve", "canons": ["hot_scoomp_main"]},
+        {"cue": "BIG TIDDY NERD", "state": "big_tiddy_steve", "canons": ["hot_scoomp_main"]},
+        {"cue": "BIG TIDDY NERDY FEMALE BOY STELLA", "state": "big_tiddy_steve", "canons": ["hot_scoomp_main"]}
+      ],
+      "enter_patterns": ["big\\s+tiddy\\s+(steve|nerdy?|female\\s+boy\\s+stella)", "rocket[- ]?ship\\s+underwear"],
+      "visual_anchors": ["rocket", "tighty"],
+      "attributes": {
+        "persona": "Stella's own Steve-like form and behavior",
+        "memory_continuity": "Stella retains her own memories",
+        "source": "author clarification; behavior data not yet supplied"
+      }
+    },
+    {
+      "id": "stella.state.poser_nerd",
+      "slug": "poser_nerd",
+      "label": "Poser Nerd (Ling AU)",
+      "order": 0,
+      "canons": ["ling_au"],
+      "visual_anchors": ["glasses", "hoodie", "dice"]
+    }
+  ],
+  "transforms": [
+    {
+      "id": "stella.xform.standard__nerd_20",
+      "from_state": "stella.state.standard",
+      "to_state": "stella.state.nerd_20",
+      "triggers": ["pink_cube"],
+      "canons": ["hot_scoomp_main"]
+    },
+    {
+      "id": "stella.xform.nerd_20__nerd_80",
+      "from_state": "stella.state.nerd_20",
+      "to_state": "stella.state.nerd_80",
+      "triggers": ["pink_cube"],
+      "canons": ["hot_scoomp_main"]
+    },
+    {
+      "id": "stella.xform.nerd_80__big_tiddy_steve",
+      "from_state": "stella.state.nerd_80",
+      "to_state": "stella.state.big_tiddy_steve",
+      "triggers": ["pink_cube"],
+      "canons": ["hot_scoomp_main"]
+    }
+  ]
+}
