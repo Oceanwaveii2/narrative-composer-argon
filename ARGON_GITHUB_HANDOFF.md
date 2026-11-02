@@ -1,6 +1,6 @@
 # Narrative Composer: Argon handoff
 
-This private GitHub repository is a focused, unencrypted snapshot of the application and the available American Foxy Momma / Hot Scoomp timeline. It includes the source code, editor assets, tests, relevant guides, original chronology, and the current ten-entry timeline with its source documents and separate incomplete variants. Older generated runs, unrelated sample stories, dependencies and local credentials were excluded. Historical guides may reference outputs that are not included or say that credentials were present in an earlier handoff; no credentials are included here.
+This GitHub repository is a focused, unencrypted snapshot of the application and the available American Foxy Momma / Hot Scoomp timeline. It includes the source code, editor assets, tests, relevant guides, original chronology, and the current ten-entry timeline with its source documents and separate incomplete variants. Older generated runs, unrelated sample stories, dependencies and local credentials were excluded. Historical guides may reference outputs that are not included or say that credentials were present in an earlier handoff; no credentials are included here.
 
 Preserve the author's story files. Do not edit, delete, censor, merge, or silently replace original editions. Work on a separate copy and keep generated changes as reviewable proposals. Do not invent behavioral profiles or treat synthetic fixtures as canon.
 

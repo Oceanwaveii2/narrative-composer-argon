@@ -2,18 +2,18 @@
 
 Narrative Composer is an editing and review prototype for working with an existing story. It connects the text to per-character graphs, transformation states and optional data ports, then offers composer and prose-conditioner proposals for the author to review.
 
-This private repository contains the available **American Foxy Momma / Hot Scoomp** timeline. The master and some component sections overlap; keep them separate. The Tapped Out materials include incomplete variants.
+This repository contains the available **American Foxy Momma / Hot Scoomp** timeline. The master and some component sections overlap; keep them separate. The Tapped Out materials include incomplete variants.
 
 ## Before you begin
 
-- Get access to this private GitHub repository and install Git and Python **3.13 or newer**.
+- Install Git and Python **3.13 or newer**.
 - This repository does not contain API keys, installed dependencies, or prior provider sessions.
 - Preserve the supplied stories. Create a working copy before editing, composing, or saving. Do not censor or merge editions, and do not treat synthetic rules as canon.
 - For Argon or another developer, read [ARGON_GITHUB_HANDOFF.md](ARGON_GITHUB_HANDOFF.md) and [PROGRAMMING_GUIDE.md](PROGRAMMING_GUIDE.md). The handoff's older launch command opens the supplied snapshot directly; follow the working-copy steps below instead. Some historical documents refer to paths or generated runs not included in this focused snapshot.
 
 ## 1. Clone and install
 
-Clone the repository using an account that has access:
+Clone the repository:
 
 ```powershell
 git clone https://github.com/Oceanwaveii2/narrative-composer-argon.git
